@@ -1,0 +1,81 @@
+    
+ <!DOCTYPE html>
+ <html lang="en">
+ 
+ 
+ <!-- Mirrored from www.urbanui.com/melody/template/pages/samples/portfolio.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 15 Sep 2018 06:17:28 GMT -->
+ <head>
+   <!-- Required meta tags -->
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   <title> Admin</title>
+
+        <!-- Google Font -->
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400|Nunito:600,700" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <!-- CSS Libraries -->
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+ </head>
+ 
+ <body>
+     <h2>hi</h2>
+
+     <ul id="display"></ul>
+{% comment %}   
+
+
+     <script>
+
+
+        $(document).ready(function(){
+
+            setInterval(function(){
+
+                $.ajax({
+                    type :'GET',
+                    url: "{%url 'index:ajax' %}",
+           
+                    success: function(response){
+                    console.log(response);
+                        
+                        var ul = $('#display').empty();
+                        for (let key = 0; key < response.user.length; key++) {
+                            console.log(response.user[key].first_name);
+                            var tem = "<h2><li>"+ response.user[key].first_name +"</h2></li>"
+                             ul.append(tem)
+                            
+                        }
+
+                        // for(var key = 0, k= length(response.user), key)
+                        //     console.log(response.user[key]);
+                        //     var tem = "<h2><li>"+ response.user[key].first_name +"</h2></li>"
+                        //     ul.append(tem)
+
+
+
+                    },
+                    error:function(response){
+                        alert('An Error Occured')
+                    }
+                    });
+
+
+            }, 1000)
+        })
+
+
+        
+            
+     </script>
+ {% endcomment %}
+
+
+ </body>
+ 
+ 
+ <!-- Mirrored from www.urbanui.com/melody/template/pages/samples/portfolio.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 15 Sep 2018 06:17:28 GMT -->
+ </html>
+ 

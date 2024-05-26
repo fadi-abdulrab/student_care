@@ -1,0 +1,2064 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+.dropify-wrapper .dropify-preview .dropify-infos .dropify-infos-inner .dropify-infos-message {
+    color: #333;
+    font-weight: 500;
+  }
+  
+  .dropify-wrapper .dropify-preview .dropify-render img {
+    opacity: 0.7;
+  }
+  
+  .dropify-wrapper .dropify-clear {
+    background: #fff;
+    border: none;
+    font-weight: 600;
+    color: #434a54;
+  }
+  
+  /* Dropzone */
+  .dropzone {
+    border: 1px solid #e0e0ef;
+    height: 200px;
+  }
+  
+  .dropzone .dz-message {
+    text-align: center;
+    width: 100%;
+  }
+  
+  .dropzone .dz-message span {
+    font-size: .8125rem;
+    color: #000000;
+  }
+  
+  /* Flot chart */
+  .flot-chart-container {
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    min-height: 300px;
+    max-height: 100%;
+  }
+  
+  .flot-chart {
+    width: 100%;
+    position: relative;
+    max-width: none;
+    height: 400px;
+  }
+  
+  .flot-chart canvas {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+  }
+  
+  /* Full Calendar */
+  .fc button {
+    height: auto;
+    background-image: none;
+    text-shadow: none;
+    font-weight: 400;
+    background-color: #ffffff;
+    border-color: #e0e0ef;
+    text-transform: capitalize;
+    color: #a8b2b9;
+  }
+  
+  .fc button .fc-icon-right-single-arrow:after,
+  .fc button .fc-icon-left-single-arrow:after {
+    color: #a8b2b9;
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    font-size: 1rem;
+  }
+  
+  .fc button .fc-icon-right-single-arrow:after {
+    content: "\f054";
+  }
+  
+  .fc button .fc-icon-left-single-arrow:after {
+    content: "\f053";
+  }
+  
+  .fc .fc-button-group .fc-button {
+    background-color: #ffffff;
+    margin: 0;
+  }
+  
+  .fc .fc-button-group .fc-button.fc-state-active {
+    color: #FF5E6D;
+  }
+  
+  .fc .fc-header-toolbar {
+    margin-top: 2rem;
+  }
+  
+  .fc .fc-header-toolbar .fc-center h2 {
+    font-size: 1rem;
+  }
+  
+  .fc .fc-widget-header {
+    border: 0;
+  }
+  
+  .fc .fc-widget-header table tr th {
+    border-width: 0 0 1px 0;
+    text-align: right;
+    padding: 1rem;
+  }
+  
+  .fc .fc-widget-header table tr th span {
+    font-size: 10px;
+    text-transform: uppercase;
+    color: #a8b2b9;
+    letter-spacing: 1px;
+  }
+  
+  .fc .fc-content-skeleton table tr td {
+    padding: .5rem;
+    font-size: .875rem;
+  }
+  
+  .fc .fc-event {
+    border: 0;
+    color: #ffffff;
+    padding: .5rem;
+  }
+  
+  .fc .fc-event.fc-start {
+    background: #392C70;
+    border-radius: 4px;
+    border-left: 4px solid #392C70;
+  }
+  
+  .fc .fc-event.fc-not-start, .fc .fc-event.fc-not-end {
+    background: #FF5E6D;
+    border-left: 4px solid #FF5E6D;
+    padding-left: .5rem;
+  }
+  
+  .fc .fc-event.fc-not-end {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+  
+  .fc .fc-event .fc-title,
+  .fc .fc-event .fc-time {
+    color: #ffffff;
+  }
+  
+  .fc-external-events .fc-event {
+    background: #ffffff;
+    color: #000;
+    border-width: 0 0 0 4px;
+    padding: 16px;
+    border-radius: 0;
+    margin-bottom: 10px;
+  }
+  
+  .fc-external-events .fc-event:nth-child(1) {
+    border-color: #392C70;
+  }
+  
+  .fc-external-events .fc-event:nth-child(2) {
+    border-color: #FF5E6D;
+  }
+  
+  .fc-external-events .fc-event:nth-child(3) {
+    border-color: #04B76B;
+  }
+  
+  .fc-external-events .fc-event:nth-child(4) {
+    border-color: #0B94F7;
+  }
+  
+  .fc-external-events .fc-event:nth-child(4) {
+    border-color: #F5A623;
+  }
+  
+  /* Google Charts */
+  .google-chart-container .google-charts {
+    width: 100%;
+    height: 280px;
+    min-height: 280px;
+    min-width: 100%;
+  }
+  
+  /* Icheck */
+  .icheck,
+  .icheck-flat,
+  .icheck-square,
+  .icheck-line {
+    margin-bottom: .5rem;
+  }
+  
+  .icheck label,
+  .icheck-flat label,
+  .icheck-square label,
+  .icheck-line label {
+    font-size: .8125rem;
+    line-height: 1.5;
+    margin-left: 5px;
+    margin-bottom: 0;
+  }
+  
+  /* Jquery File Upload */
+  .ajax-upload-dragdrop {
+    border-color: #e0e0ef;
+    border-style: dotted;
+    max-width: 100%;
+  }
+  
+  .ajax-upload-dragdrop span b {
+    font-size: .8125rem;
+    color: #000000;
+    font-weight: initial;
+  }
+  
+  .ajax-upload-dragdrop .ajax-file-upload {
+    background: #0B94F7;
+    box-shadow: none;
+    height: auto;
+  }
+  
+  .ajax-file-upload-container {
+    min-height: 100px;
+  }
+  
+  .ajax-file-upload-container .ajax-file-upload-statusbar {
+    max-width: 100%;
+  }
+  
+  /* Js-grid */
+  .jsgrid .jsgrid-button {
+    background-image: url(../images/sprites/jsgrid-icons.png);
+  }
+  
+  .jsgrid .jsgrid-grid-header {
+    border: 1px solid #e0e0ef;
+    border-top: 0;
+  }
+  
+  .jsgrid .jsgrid-table th {
+    font-weight: initial;
+    font-weight: 600;
+  }
+  
+  .jsgrid .jsgrid-table .jsgrid-filter-row input[type=number] {
+    padding: .56rem 0;
+  }
+  
+  .jsgrid .jsgrid-header-sort:before {
+    margin-top: 10px;
+    float: right;
+  }
+  
+  .jsgrid .jsgrid-header-sort-asc:before {
+    border-color: transparent transparent #000000;
+  }
+  
+  .jsgrid .jsgrid-header-sort-desc:before {
+    border-color: #000000 transparent transparent;
+  }
+  
+  .jsgrid .jsgrid-pager {
+    line-height: 2;
+  }
+  
+  .jsgrid .jsgrid-pager-current-page {
+    padding: 0.5rem 0.75rem;
+    font-weight: initial;
+    line-height: 1.25;
+  }
+  
+  /* Jvectormap */
+  .jvectormap-container {
+    background: #ffffff;
+  }
+  
+  /* Light Gallery */
+  .lightGallery {
+    width: 100%;
+    margin: 0;
+  }
+  
+  .lightGallery .image-tile {
+    position: relative;
+    margin-bottom: 30px;
+  }
+  
+  .lightGallery .image-tile .demo-gallery-poster {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  
+  .lightGallery .image-tile .demo-gallery-poster img {
+    display: block;
+    margin: auto;
+    width: 40%;
+    max-width: 60px;
+    min-width: 20px;
+  }
+  
+  .lightGallery .image-tile img {
+    max-width: 100%;
+    width: 100%;
+  }
+  
+  /* Listify */
+  .listify-list input {
+    border: 1px solid #f2f7f8;
+    color: #aab2bd;
+    background: #fff;
+  }
+  
+  .listify-list ul.list {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .listify-list ul.list li {
+    display: block;
+    border-bottom: 1px solid #e0e0ef;
+    padding: 15px 10px;
+  }
+  
+  .listify-list ul.list li h5 {
+    color: #392C70;
+  }
+  
+  .listify-list ul.list li p {
+    color: #aab2bd;
+    margin: 0;
+  }
+  
+  /* No-ui-slider */
+  .noUi-target {
+    border: none;
+    box-shadow: none;
+    border-radius: 0px;
+  }
+  
+  .noUi-target.noUi-horizontal {
+    height: 0.25rem;
+  }
+  
+  .noUi-target.noUi-horizontal .noUi-handle {
+    left: -17px;
+  }
+  
+  .noUi-target.noUi-vertical {
+    width: 0.25rem;
+    height: 156px;
+    display: inline-block;
+  }
+  
+  .noUi-target.noUi-vertical .noUi-handle {
+    left: -6px;
+  }
+  
+  .noUi-target .noUi-base {
+    background: #e6e9ed;
+    box-shadow: none;
+    border: none;
+  }
+  
+  .noUi-target .noUi-base .noUi-connect {
+    background: #392C70;
+    box-shadow: none;
+  }
+  
+  .noUi-target .noUi-base .noUi-origin {
+    background: #04B76B;
+  }
+  
+  .noUi-target .noUi-base .noUi-origin .noUi-handle {
+    position: relative;
+    background: #ffffff;
+    border-radius: 100%;
+    border: 1px solid #e0e0ef;
+    width: 18px;
+    height: 18px;
+    top: -7px;
+    outline: none;
+    -webkit-transition-duration: 0.4s;
+    -moz-transition-duration: 0.4s;
+    -o-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+  }
+  
+  .noUi-target .noUi-base .noUi-origin .noUi-handle:after, .noUi-target .noUi-base .noUi-origin .noUi-handle:before {
+    display: none;
+  }
+  
+  .noUi-target .noUi-base .noUi-origin .noUi-handle:after {
+    display: block;
+    position: absolute;
+    top: 5px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 6px;
+    height: 6px;
+    background: #392C70;
+    border-radius: 100%;
+  }
+  
+  .noUi-target .noUi-base .noUi-origin .noUi-handle .noUi-tooltip {
+    font-weight: 600;
+    border-radius: 4px;
+    border: none;
+    line-height: 1;
+    font-size: 0.8125rem;
+    padding: 13px 12px;
+    bottom: 190%;
+  }
+  
+  .noUi-target .noUi-pips .noUi-marker-horizontal, .noUi-target .noUi-pips .noUi-marker-vertical {
+    background: #e0e0ef;
+  }
+  
+  .noUi-target .noUi-pips .noUi-marker-horizontal {
+    height: 9px;
+    width: 1px;
+  }
+  
+  .noUi-target .noUi-pips .noUi-marker-vertical {
+    height: 1px;
+    width: 9px;
+  }
+  
+  .noUi-target .noUi-pips .noUi-value {
+    color: #000;
+    font-size: 0.94rem;
+    font-weight: 600;
+  }
+  
+  /* Slider Color variations */
+  .slider-primary .noUi-base .noUi-connect {
+    background: #392C70;
+  }
+  
+  .slider-primary .noUi-base .noUi-origin {
+    background: #392C70;
+  }
+  
+  .slider-primary .noUi-base .noUi-origin .noUi-handle:after {
+    background: #392C70;
+  }
+  
+  .slider-primary .noUi-base .noUi-origin .noUi-handle .noUi-tooltip {
+    background: #392C70;
+    color: #ffffff;
+  }
+  
+  .slider-secondary .noUi-base .noUi-connect {
+    background: #DEDEDE;
+  }
+  
+  .slider-secondary .noUi-base .noUi-origin {
+    background: #DEDEDE;
+  }
+  
+  .slider-secondary .noUi-base .noUi-origin .noUi-handle:after {
+    background: #DEDEDE;
+  }
+  
+  .slider-secondary .noUi-base .noUi-origin .noUi-handle .noUi-tooltip {
+    background: #DEDEDE;
+    color: #ffffff;
+  }
+  
+  .slider-success .noUi-base .noUi-connect {
+    background: #04B76B;
+  }
+  
+  .slider-success .noUi-base .noUi-origin {
+    background: #04B76B;
+  }
+  
+  .slider-success .noUi-base .noUi-origin .noUi-handle:after {
+    background: #04B76B;
+  }
+  
+  .slider-success .noUi-base .noUi-origin .noUi-handle .noUi-tooltip {
+    background: #04B76B;
+    color: #ffffff;
+  }
+  
+  .slider-info .noUi-base .noUi-connect {
+    background: #0B94F7;
+  }
+  
+  .slider-info .noUi-base .noUi-origin {
+    background: #0B94F7;
+  }
+  
+  .slider-info .noUi-base .noUi-origin .noUi-handle:after {
+    background: #0B94F7;
+  }
+  
+  .slider-info .noUi-base .noUi-origin .noUi-handle .noUi-tooltip {
+    background: #0B94F7;
+    color: #ffffff;
+  }
+  
+  .slider-warning .noUi-base .noUi-connect {
+    background: #F5A623;
+  }
+  
+  .slider-warning .noUi-base .noUi-origin {
+    background: #F5A623;
+  }
+  
+  .slider-warning .noUi-base .noUi-origin .noUi-handle:after {
+    background: #F5A623;
+  }
+  
+  .slider-warning .noUi-base .noUi-origin .noUi-handle .noUi-tooltip {
+    background: #F5A623;
+    color: #ffffff;
+  }
+  
+  .slider-danger .noUi-base .noUi-connect {
+    background: #FF5E6D;
+  }
+  
+  .slider-danger .noUi-base .noUi-origin {
+    background: #FF5E6D;
+  }
+  
+  .slider-danger .noUi-base .noUi-origin .noUi-handle:after {
+    background: #FF5E6D;
+  }
+  
+  .slider-danger .noUi-base .noUi-origin .noUi-handle .noUi-tooltip {
+    background: #FF5E6D;
+    color: #ffffff;
+  }
+  
+  .slider-light .noUi-base .noUi-connect {
+    background: #E9E8EF;
+  }
+  
+  .slider-light .noUi-base .noUi-origin {
+    background: #E9E8EF;
+  }
+  
+  .slider-light .noUi-base .noUi-origin .noUi-handle:after {
+    background: #E9E8EF;
+  }
+  
+  .slider-light .noUi-base .noUi-origin .noUi-handle .noUi-tooltip {
+    background: #E9E8EF;
+    color: #ffffff;
+  }
+  
+  .slider-dark .noUi-base .noUi-connect {
+    background: #3a3f51;
+  }
+  
+  .slider-dark .noUi-base .noUi-origin {
+    background: #3a3f51;
+  }
+  
+  .slider-dark .noUi-base .noUi-origin .noUi-handle:after {
+    background: #3a3f51;
+  }
+  
+  .slider-dark .noUi-base .noUi-origin .noUi-handle .noUi-tooltip {
+    background: #3a3f51;
+    color: #ffffff;
+  }
+  
+  /* Owl-carousel */
+  .owl-carousel img {
+    border-radius: 4px;
+  }
+  
+  .owl-carousel.full-width .owl-nav {
+    position: absolute;
+    top: 30%;
+    width: 100%;
+    margin-top: 0;
+  }
+  
+  .owl-carousel.full-width .owl-nav .owl-prev,
+  .owl-carousel.full-width .owl-nav .owl-next {
+    background: transparent;
+    color: #ffffff;
+  }
+  
+  .owl-carousel.full-width .owl-nav .owl-prev i,
+  .owl-carousel.full-width .owl-nav .owl-next i {
+    width: 60px;
+    height: 60px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 100%;
+  }
+  
+  .owl-carousel.full-width .owl-nav .owl-prev i:before,
+  .owl-carousel.full-width .owl-nav .owl-next i:before {
+    font-size: 1.875rem;
+    font-weight: bold;
+    line-height: 2;
+  }
+  
+  .owl-carousel.full-width .owl-nav .owl-prev {
+    float: left;
+  }
+  
+  .owl-carousel.full-width .owl-nav .owl-next {
+    float: right;
+  }
+  
+  .owl-carousel.full-width .owl-dots {
+    margin-top: 1rem;
+  }
+  
+  .owl-carousel .item-video {
+    width: 200px;
+    height: 200px;
+  }
+  
+  /* Progressbar-js */
+  .progress-bar-js-line {
+    height: 6px;
+  }
+  
+  .progressbar-js-circle {
+    width: 100%;
+    position: relative;
+  }
+  
+  /* Pws-tabs */
+  .pws_tabs_container ul.pws_tabs_controll {
+    border-bottom: 1px solid #392C70;
+  }
+  
+  .pws_tabs_container ul.pws_tabs_controll li:first-child a {
+    border-radius: 5px 0px 0px 0px;
+  }
+  
+  .pws_tabs_container ul.pws_tabs_controll li:last-child a {
+    border-right: 1px solid #392C70;
+    border-radius: 0px 5px 0px 0px;
+  }
+  
+  .pws_tabs_container ul.pws_tabs_controll li a {
+    border: 1px solid #392C70;
+    border-bottom: none;
+    border-right: none;
+    background: #fff;
+    color: #392C70;
+    padding: 0.6em 1.3em;
+    margin-right: 0;
+  }
+  
+  .pws_tabs_container ul.pws_tabs_controll li a:hover {
+    background: #fff;
+    color: #392C70;
+  }
+  
+  .pws_tabs_container ul.pws_tabs_controll li a.pws_tab_active {
+    background: #392C70;
+    color: #fff;
+  }
+  
+  .pws_tabs_container .demo-tabs {
+    border: 1px solid #392C70;
+    border-radius: 0px 5px 5px 5px;
+    overflow: hidden;
+    margin-bottom: 45px;
+    padding-top: 3.5rem;
+  }
+  
+  .pws_tabs_container .demo-tabs .CodeMirror {
+    margin-bottom: 20px;
+  }
+  
+  .pws_tabs_container.pws_tabs_vertical .pws_tabs_controll {
+    border-right: none;
+    border-bottom: none;
+  }
+  
+  .pws_tabs_container.pws_tabs_vertical .pws_tabs_controll li:first-child a {
+    border-radius: 5px 0px 0px 0px;
+  }
+  
+  .pws_tabs_container.pws_tabs_vertical .pws_tabs_controll li:last-child a {
+    border-bottom: 1px solid #392C70;
+    border-radius: 0px 0px 0px 5px;
+    border-right: 0px;
+  }
+  
+  .pws_tabs_container.pws_tabs_vertical .pws_tabs_controll li a {
+    border-radius: 0px;
+    border: 1px solid #392C70;
+    border-right: none;
+    border-bottom: none;
+    margin-bottom: 0;
+  }
+  
+  .pws_tabs_container.pws_tabs_horizontal_bottom .pws_tabs_list {
+    margin-bottom: 0;
+  }
+  
+  .pws_tabs_container.pws_tabs_horizontal_bottom .pws_tabs_controll {
+    border-top: 1px solid #392C70;
+    border-right: none;
+    border-bottom: none;
+  }
+  
+  .pws_tabs_container.pws_tabs_horizontal_bottom .pws_tabs_controll li:first-child a {
+    border-radius: 0px 0px 0px 5px;
+  }
+  
+  .pws_tabs_container.pws_tabs_horizontal_bottom .pws_tabs_controll li:last-child a {
+    border-radius: 0px 0px 5px 0px;
+    border-right: 1px solid #392C70;
+  }
+  
+  .pws_tabs_container.pws_tabs_horizontal_bottom .pws_tabs_controll li a {
+    border-radius: 0px;
+    border: 1px solid #392C70;
+    border-top: none;
+    border-right: none;
+    margin-right: 0;
+    margin-bottom: 0;
+  }
+  
+  .pws_tabs_container.pws_tabs_rtl .pws_tabs_controll li:first-child a {
+    border-radius: 0px 5px 0px 0px;
+    border-right: 1px solid #392C70;
+  }
+  
+  .pws_tabs_container.pws_tabs_rtl .pws_tabs_controll li:last-child a {
+    border-right: none;
+    border-radius: 5px 0px 0px 0px;
+  }
+  
+  .pws_tabs_container.pws_tabs_rtl .pws_tabs_controll li a {
+    border: 1px solid #392C70;
+    border-bottom: none;
+    border-right: none;
+    margin-right: 0;
+    margin-left: 0;
+  }
+  
+  /* Quill Editor */
+  .quill-container {
+    height: 300px;
+  }
+  
+  .ql-toolbar.ql-snow,
+  .quill-container.ql-snow {
+    border-color: #e0e0ef;
+  }
+  
+  /* Rating */
+  .br-theme-fontawesome-stars .br-widget a,
+  .br-theme-css-stars .br-widget a {
+    font-size: 20px;
+  }
+  
+  .br-theme-fontawesome-stars .br-widget a.br-selected:after, .br-theme-fontawesome-stars .br-widget a.br-active:after,
+  .br-theme-css-stars .br-widget a.br-selected:after,
+  .br-theme-css-stars .br-widget a.br-active:after {
+    color: #392C70;
+  }
+  
+  .br-theme-bars-1to10 .br-widget a,
+  .br-theme-bars-movie .br-widget a,
+  .br-theme-bars-pill .br-widget a,
+  .br-theme-bars-reversed .br-widget a,
+  .br-theme-bars-horizontal .br-widget a {
+    background-color: rgba(57, 44, 112, 0.6);
+    color: #392C70;
+  }
+  
+  .br-theme-bars-1to10 .br-widget a.br-selected, .br-theme-bars-1to10 .br-widget a.br-active,
+  .br-theme-bars-movie .br-widget a.br-selected,
+  .br-theme-bars-movie .br-widget a.br-active,
+  .br-theme-bars-pill .br-widget a.br-selected,
+  .br-theme-bars-pill .br-widget a.br-active,
+  .br-theme-bars-reversed .br-widget a.br-selected,
+  .br-theme-bars-reversed .br-widget a.br-active,
+  .br-theme-bars-horizontal .br-widget a.br-selected,
+  .br-theme-bars-horizontal .br-widget a.br-active {
+    background-color: #392C70;
+  }
+  
+  .br-theme-bars-square .br-widget a {
+    border-color: rgba(57, 44, 112, 0.6);
+    color: rgba(57, 44, 112, 0.6);
+  }
+  
+  .br-theme-bars-square .br-widget a.br-selected, .br-theme-bars-square .br-widget a.br-active {
+    border-color: #392C70;
+    color: #392C70;
+  }
+  
+  .br-theme-bars-movie .br-widget .br-current-rating,
+  .br-theme-bars-reversed .br-widget .br-current-rating,
+  .br-theme-bars-1to10 .br-widget .br-current-rating,
+  .br-theme-bars-horizontal .br-widget .br-current-rating {
+    color: #000000;
+    font-size: 0.8125rem;
+    font-weight: initial;
+  }
+  
+  .br-theme-bars-1to10 {
+    height: 26px;
+  }
+  
+  .br-theme-bars-1to10 .br-widget {
+    height: 24px;
+  }
+  
+  .br-theme-bars-1to10 .br-widget .br-current-rating {
+    line-height: 1;
+  }
+  
+  .br-theme-bars-pill .br-widget a {
+    line-height: 2.5;
+  }
+  
+  .br-theme-css-stars select,
+  .br-theme-fontawesome-stars select,
+  .br-theme-bars-1to10 select,
+  .br-theme-bars-horizontal select,
+  .br-theme-bars-movie select,
+  .br-theme-bars-pill select,
+  .br-theme-bars-reversed select,
+  .br-theme-bars-square select {
+    display: none;
+  }
+  
+  /* Select2 */
+  .select2-container--default .select2-results__option--highlighted[aria-selected] {
+    background: #392C70;
+  }
+  
+  .select2-container--default .select2-selection--single,
+  .select2-container--default .select2-dropdown,
+  .select2-container--default .select2-selection--multiple {
+    border-color: #e0e0ef;
+  }
+  
+  .select2-container--default .select2-selection--single .select2-search__field,
+  .select2-container--default .select2-dropdown .select2-search__field,
+  .select2-container--default .select2-selection--multiple .select2-search__field {
+    border-color: #e0e0ef;
+  }
+  
+  .select2-container--default .select2-selection--single {
+    height: auto;
+  }
+  
+  .select2-container--default .select2-selection--single .select2-selection__rendered {
+    line-height: 14px;
+  }
+  
+  .select2-container--default .select2-dropdown {
+    font-size: .8125rem;
+  }
+  
+  .select2-container--default.select2-container--focus .select2-selection--multiple {
+    border-color: #e0e0ef;
+  }
+  
+  .select2-container--default .select2-selection--multiple .select2-selection__choice {
+    color: #ffffff;
+    border: 0;
+    border-radius: 3px;
+    padding: 6px;
+    font-size: .625rem;
+    font-family: inherit;
+    line-height: 1;
+  }
+  
+  .select2-container--default .select2-selection--multiple .select2-selection__choice .select2-selection__choice__remove {
+    color: #ffffff;
+  }
+  
+  .select2-container--default .select2-selection--multiple .select2-selection__choice:nth-child(5n+1) {
+    background: #392C70;
+  }
+  
+  .select2-container--default .select2-selection--multiple .select2-selection__choice:nth-child(5n+2) {
+    background: #04B76B;
+  }
+  
+  .select2-container--default .select2-selection--multiple .select2-selection__choice:nth-child(5n+3) {
+    background: #0B94F7;
+  }
+  
+  .select2-container--default .select2-selection--multiple .select2-selection__choice:nth-child(5n+4) {
+    background: #FF5E6D;
+  }
+  
+  .select2-container--default .select2-selection--multiple .select2-selection__choice:nth-child(5n+5) {
+    background: #F5A623;
+  }
+  
+  /* Summernote Editor */
+  .note-editor.note-frame {
+    border: 1px solid #e0e0ef;
+  }
+  
+  .note-popover {
+    border: 1px solid #e0e0ef;
+  }
+  
+  /* SweetAlert */
+  .swal2-container {
+    z-index: 1500;
+  }
+  
+  .swal2-modal {
+    min-height: 315px;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    border-radius: 10px;
+  }
+  
+  .swal2-modal .swal2-title {
+    font-size: 25px;
+    line-height: 1;
+    font-weight: 600;
+    color: #000000;
+    font-weight: initial;
+    margin-bottom: 0;
+  }
+  
+  .swal2-modal .swal2-icon,
+  .swal2-modal .swal2-success-ring {
+    margin-top: 0;
+    margin-bottom: 42px;
+  }
+  
+  .swal2-modal .swal2-buttonswrapper {
+    margin-top: 0;
+    padding: 0;
+  }
+  
+  .swal2-modal .swal2-buttonswrapper .swal2-styled {
+    margin-top: 0;
+    font-weight: initial;
+  }
+  
+  .swal2-modal .swal2-buttonswrapper .swal2-styled.swal2-confirm {
+    font-weight: initial;
+    margin-top: 32px;
+  }
+  
+  .swal2-modal .swal2-buttonswrapper .swal2-styled.swal2-cancel {
+    margin-top: 32px;
+    border: 1px solid #e0e0ef;
+    color: #ffffff;
+    font-weight: initial;
+  }
+  
+  .swal2-modal .swal2-content {
+    font-size: 0.8125rem;
+    font-weight: 600;
+    color: #000000;
+    font-weight: initial;
+    margin-top: 11px;
+  }
+  
+  .swal2-modal .swal2-close {
+    font-size: 20px;
+  }
+  
+  .swal2-modal .swal2-success-ring {
+    left: -30px;
+  }
+  
+  /* Switchery */
+  .switchery {
+    width: 35px;
+    height: 21px;
+    border-radius: 11px;
+  }
+  
+  .switchery > small {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .switchery-small {
+    width: 25px;
+    height: 13px;
+  }
+  
+  .switchery-small > small {
+    width: 13px;
+    height: 13px;
+  }
+  
+  .switchery-large {
+    width: 50px;
+    height: 28px;
+    border-radius: 14px;
+  }
+  
+  .switchery-large > small {
+    width: 27px;
+    height: 27px;
+  }
+  
+  /* Tags */
+  div.tagsinput {
+    padding: 15px 15px 10px;
+    border-color: #e0e0ef;
+  }
+  
+  div.tagsinput span.tag {
+    background: #392C70;
+    border: 0;
+    color: #ffffff;
+    padding: 6px 14px;
+    font-size: .8125rem;
+    font-family: inherit;
+    line-height: 1;
+  }
+  
+  div.tagsinput span.tag a {
+    color: #ffffff;
+  }
+  
+  /* TinyMCE Editor */
+  .mce-tinymce.mce-panel,
+  .mce-tinymce .mce-panel {
+    border-color: #e0e0ef;
+  }
+  
+  /* Toast */
+  .jq-toast-wrap .jq-icon-success {
+    background-color: #04B76B;
+  }
+  
+  .jq-toast-wrap .jq-icon-info {
+    background-color: #0B94F7;
+  }
+  
+  .jq-toast-wrap .jq-icon-warning {
+    background-color: #F5A623;
+  }
+  
+  .jq-toast-wrap .jq-icon-error {
+    background-color: #FF5E6D;
+  }
+  
+  /* Typeahead */
+  .tt-menu,
+  .gist {
+    text-align: left;
+  }
+  
+  .twitter-typeahead {
+    max-width: 100%;
+  }
+  
+  .typeahead {
+    background-color: #ffffff;
+  }
+  
+  .typeahead:focus {
+    border-color: #e0e0ef;
+  }
+  
+  .tt-query {
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  }
+  
+  .tt-hint {
+    color: #434a54;
+  }
+  
+  .tt-menu {
+    width: 100%;
+    margin: 12px 0;
+    padding: 8px 0;
+    background-color: #ffffff;
+    border: 1px solid #e0e0ef;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .tt-suggestion {
+    padding: 3px 20px;
+    font-size: inherit;
+  }
+  
+  .tt-suggestion:hover {
+    cursor: pointer;
+    color: #ffffff;
+    background-color: #392C70;
+  }
+  
+  .tt-suggestion .tt-cursor {
+    color: #ffffff;
+    background-color: #392C70;
+  }
+  
+  .tt-suggestion p {
+    margin: 0;
+  }
+  
+  /* Wysi Editor */
+  .wysi-editor #toolbar [data-wysihtml-action] {
+    float: right;
+  }
+  
+  .wysi-editor #toolbar,
+  .wysi-editor textarea {
+    width: 920px;
+    padding: 5px;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  .wysi-editor textarea {
+    height: 280px;
+    border: 1px solid #e0e0ef;
+    font-family: inherit;
+    font-size: 1rem;
+  }
+  
+  .wysi-editor textarea:focus {
+    color: black;
+    border: 1px solid #e0e0ef;
+  }
+  
+  .wysi-editor .wysihtml-action-active,
+  .wysi-editor .wysihtml-command-active {
+    font-weight: bold;
+  }
+  
+  .wysi-editor [data-wysihtml-dialog] {
+    margin: 5px 0 0;
+    padding: 5px;
+    border: 1px solid #666;
+  }
+  
+  .wysi-editor a[data-wysihtml-command-value="red"] {
+    color: #FF5E6D;
+  }
+  
+  .wysi-editor a[data-wysihtml-command-value="green"] {
+    color: #04B76B;
+  }
+  
+  .wysi-editor a[data-wysihtml-command-value="blue"] {
+    color: #0B94F7;
+  }
+  
+  .wysi-editor .wysihtml-editor,
+  .wysi-editor .wysihtml-editor table td {
+    outline: 1px dotted #e0e0ef;
+  }
+  
+  .wysi-editor code {
+    background: #ddd;
+    padding: 10px;
+    white-space: pre;
+    display: block;
+    margin: 1em 0;
+  }
+  
+  .wysi-editor .toolbar {
+    display: block;
+    border-radius: 3px;
+    border: 1px solid #fff;
+    margin-bottom: 9px;
+    line-height: 1em;
+  }
+  
+  .wysi-editor .toolbar a {
+    display: inline-block;
+    height: 1.5em;
+    border-radius: 3px;
+    font-size: 1rem;
+    line-height: 1.5em;
+    text-decoration: none;
+    background: #ffffff;
+    border: 1px solid #e0e0ef;
+    padding: 0 0.2em;
+    margin: 1px 0;
+    color: #392C70;
+  }
+  
+  .wysi-editor .toolbar .wysihtml-action-active,
+  .wysi-editor .toolbar a.wysihtml-command-active {
+    background: #222;
+    color: white;
+  }
+  
+  .wysi-editor .toolbar .block {
+    padding: 1px;
+    display: inline-block;
+    background: #eee;
+    border-radius: 3px;
+    margin: 0 1px 1px 0;
+  }
+  
+  .wysi-editor div[data-wysihtml-dialog="createTable"] {
+    position: absolute;
+    background: white;
+  }
+  
+  .wysi-editor div[data-wysihtml-dialog="createTable"] td {
+    width: 10px;
+    height: 5px;
+    border: 1px solid #e0e0ef;
+  }
+  
+  .wysi-editor .wysihtml-editor table td.wysiwyg-tmp-selected-cell {
+    outline: 2px solid #04B76B;
+  }
+  
+  .wysi-editor .editor-container-tag {
+    padding: 5px 10px;
+    position: absolute;
+    color: white;
+    background: rgba(0, 0, 0, 0.8);
+    width: 100px;
+    margin-left: -50px;
+    -webkit-transition: 0.1s left, 0.1s top;
+  }
+  
+  .wysi-editor .wrap {
+    max-width: 700px;
+    margin: 40px;
+  }
+  
+  .wysi-editor .editable .wysihtml-uneditable-container {
+    outline: 1px dotted #e0e0ef;
+    position: relative;
+  }
+  
+  .wysi-editor .editable .wysihtml-uneditable-container-right {
+    float: right;
+    width: 50%;
+    margin-left: 2em;
+    margin-bottom: 1em;
+  }
+  
+  .wysi-editor .editable .wysihtml-uneditable-container-left {
+    float: left;
+    width: 50%;
+    margin-right: 2em;
+    margin-bottom: 1em;
+  }
+  
+  /* X-editable */
+  .editable-form .editable {
+    color: #000000;
+    font-size: .8125rem;
+  }
+  
+  .editable-form .editable-click {
+    border-color: #000000;
+  }
+  
+  .editable-container.editable-inline {
+    max-width: 100%;
+  }
+  
+  .editable-container.editable-inline .editableform {
+    max-width: 100%;
+  }
+  
+  .editable-container.editable-inline .editableform .control-group {
+    max-width: 100%;
+    white-space: initial;
+  }
+  
+  .editable-container.editable-inline .editableform .control-group > div {
+    max-width: 100%;
+  }
+  
+  .editable-container.editable-inline .editableform .control-group .editable-input input,
+  .editable-container.editable-inline .editableform .control-group .editable-input textarea {
+    max-width: 100%;
+  }
+  
+  .editable-container.editable-inline .editableform .control-group .editable-input .combodate .form-control, .editable-container.editable-inline .editableform .control-group .editable-input .combodate .asColorPicker-input, .editable-container.editable-inline .editableform .control-group .editable-input .combodate .dataTables_wrapper select, .dataTables_wrapper .editable-container.editable-inline .editableform .control-group .editable-input .combodate select, .editable-container.editable-inline .editableform .control-group .editable-input .combodate .jsgrid .jsgrid-table .jsgrid-filter-row input[type=text], .jsgrid .jsgrid-table .jsgrid-filter-row .editable-container.editable-inline .editableform .control-group .editable-input .combodate input[type=text], .editable-container.editable-inline .editableform .control-group .editable-input .combodate
+  .jsgrid .jsgrid-table .jsgrid-filter-row select,
+  .jsgrid .jsgrid-table .jsgrid-filter-row .editable-container.editable-inline .editableform .control-group .editable-input .combodate select, .editable-container.editable-inline .editableform .control-group .editable-input .combodate .jsgrid .jsgrid-table .jsgrid-filter-row input[type=number], .jsgrid .jsgrid-table .jsgrid-filter-row .editable-container.editable-inline .editableform .control-group .editable-input .combodate input[type=number], .editable-container.editable-inline .editableform .control-group .editable-input .combodate .select2-container--default .select2-selection--single, .select2-container--default .editable-container.editable-inline .editableform .control-group .editable-input .combodate .select2-selection--single, .editable-container.editable-inline .editableform .control-group .editable-input .combodate .select2-container--default .select2-selection--single .select2-search__field, .select2-container--default .select2-selection--single .editable-container.editable-inline .editableform .control-group .editable-input .combodate .select2-search__field, .editable-container.editable-inline .editableform .control-group .editable-input .combodate .typeahead, .editable-container.editable-inline .editableform .control-group .editable-input .combodate
+  .tt-query, .editable-container.editable-inline .editableform .control-group .editable-input .combodate
+  .tt-hint {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  
+  @media (max-width: 991px) {
+    .editable-container.editable-inline .editableform .control-group .editable-buttons {
+      display: block;
+      margin-top: 10px;
+    }
+  }
+  
+  /* Wizard */
+  .wizard {
+    display: block;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .wizard a {
+    outline: 0;
+  }
+  
+  .wizard ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .wizard ul > li {
+    display: block;
+    padding: 0;
+  }
+  
+  .wizard > .steps {
+    position: relative;
+    display: block;
+    width: 100%;
+  }
+  
+  .wizard > .steps .current-info {
+    position: absolute;
+    left: -999em;
+  }
+  
+  .wizard > .steps .number {
+    font-size: 0.8125rem;
+  }
+  
+  .wizard > .steps > ul > li {
+    width: 25%;
+    float: left;
+    text-align: center;
+  }
+  
+  @media (max-width: 767px) {
+    .wizard > .steps > ul > li {
+      width: 50%;
+    }
+  }
+  
+  .wizard > .steps a {
+    display: block;
+    width: auto;
+    margin: 0 0.5em 0.5em;
+    padding: 1em 1em;
+    text-decoration: none;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    font-size: 0.8125rem;
+    font-weight: 600;
+  }
+  
+  .wizard > .steps a:hover {
+    display: block;
+    width: auto;
+    margin: 0 0.5em 0.5em;
+    padding: 1em;
+    text-decoration: none;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+  }
+  
+  .wizard > .steps a:active {
+    display: block;
+    width: auto;
+    margin: 0 0.5em 0.5em;
+    padding: 1em;
+    text-decoration: none;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+  }
+  
+  .wizard > .steps .disabled a {
+    background: #e6e9ed;
+    color: #434a54;
+    cursor: default;
+  }
+  
+  .wizard > .steps .disabled a:hover {
+    background: #e6e9ed;
+    color: #434a54;
+    cursor: default;
+  }
+  
+  .wizard > .steps .disabled a:active {
+    background: #e6e9ed e;
+    color: #434a54;
+    cursor: default;
+  }
+  
+  .wizard > .steps .current a {
+    background: #392C70;
+    color: #ffffff;
+    cursor: default;
+  }
+  
+  .wizard > .steps .current a:hover {
+    background: #392C70;
+    color: #ffffff;
+    cursor: default;
+  }
+  
+  .wizard > .steps .current a:active {
+    background: #392C70;
+    color: #ffffff;
+    cursor: default;
+  }
+  
+  .wizard > .steps .done a {
+    background: #5f4ab8;
+    color: #ffffff;
+  }
+  
+  .wizard > .steps .done a:hover {
+    background: #5f4ab8;
+    color: #ffffff;
+  }
+  
+  .wizard > .steps .done a:active {
+    background: #5f4ab8;
+    color: #ffffff;
+  }
+  
+  .wizard > .steps .error a {
+    background: #FF5E6D;
+    color: #fff;
+  }
+  
+  .wizard > .steps .error a:hover {
+    background: #FF5E6D;
+    color: #fff;
+  }
+  
+  .wizard > .steps .error a:active {
+    background: #FF5E6D;
+    color: #fff;
+  }
+  
+  .wizard > .content {
+    background: #ffffff;
+    display: block;
+    margin: 0.5em;
+    min-height: 24em;
+    overflow: hidden;
+    position: relative;
+    width: auto;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border: 1px solid #e0e0ef;
+  }
+  
+  .wizard > .content > .title {
+    position: absolute;
+    left: -999em;
+  }
+  
+  .wizard > .content > .body {
+    float: left;
+    position: absolute;
+    width: 95%;
+    height: 95%;
+    padding: 2.5%;
+  }
+  
+  .wizard > .content > .body ul {
+    list-style: disc;
+  }
+  
+  .wizard > .content > .body ul > li {
+    display: list-item;
+  }
+  
+  .wizard > .content > .body > iframe {
+    border: 0 none;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .wizard > .content > .body input {
+    display: block;
+    border: 1px solid #e0e0ef;
+  }
+  
+  .wizard > .content > .body input[type="checkbox"] {
+    display: inline-block;
+  }
+  
+  .wizard > .content > .body input.error {
+    background: #fbe3e4;
+    border: 1px solid #ffc4c9;
+    color: #FF5E6D;
+  }
+  
+  .wizard > .content > .body label {
+    display: inline-block;
+    margin-bottom: 0.5em;
+  }
+  
+  .wizard > .content > .body label.error {
+    color: #FF5E6D;
+    display: inline-block;
+    margin-left: 1.5em;
+  }
+  
+  .wizard > .actions {
+    padding-top: 20px;
+    position: relative;
+    display: block;
+    text-align: right;
+    width: 100%;
+  }
+  
+  .wizard > .actions > ul {
+    display: inline-block;
+    text-align: right;
+  }
+  
+  .wizard > .actions > ul > li {
+    float: left;
+    margin: 0 0.5em;
+  }
+  
+  .wizard.vertical > .steps {
+    display: inline;
+    float: left;
+    width: 30%;
+  }
+  
+  @media (max-width: 767px) {
+    .wizard.vertical > .steps {
+      width: 42%;
+    }
+  }
+  
+  .wizard.vertical > .steps > ul > li {
+    float: none;
+    width: 100%;
+    text-align: left;
+  }
+  
+  .wizard.vertical > .content {
+    display: inline;
+    float: left;
+    margin: 0 2.5% 0.5em 2.5%;
+    width: 65%;
+  }
+  
+  @media (max-width: 767px) {
+    .wizard.vertical > .content {
+      width: 52%;
+    }
+  }
+  
+  .wizard.vertical > .actions {
+    display: inline;
+    float: right;
+    margin: 0 2.5%;
+    width: 95%;
+  }
+  
+  @media (max-width: 767px) {
+    .wizard.vertical > .actions {
+      margin: 0;
+      width: 100%;
+    }
+  }
+  
+  .wizard.vertical > .actions > ul > li {
+    margin: 0 0 0 1em;
+  }
+  
+  .tabcontrol {
+    display: block;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .tabcontrol a {
+    outline: 0;
+  }
+  
+  .tabcontrol ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .tabcontrol ul > li {
+    display: block;
+    padding: 0;
+  }
+  
+  .tabcontrol > .steps {
+    position: relative;
+    display: block;
+    width: 100%;
+  }
+  
+  .tabcontrol > .steps .current-info {
+    position: absolute;
+    left: -999em;
+  }
+  
+  .tabcontrol > .steps > ul {
+    position: relative;
+    margin: 6px 0 0 0;
+    top: 1px;
+    z-index: 1;
+  }
+  
+  .tabcontrol > .steps > ul > li {
+    float: left;
+    margin: 5px 2px 0 0;
+    padding: 1px;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+  
+  .tabcontrol > .steps > ul > li:hover {
+    background: #edecec;
+    border: 1px solid #e0e0ef;
+    padding: 0;
+  }
+  
+  .tabcontrol > .steps > ul > li > a {
+    color: #aab2bd;
+    display: inline-block;
+    border: 0 none;
+    margin: 0;
+    padding: 10px 30px;
+    text-decoration: none;
+  }
+  
+  .tabcontrol > .steps > ul > li > a:hover {
+    text-decoration: none;
+  }
+  
+  .tabcontrol > .steps > ul > li.current {
+    background: #ffffff;
+    border: 1px solid #e0e0ef;
+    border-bottom: 0 none;
+    padding: 0 0 1px 0;
+    margin-top: 0;
+  }
+  
+  .tabcontrol > .steps > ul > li.current > a {
+    padding: 15px 30px 10px 30px;
+  }
+  
+  .tabcontrol > .content {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 35em;
+    overflow: hidden;
+    border-top: 1px solid #e0e0ef;
+    padding-top: 20px;
+  }
+  
+  .tabcontrol > .content > .title {
+    position: absolute;
+    left: -999em;
+  }
+  
+  .tabcontrol > .content > .body {
+    float: left;
+    position: absolute;
+    width: 95%;
+    height: 95%;
+    padding: 2.5%;
+  }
+  
+  .tabcontrol > .content > .body ul {
+    list-style: disc;
+  }
+  
+  .tabcontrol > .content > .body ul > li {
+    display: list-item;
+  }
+  
+  /*-------------------------------------------------------------------*/
+  /* === Landing screens === */
+  /* Auth */
+  .auth .login-half-bg {
+    background: url("../images/auth/login-bg.jpg");
+    background-size: cover;
+  }
+  
+  .auth .register-half-bg {
+    background: url("../images/auth/register-bg.jpg");
+    background-size: cover;
+  }
+  
+  .auth.lock-full-bg {
+    background: url("../images/auth/lockscreen-bg.jpg");
+    background-size: cover;
+  }
+  
+  .auth .lock-profile-img {
+    width: 90px;
+    height: 90px;
+    border-radius: 100%;
+  }
+  
+  .auth .auth-form-dark {
+    background: rgba(0, 0, 0, 0.6);
+    color: #ffffff;
+  }
+  
+  .auth .auth-form-dark .form-control, .auth .auth-form-dark .asColorPicker-input, .auth .auth-form-dark .dataTables_wrapper select, .dataTables_wrapper .auth .auth-form-dark select, .auth .auth-form-dark .jsgrid .jsgrid-table .jsgrid-filter-row input[type=text], .jsgrid .jsgrid-table .jsgrid-filter-row .auth .auth-form-dark input[type=text], .auth .auth-form-dark
+  .jsgrid .jsgrid-table .jsgrid-filter-row select,
+  .jsgrid .jsgrid-table .jsgrid-filter-row .auth .auth-form-dark select, .auth .auth-form-dark .jsgrid .jsgrid-table .jsgrid-filter-row input[type=number], .jsgrid .jsgrid-table .jsgrid-filter-row .auth .auth-form-dark input[type=number], .auth .auth-form-dark .select2-container--default .select2-selection--single, .select2-container--default .auth .auth-form-dark .select2-selection--single, .auth .auth-form-dark .select2-container--default .select2-selection--single .select2-search__field, .select2-container--default .select2-selection--single .auth .auth-form-dark .select2-search__field, .auth .auth-form-dark .typeahead, .auth .auth-form-dark
+  .tt-query, .auth .auth-form-dark
+  .tt-hint {
+    border-color: rgba(255, 255, 255, 0.2);
+    color: #ffffff;
+  }
+  
+  .auth .auth-form-dark .form-control:-ms-input-placeholder, .auth .auth-form-dark .asColorPicker-input:-ms-input-placeholder, .auth .auth-form-dark .dataTables_wrapper select:-ms-input-placeholder, .dataTables_wrapper .auth .auth-form-dark select:-ms-input-placeholder, .auth .auth-form-dark .jsgrid .jsgrid-table .jsgrid-filter-row input[type=text]:-ms-input-placeholder, .jsgrid .jsgrid-table .jsgrid-filter-row .auth .auth-form-dark input[type=text]:-ms-input-placeholder, .auth .auth-form-dark
+  .jsgrid .jsgrid-table .jsgrid-filter-row select:-ms-input-placeholder,
+  .jsgrid .jsgrid-table .jsgrid-filter-row .auth .auth-form-dark select:-ms-input-placeholder, .auth .auth-form-dark .jsgrid .jsgrid-table .jsgrid-filter-row input[type=number]:-ms-input-placeholder, .jsgrid .jsgrid-table .jsgrid-filter-row .auth .auth-form-dark input[type=number]:-ms-input-placeholder, .auth .auth-form-dark .select2-container--default .select2-selection--single:-ms-input-placeholder, .select2-container--default .auth .auth-form-dark .select2-selection--single:-ms-input-placeholder, .auth .auth-form-dark .select2-container--default .select2-selection--single .select2-search__field:-ms-input-placeholder, .select2-container--default .select2-selection--single .auth .auth-form-dark .select2-search__field:-ms-input-placeholder, .auth .auth-form-dark .typeahead:-ms-input-placeholder, .auth .auth-form-dark
+  .tt-query:-ms-input-placeholder, .auth .auth-form-dark
+  .tt-hint:-ms-input-placeholder {
+    color: #ffffff;
+  }
+  
+  .auth .auth-form-dark .form-control:-moz-placeholder, .auth .auth-form-dark .asColorPicker-input:-moz-placeholder, .auth .auth-form-dark .dataTables_wrapper select:-moz-placeholder, .dataTables_wrapper .auth .auth-form-dark select:-moz-placeholder, .auth .auth-form-dark .jsgrid .jsgrid-table .jsgrid-filter-row input[type=text]:-moz-placeholder, .jsgrid .jsgrid-table .jsgrid-filter-row .auth .auth-form-dark input[type=text]:-moz-placeholder, .auth .auth-form-dark
+  .jsgrid .jsgrid-table .jsgrid-filter-row select:-moz-placeholder,
+  .jsgrid .jsgrid-table .jsgrid-filter-row .auth .auth-form-dark select:-moz-placeholder, .auth .auth-form-dark .jsgrid .jsgrid-table .jsgrid-filter-row input[type=number]:-moz-placeholder, .jsgrid .jsgrid-table .jsgrid-filter-row .auth .auth-form-dark input[type=number]:-moz-placeholder, .auth .auth-form-dark .select2-container--default .select2-selection--single:-moz-placeholder, .select2-container--default .auth .auth-form-dark .select2-selection--single:-moz-placeholder, .auth .auth-form-dark .select2-container--default .select2-selection--single .select2-search__field:-moz-placeholder, .select2-container--default .select2-selection--single .auth .auth-form-dark .select2-search__field:-moz-placeholder, .auth .auth-form-dark .typeahead:-moz-placeholder, .auth .auth-form-dark
+  .tt-query:-moz-placeholder, .auth .auth-form-dark
+  .tt-hint:-moz-placeholder {
+    color: #ffffff;
+  }
+  
+  .auth .auth-form-dark .form-control::-moz-placeholder, .auth .auth-form-dark .asColorPicker-input::-moz-placeholder, .auth .auth-form-dark .dataTables_wrapper select::-moz-placeholder, .dataTables_wrapper .auth .auth-form-dark select::-moz-placeholder, .auth .auth-form-dark .jsgrid .jsgrid-table .jsgrid-filter-row input[type=text]::-moz-placeholder, .jsgrid .jsgrid-table .jsgrid-filter-row .auth .auth-form-dark input[type=text]::-moz-placeholder, .auth .auth-form-dark
+  .jsgrid .jsgrid-table .jsgrid-filter-row select::-moz-placeholder,
+  .jsgrid .jsgrid-table .jsgrid-filter-row .auth .auth-form-dark select::-moz-placeholder, .auth .auth-form-dark .jsgrid .jsgrid-table .jsgrid-filter-row input[type=number]::-moz-placeholder, .jsgrid .jsgrid-table .jsgrid-filter-row .auth .auth-form-dark input[type=number]::-moz-placeholder, .auth .auth-form-dark .select2-container--default .select2-selection--single::-moz-placeholder, .select2-container--default .auth .auth-form-dark .select2-selection--single::-moz-placeholder, .auth .auth-form-dark .select2-container--default .select2-selection--single .select2-search__field::-moz-placeholder, .select2-container--default .select2-selection--single .auth .auth-form-dark .select2-search__field::-moz-placeholder, .auth .auth-form-dark .typeahead::-moz-placeholder, .auth .auth-form-dark
+  .tt-query::-moz-placeholder, .auth .auth-form-dark
+  .tt-hint::-moz-placeholder {
+    color: #ffffff;
+  }
+  
+  .auth .auth-form-dark .form-control::-webkit-input-placeholder, .auth .auth-form-dark .asColorPicker-input::-webkit-input-placeholder, .auth .auth-form-dark .dataTables_wrapper select::-webkit-input-placeholder, .dataTables_wrapper .auth .auth-form-dark select::-webkit-input-placeholder, .auth .auth-form-dark .jsgrid .jsgrid-table .jsgrid-filter-row input[type=text]::-webkit-input-placeholder, .jsgrid .jsgrid-table .jsgrid-filter-row .auth .auth-form-dark input[type=text]::-webkit-input-placeholder, .auth .auth-form-dark
+  .jsgrid .jsgrid-table .jsgrid-filter-row select::-webkit-input-placeholder,
+  .jsgrid .jsgrid-table .jsgrid-filter-row .auth .auth-form-dark select::-webkit-input-placeholder, .auth .auth-form-dark .jsgrid .jsgrid-table .jsgrid-filter-row input[type=number]::-webkit-input-placeholder, .jsgrid .jsgrid-table .jsgrid-filter-row .auth .auth-form-dark input[type=number]::-webkit-input-placeholder, .auth .auth-form-dark .select2-container--default .select2-selection--single::-webkit-input-placeholder, .select2-container--default .auth .auth-form-dark .select2-selection--single::-webkit-input-placeholder, .auth .auth-form-dark .select2-container--default .select2-selection--single .select2-search__field::-webkit-input-placeholder, .select2-container--default .select2-selection--single .auth .auth-form-dark .select2-search__field::-webkit-input-placeholder, .auth .auth-form-dark .typeahead::-webkit-input-placeholder, .auth .auth-form-dark
+  .tt-query::-webkit-input-placeholder, .auth .auth-form-dark
+  .tt-hint::-webkit-input-placeholder {
+    color: #ffffff;
+  }
+  
+  .auth .auth-form-light {
+    background: #ffffff;
+  }
+  
+  .auth .auth-form-light select {
+    color: #686868;
+  }
+  
+  .auth .auth-form-light .input-group .form-control:focus, .auth .auth-form-light .asColorPicker-wrap .form-control:focus, .auth .auth-form-light .input-group .asColorPicker-input:focus, .auth .auth-form-light .asColorPicker-wrap .asColorPicker-input:focus, .auth .auth-form-light .input-group .dataTables_wrapper select:focus, .dataTables_wrapper .auth .auth-form-light .input-group select:focus, .auth .auth-form-light .asColorPicker-wrap .dataTables_wrapper select:focus, .dataTables_wrapper .auth .auth-form-light .asColorPicker-wrap select:focus, .auth .auth-form-light .input-group .jsgrid .jsgrid-table .jsgrid-filter-row input[type=text]:focus, .jsgrid .jsgrid-table .jsgrid-filter-row .auth .auth-form-light .input-group input[type=text]:focus, .auth .auth-form-light .asColorPicker-wrap .jsgrid .jsgrid-table .jsgrid-filter-row input[type=text]:focus, .jsgrid .jsgrid-table .jsgrid-filter-row .auth .auth-form-light .asColorPicker-wrap input[type=text]:focus, .auth .auth-form-light .input-group
+  .jsgrid .jsgrid-table .jsgrid-filter-row select:focus,
+  .jsgrid .jsgrid-table .jsgrid-filter-row .auth .auth-form-light .input-group select:focus, .auth .auth-form-light .asColorPicker-wrap
+  .jsgrid .jsgrid-table .jsgrid-filter-row select:focus,
+  .jsgrid .jsgrid-table .jsgrid-filter-row .auth .auth-form-light .asColorPicker-wrap select:focus, .auth .auth-form-light .input-group .jsgrid .jsgrid-table .jsgrid-filter-row input[type=number]:focus, .jsgrid .jsgrid-table .jsgrid-filter-row .auth .auth-form-light .input-group input[type=number]:focus, .auth .auth-form-light .asColorPicker-wrap .jsgrid .jsgrid-table .jsgrid-filter-row input[type=number]:focus, .jsgrid .jsgrid-table .jsgrid-filter-row .auth .auth-form-light .asColorPicker-wrap input[type=number]:focus, .auth .auth-form-light .input-group .select2-container--default .select2-selection--single:focus, .select2-container--default .auth .auth-form-light .input-group .select2-selection--single:focus, .auth .auth-form-light .asColorPicker-wrap .select2-container--default .select2-selection--single:focus, .select2-container--default .auth .auth-form-light .asColorPicker-wrap .select2-selection--single:focus, .auth .auth-form-light .input-group .select2-container--default .select2-selection--single .select2-search__field:focus, .select2-container--default .select2-selection--single .auth .auth-form-light .input-group .select2-search__field:focus, .auth .auth-form-light .asColorPicker-wrap .select2-container--default .select2-selection--single .select2-search__field:focus, .select2-container--default .select2-selection--single .auth .auth-form-light .asColorPicker-wrap .select2-search__field:focus, .auth .auth-form-light .input-group .typeahead:focus, .auth .auth-form-light .asColorPicker-wrap .typeahead:focus, .auth .auth-form-light .input-group
+  .tt-query:focus, .auth .auth-form-light .asColorPicker-wrap
+  .tt-query:focus, .auth .auth-form-light .input-group
+  .tt-hint:focus, .auth .auth-form-light .asColorPicker-wrap
+  .tt-hint:focus, .auth .auth-form-light .input-group .form-control:active, .auth .auth-form-light .asColorPicker-wrap .form-control:active, .auth .auth-form-light .input-group .asColorPicker-input:active, .auth .auth-form-light .asColorPicker-wrap .asColorPicker-input:active, .auth .auth-form-light .input-group .dataTables_wrapper select:active, .dataTables_wrapper .auth .auth-form-light .input-group select:active, .auth .auth-form-light .asColorPicker-wrap .dataTables_wrapper select:active, .dataTables_wrapper .auth .auth-form-light .asColorPicker-wrap select:active, .auth .auth-form-light .input-group .jsgrid .jsgrid-table .jsgrid-filter-row input[type=text]:active, .jsgrid .jsgrid-table .jsgrid-filter-row .auth .auth-form-light .input-group input[type=text]:active, .auth .auth-form-light .asColorPicker-wrap .jsgrid .jsgrid-table .jsgrid-filter-row input[type=text]:active, .jsgrid .jsgrid-table .jsgrid-filter-row .auth .auth-form-light .asColorPicker-wrap input[type=text]:active, .auth .auth-form-light .input-group
+  .jsgrid .jsgrid-table .jsgrid-filter-row select:active,
+  .jsgrid .jsgrid-table .jsgrid-filter-row .auth .auth-form-light .input-group select:active, .auth .auth-form-light .asColorPicker-wrap
+  .jsgrid .jsgrid-table .jsgrid-filter-row select:active,
+  .jsgrid .jsgrid-table .jsgrid-filter-row .auth .auth-form-light .asColorPicker-wrap select:active, .auth .auth-form-light .input-group .jsgrid .jsgrid-table .jsgrid-filter-row input[type=number]:active, .jsgrid .jsgrid-table .jsgrid-filter-row .auth .auth-form-light .input-group input[type=number]:active, .auth .auth-form-light .asColorPicker-wrap .jsgrid .jsgrid-table .jsgrid-filter-row input[type=number]:active, .jsgrid .jsgrid-table .jsgrid-filter-row .auth .auth-form-light .asColorPicker-wrap input[type=number]:active, .auth .auth-form-light .input-group .select2-container--default .select2-selection--single:active, .select2-container--default .auth .auth-form-light .input-group .select2-selection--single:active, .auth .auth-form-light .asColorPicker-wrap .select2-container--default .select2-selection--single:active, .select2-container--default .auth .auth-form-light .asColorPicker-wrap .select2-selection--single:active, .auth .auth-form-light .input-group .select2-container--default .select2-selection--single .select2-search__field:active, .select2-container--default .select2-selection--single .auth .auth-form-light .input-group .select2-search__field:active, .auth .auth-form-light .asColorPicker-wrap .select2-container--default .select2-selection--single .select2-search__field:active, .select2-container--default .select2-selection--single .auth .auth-form-light .asColorPicker-wrap .select2-search__field:active, .auth .auth-form-light .input-group .typeahead:active, .auth .auth-form-light .asColorPicker-wrap .typeahead:active, .auth .auth-form-light .input-group
+  .tt-query:active, .auth .auth-form-light .asColorPicker-wrap
+  .tt-query:active, .auth .auth-form-light .input-group
+  .tt-hint:active, .auth .auth-form-light .asColorPicker-wrap
+  .tt-hint:active {
+    border-color: #e0e0ef;
+  }
+  
+  .auth .auth-form-transparent {
+    background: transparent;
+  }
+  
+  .auth .auth-form-transparent .form-control, .auth .auth-form-transparent .asColorPicker-input, .auth .auth-form-transparent .dataTables_wrapper select, .dataTables_wrapper .auth .auth-form-transparent select, .auth .auth-form-transparent .jsgrid .jsgrid-table .jsgrid-filter-row input[type=text], .jsgrid .jsgrid-table .jsgrid-filter-row .auth .auth-form-transparent input[type=text], .auth .auth-form-transparent
+  .jsgrid .jsgrid-table .jsgrid-filter-row select,
+  .jsgrid .jsgrid-table .jsgrid-filter-row .auth .auth-form-transparent select, .auth .auth-form-transparent .jsgrid .jsgrid-table .jsgrid-filter-row input[type=number], .jsgrid .jsgrid-table .jsgrid-filter-row .auth .auth-form-transparent input[type=number], .auth .auth-form-transparent .select2-container--default .select2-selection--single, .select2-container--default .auth .auth-form-transparent .select2-selection--single, .auth .auth-form-transparent .select2-container--default .select2-selection--single .select2-search__field, .select2-container--default .select2-selection--single .auth .auth-form-transparent .select2-search__field, .auth .auth-form-transparent .typeahead, .auth .auth-form-transparent
+  .tt-query, .auth .auth-form-transparent
+  .tt-hint,
+  .auth .auth-form-transparent .input-group-text {
+    border-color: #DEDEDE;
+  }
+  
+  .auth .auth-form-transparent .form-control:focus, .auth .auth-form-transparent .asColorPicker-input:focus, .auth .auth-form-transparent .dataTables_wrapper select:focus, .dataTables_wrapper .auth .auth-form-transparent select:focus, .auth .auth-form-transparent .jsgrid .jsgrid-table .jsgrid-filter-row input[type=text]:focus, .jsgrid .jsgrid-table .jsgrid-filter-row .auth .auth-form-transparent input[type=text]:focus, .auth .auth-form-transparent
+  .jsgrid .jsgrid-table .jsgrid-filter-row select:focus,
+  .jsgrid .jsgrid-table .jsgrid-filter-row .auth .auth-form-transparent select:focus, .auth .auth-form-transparent .jsgrid .jsgrid-table .jsgrid-filter-row input[type=number]:focus, .jsgrid .jsgrid-table .jsgrid-filter-row .auth .auth-form-transparent input[type=number]:focus, .auth .auth-form-transparent .select2-container--default .select2-selection--single:focus, .select2-container--default .auth .auth-form-transparent .select2-selection--single:focus, .auth .auth-form-transparent .select2-container--default .select2-selection--single .select2-search__field:focus, .select2-container--default .select2-selection--single .auth .auth-form-transparent .select2-search__field:focus, .auth .auth-form-transparent .typeahead:focus, .auth .auth-form-transparent
+  .tt-query:focus, .auth .auth-form-transparent
+  .tt-hint:focus, .auth .auth-form-transparent .form-control:active, .auth .auth-form-transparent .asColorPicker-input:active, .auth .auth-form-transparent .dataTables_wrapper select:active, .dataTables_wrapper .auth .auth-form-transparent select:active, .auth .auth-form-transparent .jsgrid .jsgrid-table .jsgrid-filter-row input[type=text]:active, .jsgrid .jsgrid-table .jsgrid-filter-row .auth .auth-form-transparent input[type=text]:active, .auth .auth-form-transparent
+  .jsgrid .jsgrid-table .jsgrid-filter-row select:active,
+  .jsgrid .jsgrid-table .jsgrid-filter-row .auth .auth-form-transparent select:active, .auth .auth-form-transparent .jsgrid .jsgrid-table .jsgrid-filter-row input[type=number]:active, .jsgrid .jsgrid-table .jsgrid-filter-row .auth .auth-form-transparent input[type=number]:active, .auth .auth-form-transparent .select2-container--default .select2-selection--single:active, .select2-container--default .auth .auth-form-transparent .select2-selection--single:active, .auth .auth-form-transparent .select2-container--default .select2-selection--single .select2-search__field:active, .select2-container--default .select2-selection--single .auth .auth-form-transparent .select2-search__field:active, .auth .auth-form-transparent .typeahead:active, .auth .auth-form-transparent
+  .tt-query:active, .auth .auth-form-transparent
+  .tt-hint:active,
+  .auth .auth-form-transparent .input-group-text:focus,
+  .auth .auth-form-transparent .input-group-text:active {
+    border-color: #DEDEDE;
+  }
+  
+  .auth .auth-form-transparent select {
+    outline-color: #DEDEDE;
+  }
+  
+  .auth.auth-img-bg {
+    padding: 0;
+  }
+  
+  @media (min-width: 768px) {
+    .auth.auth-img-bg .auth-form-transparent {
+      width: 55%;
+      margin: auto;
+    }
+  }
+  
+  .auth .brand-logo {
+    margin-bottom: 2rem;
+  }
+  
+  .auth .brand-logo img {
+    width: 150px;
+  }
+  
+  .auth form .form-group {
+    margin-bottom: 1.5rem;
+  }
+  
+  .auth form .form-group label {
+    font-size: .8125rem;
+  }
+  
+  .auth form .form-group .form-control, .auth form .form-group .asColorPicker-input, .auth form .form-group .dataTables_wrapper select, .dataTables_wrapper .auth form .form-group select, .auth form .form-group .jsgrid .jsgrid-table .jsgrid-filter-row input[type=text], .jsgrid .jsgrid-table .jsgrid-filter-row .auth form .form-group input[type=text], .auth form .form-group
+  .jsgrid .jsgrid-table .jsgrid-filter-row select,
+  .jsgrid .jsgrid-table .jsgrid-filter-row .auth form .form-group select, .auth form .form-group .jsgrid .jsgrid-table .jsgrid-filter-row input[type=number], .jsgrid .jsgrid-table .jsgrid-filter-row .auth form .form-group input[type=number], .auth form .form-group .select2-container--default .select2-selection--single, .select2-container--default .auth form .form-group .select2-selection--single, .auth form .form-group .select2-container--default .select2-selection--single .select2-search__field, .select2-container--default .select2-selection--single .auth form .form-group .select2-search__field, .auth form .form-group .typeahead, .auth form .form-group
+  .tt-query, .auth form .form-group
+  .tt-hint {
+    background: transparent;
+    border-radius: 0;
+    font-size: .9375rem;
+  }
+  
+  .auth form .auth-form-btn {
+    height: 50px;
+    line-height: 1.5;
+  }
+  
+  .auth form .auth-link {
+    font-size: 0.8125rem;
+  }
+  
+  .auth form .auth-link:hover {
+    color: initial;
+  }
+  
+  .profile-page .profile-header {
+    width: 100%;
+    background: url("http://www.urbanui.com/") no-repeat center center;
+    background-size: cover;
+    padding: 60px 0;
+    border-radius: 5px;
+  }
+  
+  .profile-page .profile-header .profile-info .profile-user-name {
+    margin-bottom: 0;
+    font-family: "PTSans", sans-serif;
+    font-weight: 600;
+  }
+  
+  .profile-page .profile-header .profile-info .profile-user-designation {
+    margin-bottom: 0;
+    font-family: "PTSans", sans-serif;
+  }
+  
+  .profile-page .profile-header .profile-info .br-wrapper {
+    padding-left: 15px;
+  }
+  
+  .profile-page .profile-header .profile-info .br-wrapper .br-widget {
+    height: auto;
+    -moz-transform: translateY(-5px);
+    -o-transform: translateY(-5px);
+    -ms-transform: translateY(-5px);
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px);
+  }
+  
+  .profile-page .profile-header .profile-info .br-wrapper .br-widget a {
+    font-size: 18px;
+    margin-right: 0;
+  }
+  
+  @media (max-width: 767px) {
+    .profile-page .profile-header .profile-info {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+  }
+  
+  .profile-page .profile-header .details {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+  
+  @media (max-width: 767px) {
+    .profile-page .profile-header .details {
+      padding-left: 15px;
+      padding-right: 15px;
+      margin-top: 15px;
+    }
+  }
+  
+  .profile-page .profile-header .details .detail-col {
+    padding-right: 20%;
+    border-right: 1px solid rgba(224, 224, 239, 0.3);
+    margin-right: 20%;
+  }
+  
+  .profile-page .profile-header .details .detail-col:last-child {
+    border-right: none;
+    margin-right: 0;
+  }
+  
+  .profile-page .profile-header .details .detail-col p {
+    margin-bottom: 0;
+    font-weight: 400;
+  }
+  
+  .profile-page .profile-header .details .detail-col p:first-child {
+    font-weight: 700;
+  }
+  
+  .profile-page .profile-body {
+    padding-top: 50px;
+  }
+  
+  .profile-page .profile-body .tab-switch {
+    border-bottom: 1px solid #e0e0ef;
+  }
+  
+  .profile-page .profile-body .tab-switch .nav-item .nav-link {
+    color: #686868;
+    font-size: 1rem;
+    padding-bottom: 1.2rem;
+    font-weight: 600;
+    border-bottom: 3px solid #ffffff;
+    -webkit-transition-duration: 0.4s;
+    -moz-transition-duration: 0.4s;
+    -o-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    -webkit-transition-timing-function: ease-in;
+    -moz-transition-timing-function: ease-in;
+    -o-transition-timing-function: ease-in;
+    transition-timing-function: ease-in;
+    -webkit-transition-property: color, border-color;
+    -moz-transition-property: color, border-color;
+    -o-transition-property: color, border-color;
+    transition-property: color, border-color;
+  }
+  
+  .profile-page .profile-body .tab-switch .nav-item .nav-link.active {
+    color: #000;
+    border-bottom: 3px solid #392C70;
+  }
+  
+  .profile-page .profile-body .tab-body {
+    border: none;
+    padding: 10px 0;
+  }
+  
+  .profile-page .profile-body .tab-body .stages {
+    position: relative;
+  }
+  
+  .profile-page .profile-body .tab-body .stages .stage-badge {
+    position: absolute;
+    top: 0;
+    left: -20px;
+  }
+  
+  .profile-page .profile-body .tab-body .stages .file-icon-wrapper {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  
+  .profile-page .profile-body .tab-body .stages .file-icon-wrapper .file-icon {
+    height: 77px;
+    width: 69px;
+    padding: 5px;
+    margin-right: 25px;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+  }
+  
+  .profile-page .profile-body .tab-body .stages .file-icon-wrapper .file-icon i {
+    font-size: 43px;
+    margin-right: 0;
+  }
+  
+  /*# sourceMappingURL=maps/style.css.map */
+  

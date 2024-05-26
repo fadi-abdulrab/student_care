@@ -1,0 +1,78 @@
+{% extends 'webside_base.html' %}
+{% load static %}
+
+	<!-- Page Preloder -->
+
+
+	<!-- Header section -->
+    {% block header %}
+	<!-- Hero section -->
+	<section class="hero-section set-bg" data-setbg="{% static './webside/img/bg.jpg' %}">
+		<div class="container">
+			<div class="hero-text text-white">
+				<h2>Student Care</h2>
+				<p></p>
+			</div>
+			
+		</div>
+	</section>
+	<!-- Hero section end -->
+
+
+	<!-- categories section -->
+	<section class="categories-section spad">
+		<div class="container">
+			<div class="section-title">
+				<h2>Our privileges</h2>
+				<h3>features we provide:</h3>
+			</div>
+			<div class="row">
+				<!-- categorie -->
+
+		
+				<div class="col-lg-4 col-md-6">
+					<div class="categorie-item">
+						<div class="ci-thumb set-bg" data-setbg="{% static './webside/img/pay.jpg' %}"></div>
+						<div class="ci-text">
+							<h5>Online Payment</h5>
+							<p>You can pay you child school fees online with us</p>
+							<span></span>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6">
+					<div class="categorie-item">
+						<div class="ci-thumb set-bg" data-setbg="{% static './webside/img/atten.png' %}"></div>
+						<div class="ci-text">
+							<h5>check the attendance</h5>
+							<p>check your children attendance </p>
+							<span></span>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6">
+					<div class="categorie-item">
+						<div class="ci-thumb set-bg" data-setbg="{% static './webside/img/live.png' %}"></div>
+						<div class="ci-text">
+							<h5>communicate easily with your child teachers</h5>
+							<p>direct chat</p>
+							<span></span>
+						</div>
+					</div>
+				</div>
+
+	
+				<!-- categorie -->
+				
+			</div>
+		</div>
+	</section>
+	<!-- categories section end -->
+
+
+	
+
+
+
+
+    {% endblock header %}

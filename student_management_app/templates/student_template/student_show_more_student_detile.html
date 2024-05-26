@@ -1,0 +1,361 @@
+{% extends 'student_template/base_template.html' %}
+
+{% load static %}
+
+	<link rel="stylesheet" href="{% static 'A1_table/css/style.css' %}">
+
+
+
+
+
+{% block page_title %}
+    @{{user}}     
+
+{% endblock page_title %}
+
+{% block main_content %}
+
+{% load static %}
+
+<section class="content">
+        <div class="container-fluid">
+
+            {% comment %} Boxes Section Starts {% endcomment %}
+            <div class="row">
+                <div  class="col-lg-3 col-6">
+                    <!-- small box -->
+                    <div style="background: linear-gradient(-45deg,rgba(147,26,222,0.83) 0%,rgba(28,206,234,0.82) 100%);" class="small-box bg-info">
+                    <div style="background: linear-gradient(-45deg,rgba(147,26,222,0.83) 0%,rgba(28,206,234,0.82) 100%);" class="inner">
+                        <h3>{{ total_attendance }}</h3>
+
+                        <p>Total Attendance</p>
+                    </div>
+                    <div class="icon">
+                        <i class="ion ion-stats-bars"></i>
+                    </div>
+                    </div>
+                </div>
+                <!-- ./col -->
+                <div class="col-lg-3 col-6">
+                    <!-- small box -->
+                    <div style="background: linear-gradient(-45deg,rgba(147,26,222,0.83) 0%,rgba(28,206,234,0.82) 100%);" class="small-box bg-info">
+                        <div style="background: linear-gradient(-45deg,rgba(147,26,222,0.83) 0%,rgba(28,206,234,0.82) 100%);" class="inner">
+                        <h3>{{ attendance_absent }}</h3>
+
+                        <p>Absent</p>
+                    </div>
+                    <div class="icon">
+                        <i class="ion ion-stats-bars"></i>
+                    </div>
+                    </div>
+                </div>
+
+
+                <!-- ./col -->
+                <div  class="col-lg-3 col-6">
+                    <!-- small box -->
+                    <div style="background: linear-gradient(-45deg,rgba(147,26,222,0.83) 0%,rgba(28,206,234,0.82) 100%);" class="small-box bg-info">
+                        <div style="background: linear-gradient(-45deg,rgba(147,26,222,0.83) 0%,rgba(28,206,234,0.82) 100%);" class="inner">
+                        <h3>{{ attendance_present }}</h3>
+
+                        <p>Present</p>
+                    </div>
+                    <div class="icon">
+                        <i class="ion ion-stats-bars"></i>
+                    </div>
+                    </div>
+                </div>
+                <!-- ./col -->
+                <div class="col-lg-3 col-6">
+                    <!-- small box -->
+                    <div style="background: linear-gradient(-45deg,rgba(147,26,222,0.83) 0%,rgba(28,206,234,0.82) 100%);" class="small-box bg-info">
+                    <div style="background: linear-gradient(-45deg,rgba(147,26,222,0.83) 0%,rgba(28,206,234,0.82) 100%);" class="inner">
+                        <h3>{{ total_subjects | length }}</h3>
+
+                        <p>Total Subjects</p>
+                    </div>
+                    <div class="icon">
+                        <i class="ion ion-pie-graph"></i>
+                    </div>
+                    </div>
+                </div>
+                <!-- ./col -->
+
+
+                </div>
+
+                
+                                       
+           
+
+           
+        </div>
+
+
+        <section class="ftco-section">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-6 text-center mb-5">
+                        <h2 class="heading-section">Table All Subjects</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="table-wrap">
+                            <table class="table">
+                              <thead class="thead-primary">
+                                <tr>
+                                  <th>#</th>
+                                  <th>Subjects Name</th>
+                                  <th> Teacher Name</th>
+                                  <th> Present Attendance</th>
+                                </tr>
+                              </thead>
+                              <tbody>
+                                {% for single_total_subjects, ats in total_subjects %}
+                                <tr>
+                                  <th scope="row">1</th>
+                                  <td>{{single_total_subjects.subject_name}}</td>
+                                  <td>{{single_total_subjects.staff_id}}</td>
+                                  <td>{{ats}}</td>
+                                </tr>
+                                {% endfor %}
+                             
+                              
+                              </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        </div><!-- /.container-fluid -->
+      </section>
+
+  {% endblock main_content %}
+
+  {% block custom_js %}
+  <script>
+    const forms = document.querySelectorAll('.rate-form')
+    const score = document.querySelectorAll('#score')
+
+    console.log(forms)
+    for (let i = 0; i < forms.length; i++) {
+
+         console.log(forms[i]);
+         let childern = forms[i].children
+         console.log( score[i].innerHTML);
+
+
+         for (let j = 0; j < childern.length; j++) {
+            
+            if (j <= Number(score[i].innerHTML)) {
+                childern[j].classList.add('checked')
+
+    
+        }else{
+            childern[j].classList.remove('checked')
+        }
+          
+             
+         }
+        
+    }
+
+
+
+  </script>
+  <script>
+      
+      function stars(e){
+
+
+
+        
+          let myval = null
+          let stars = document.querySelectorAll('.star');
+          let rate_num = document.getElementById('rate');
+
+          for (let i = 0; i < stars.length; i++) {
+            stars[i].classList.remove('active');
+              const element = stars[i];
+
+            }
+
+          for (let j = 0; j <= e; j++) {
+            stars[j].classList.add('active');
+            myval = j+1
+             const element = stars[j];
+             
+        
+              
+          }
+          rate_num.innerHTML = myval
+
+      }
+
+      stars()
+  </script>
+    <script>
+       $(document).ready(function(){
+           //Code for Pie Chart
+            var pieData        = {
+            labels: [
+                'ABSENT', 
+                'PRESENT', 
+            ],
+            datasets: [
+                {
+                data: [{{ attendance_absent }}, {{ attendance_present }}],
+                backgroundColor : ['#f56954', '#00a65a'],
+                }
+            ]
+            }
+           //Code for Pie Chart
+            var pieChartCanvas = $('#pieChart').get(0).getContext('2d')
+            var pieData        = pieData;
+            var pieOptions     = {
+            maintainAspectRatio : false,
+            responsive : true,
+            }
+            //Create pie or douhnut chart
+            // You can switch between pie and douhnut using the method below.
+            var pieChart = new Chart(pieChartCanvas, {
+                type: 'doughnut',
+                            data: pieData,
+            options: pieOptions      
+            })
+
+            //Code for Bar Chart
+            var subjects = {{ subject_name|safe }}
+            var data_present = {{ data_present }}
+            var data_absent = {{ data_absent }}
+
+            //Dataset for Bar Chart
+            var areaChartData = {
+            labels  : [1, 5],
+            datasets: [
+                {
+                label               : 'Present in Class',
+                backgroundColor: [
+                'rgba(255, 99, 132,1)',
+                'rgba(54, 162, 235,1)',
+                'rgba(255, 206, 86,1)',
+                'rgba(75, 192, 192,1)',
+                'rgba(153, 102, 255,1)',
+                'rgba(255, 159, 64,1)'
+            ],
+             borderColor: [
+                  'rgba(255, 99, 132, 1)',
+                  'rgba(54, 162, 235, 1)',
+                  'rgba(255, 206, 86, 1)',
+                  'rgba(75, 192, 192, 1)',
+                  'rgba(153, 102, 255, 1)',
+                  'rgba(255, 159, 64, 1)'
+              ],
+               
+                },
+            ]
+            }
+
+
+         
+
+
+       });
+
+
+const ctx2 = document.getElementById('myChart_dbar').getContext('2d');
+let subject_all = {{subject_name | safe}}
+let data = {{all_subject_attendance}}
+const myChart_bar = new Chart(ctx2, {
+    type: 'bar',
+        data: {
+          labels: subject_all,
+          datasets: [{
+              label: '',
+  
+              data: data,
+              backgroundColor: [
+                  'rgba(255, 99, 132,1)',
+                  'rgba(54, 162, 235,1)',
+                  'rgba(255, 206, 86,1)',
+                  'rgba(75, 192, 192,1)',
+                  'rgba(153, 102, 255,1)',
+                  'rgba(255, 159, 64,1)'
+              ],
+              borderColor: [
+                  'rgba(255, 99, 132, 1)',
+                  'rgba(54, 162, 235, 1)',
+                  'rgba(255, 206, 86, 1)',
+                  'rgba(75, 192, 192, 1)',
+                  'rgba(153, 102, 255, 1)',
+                  'rgba(255, 159, 64, 1)'
+              ],
+              borderWidth: 1,
+          }],
+      },
+      options: {
+      
+            responsive:true
+  
+            
+          
+      }
+  });
+    </script>
+
+
+
+<script>
+
+
+
+    let subject_alls = {{subject_name | safe}}
+    let data_all = {{all_subject_attendance}}
+        const ctx3 = document.getElementById('myChart_bar').getContext('2d');
+        const myChart2 = new Chart(ctx3, {
+            type: 'polarArea',  
+                                         data: {
+                labels: subject_alls,
+                datasets: [{
+                    label: '# of Votes',
+                    data: data_all,
+                    backgroundColor: [
+                        'rgba(255, 99, 132, 1)',
+                        'rgba(54, 162, 235, 1)',
+                        'rgba(255, 206, 86, 1)',
+                        'rgba(75, 192, 192, 1)',
+                        'rgba(153, 102, 255, 1)',
+                        'rgba(255, 159, 64, 1)'
+                    ],
+                    borderColor: [
+                        'rgba(255, 99, 132, 1)',
+                        'rgba(54, 162, 235, 1)',
+                        'rgba(255, 206, 86, 1)',
+                        'rgba(75, 192, 192, 1)',
+                        'rgba(153, 102, 255, 1)',
+                        'rgba(255, 159, 64, 1)'
+                    ],
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                responsive:true,
+                
+            }
+        });
+     </script>
+    
+     <script>
+        var cancel = document.getElementsByTagName('footer')
+        var cancel1 = document.getElementsByTagName('strong')
+        cancel.innerHTML = '';
+        cancel.removeChild(cancel1);
+        console.log(cancel, 'test');
+      </script>
+         
+        
+         
+  {% endblock custom_js %}

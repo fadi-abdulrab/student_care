@@ -1,0 +1,1411 @@
+
+
+
+
+.btn-outline-secondary:focus, .editable-container.editable-inline .editableform .control-group .editable-buttons .editable-cancel:focus, .btn-outline-secondary.focus, .editable-container.editable-inline .editableform .control-group .editable-buttons .focus.editable-cancel {
+    box-shadow: 0 0 0 0.2rem rgba(222, 222, 222, 0.5);
+  }
+  
+  .btn-outline-secondary.disabled, .editable-container.editable-inline .editableform .control-group .editable-buttons .disabled.editable-cancel, .btn-outline-secondary:disabled, .editable-container.editable-inline .editableform .control-group .editable-buttons .editable-cancel:disabled {
+    color: #DEDEDE;
+    background-color: transparent;
+  }
+  
+  .btn-outline-secondary:not(:disabled):not(.disabled):active, .editable-container.editable-inline .editableform .control-group .editable-buttons .editable-cancel:not(:disabled):not(.disabled):active, .btn-outline-secondary:not(:disabled):not(.disabled).active, .editable-container.editable-inline .editableform .control-group .editable-buttons .editable-cancel:not(:disabled):not(.disabled).active,
+  .show > .btn-outline-secondary.dropdown-toggle, .editable-container.editable-inline .editableform .control-group .editable-buttons
+  .show > .dropdown-toggle.editable-cancel {
+    color: #212529;
+    background-color: #DEDEDE;
+    border-color: #DEDEDE;
+  }
+  
+  .btn-outline-secondary:not(:disabled):not(.disabled):active:focus, .editable-container.editable-inline .editableform .control-group .editable-buttons .editable-cancel:not(:disabled):not(.disabled):active:focus, .btn-outline-secondary:not(:disabled):not(.disabled).active:focus, .editable-container.editable-inline .editableform .control-group .editable-buttons .editable-cancel:not(:disabled):not(.disabled).active:focus,
+  .show > .btn-outline-secondary.dropdown-toggle:focus, .editable-container.editable-inline .editableform .control-group .editable-buttons
+  .show > .dropdown-toggle.editable-cancel:focus {
+    box-shadow: 0 0 0 0.2rem rgba(222, 222, 222, 0.5);
+  }
+  
+  .btn-outline-success, .editable-container.editable-inline .editableform .control-group .editable-buttons .editable-submit {
+    color: #04B76B;
+    background-color: transparent;
+    background-image: none;
+    border-color: #04B76B;
+  }
+  
+  .btn-outline-success:hover, .editable-container.editable-inline .editableform .control-group .editable-buttons .editable-submit:hover {
+    color: #fff;
+    background-color: #04B76B;
+    border-color: #04B76B;
+  }
+  
+  .btn-outline-success:focus, .editable-container.editable-inline .editableform .control-group .editable-buttons .editable-submit:focus, .btn-outline-success.focus, .editable-container.editable-inline .editableform .control-group .editable-buttons .focus.editable-submit {
+    box-shadow: 0 0 0 0.2rem rgba(4, 183, 107, 0.5);
+  }
+  
+  .btn-outline-success.disabled, .editable-container.editable-inline .editableform .control-group .editable-buttons .disabled.editable-submit, .btn-outline-success:disabled, .editable-container.editable-inline .editableform .control-group .editable-buttons .editable-submit:disabled {
+    color: #04B76B;
+    background-color: transparent;
+  }
+  
+  .btn-outline-success:not(:disabled):not(.disabled):active, .editable-container.editable-inline .editableform .control-group .editable-buttons .editable-submit:not(:disabled):not(.disabled):active, .btn-outline-success:not(:disabled):not(.disabled).active, .editable-container.editable-inline .editableform .control-group .editable-buttons .editable-submit:not(:disabled):not(.disabled).active,
+  .show > .btn-outline-success.dropdown-toggle, .editable-container.editable-inline .editableform .control-group .editable-buttons
+  .show > .dropdown-toggle.editable-submit {
+    color: #fff;
+    background-color: #04B76B;
+    border-color: #04B76B;
+  }
+  
+  .btn-outline-success:not(:disabled):not(.disabled):active:focus, .editable-container.editable-inline .editableform .control-group .editable-buttons .editable-submit:not(:disabled):not(.disabled):active:focus, .btn-outline-success:not(:disabled):not(.disabled).active:focus, .editable-container.editable-inline .editableform .control-group .editable-buttons .editable-submit:not(:disabled):not(.disabled).active:focus,
+  .show > .btn-outline-success.dropdown-toggle:focus, .editable-container.editable-inline .editableform .control-group .editable-buttons
+  .show > .dropdown-toggle.editable-submit:focus {
+    box-shadow: 0 0 0 0.2rem rgba(4, 183, 107, 0.5);
+  }
+  
+  .btn-outline-info {
+    color: #0B94F7;
+    background-color: transparent;
+    background-image: none;
+    border-color: #0B94F7;
+  }
+  
+  .btn-outline-info:hover {
+    color: #fff;
+    background-color: #0B94F7;
+    border-color: #0B94F7;
+  }
+  
+  .btn-outline-info:focus, .btn-outline-info.focus {
+    box-shadow: 0 0 0 0.2rem rgba(11, 148, 247, 0.5);
+  }
+  
+  .btn-outline-info.disabled, .btn-outline-info:disabled {
+    color: #0B94F7;
+    background-color: transparent;
+  }
+  
+  .btn-outline-info:not(:disabled):not(.disabled):active, .btn-outline-info:not(:disabled):not(.disabled).active,
+  .show > .btn-outline-info.dropdown-toggle {
+    color: #fff;
+    background-color: #0B94F7;
+    border-color: #0B94F7;
+  }
+  
+  .btn-outline-info:not(:disabled):not(.disabled):active:focus, .btn-outline-info:not(:disabled):not(.disabled).active:focus,
+  .show > .btn-outline-info.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba(11, 148, 247, 0.5);
+  }
+  
+  .btn-outline-warning {
+    color: #F5A623;
+    background-color: transparent;
+    background-image: none;
+    border-color: #F5A623;
+  }
+  
+  .btn-outline-warning:hover {
+    color: #212529;
+    background-color: #F5A623;
+    border-color: #F5A623;
+  }
+  
+  .btn-outline-warning:focus, .btn-outline-warning.focus {
+    box-shadow: 0 0 0 0.2rem rgba(245, 166, 35, 0.5);
+  }
+  
+  .btn-outline-warning.disabled, .btn-outline-warning:disabled {
+    color: #F5A623;
+    background-color: transparent;
+  }
+  
+  .btn-outline-warning:not(:disabled):not(.disabled):active, .btn-outline-warning:not(:disabled):not(.disabled).active,
+  .show > .btn-outline-warning.dropdown-toggle {
+    color: #212529;
+    background-color: #F5A623;
+    border-color: #F5A623;
+  }
+  
+  .btn-outline-warning:not(:disabled):not(.disabled):active:focus, .btn-outline-warning:not(:disabled):not(.disabled).active:focus,
+  .show > .btn-outline-warning.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba(245, 166, 35, 0.5);
+  }
+  
+  .btn-outline-danger {
+    color: #FF5E6D;
+    background-color: transparent;
+    background-image: none;
+    border-color: #FF5E6D;
+  }
+  
+  .btn-outline-danger:hover {
+    color: #fff;
+    background-color: #FF5E6D;
+    border-color: #FF5E6D;
+  }
+  
+  .btn-outline-danger:focus, .btn-outline-danger.focus {
+    box-shadow: 0 0 0 0.2rem rgba(255, 94, 109, 0.5);
+  }
+  
+  .btn-outline-danger.disabled, .btn-outline-danger:disabled {
+    color: #FF5E6D;
+    background-color: transparent;
+  }
+  
+  .btn-outline-danger:not(:disabled):not(.disabled):active, .btn-outline-danger:not(:disabled):not(.disabled).active,
+  .show > .btn-outline-danger.dropdown-toggle {
+    color: #fff;
+    background-color: #FF5E6D;
+    border-color: #FF5E6D;
+  }
+  
+  .btn-outline-danger:not(:disabled):not(.disabled):active:focus, .btn-outline-danger:not(:disabled):not(.disabled).active:focus,
+  .show > .btn-outline-danger.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba(255, 94, 109, 0.5);
+  }
+  
+  .btn-outline-light, .navbar.default-layout-navbar.navbar-primary .navbar-menu-wrapper .navbar-nav .nav-item .nav-link .btn-outline-dark, .navbar.default-layout-navbar.navbar-secondary .navbar-menu-wrapper .navbar-nav .nav-item .nav-link .btn-outline-dark, .navbar.default-layout-navbar.navbar-success .navbar-menu-wrapper .navbar-nav .nav-item .nav-link .btn-outline-dark, .navbar.default-layout-navbar.navbar-info .navbar-menu-wrapper .navbar-nav .nav-item .nav-link .btn-outline-dark, .navbar.default-layout-navbar.navbar-warning .navbar-menu-wrapper .navbar-nav .nav-item .nav-link .btn-outline-dark, .navbar.default-layout-navbar.navbar-danger .navbar-menu-wrapper .navbar-nav .nav-item .nav-link .btn-outline-dark, .navbar.default-layout-navbar.navbar-light .navbar-menu-wrapper .navbar-nav .nav-item .nav-link .btn-outline-dark, .navbar.default-layout-navbar.navbar-dark .navbar-menu-wrapper .navbar-nav .nav-item .nav-link .btn-outline-dark {
+    color: #E9E8EF;
+    background-color: transparent;
+    background-image: none;
+    border-color: #E9E8EF;
+  }
+  
+  .btn-outline-light:hover, .navbar.default-layout-navbar.navbar-primary .navbar-menu-wrapper .navbar-nav .nav-item .nav-link .btn-outline-dark:hover, .navbar.default-layout-navbar.navbar-secondary .navbar-menu-wrapper .navbar-nav .nav-item .nav-link .btn-outline-dark:hover, .navbar.default-layout-navbar.navbar-success .navbar-menu-wrapper .navbar-nav .nav-item .nav-link .btn-outline-dark:hover, .navbar.default-layout-navbar.navbar-info .navbar-menu-wrapper .navbar-nav .nav-item .nav-link .btn-outline-dark:hover, .navbar.default-layout-navbar.navbar-warning .navbar-menu-wrapper .navbar-nav .nav-item .nav-link .btn-outline-dark:hover, .navbar.default-layout-navbar.navbar-danger .navbar-menu-wrapper .navbar-nav .nav-item .nav-link .btn-outline-dark:hover, .navbar.default-layout-navbar.navbar-light .navbar-menu-wrapper .navbar-nav .nav-item .nav-link .btn-outline-dark:hover, .navbar.default-layout-navbar.navbar-dark .navbar-menu-wrapper .navbar-nav .nav-item .nav-link .btn-outline-dark:hover {
+    color: #212529;
+    background-color: #E9E8EF;
+    border-color: #E9E8EF;
+  }
+  
+  .btn-outline-light:focus, .navbar.default-layout-navbar.navbar-primary .navbar-menu-wrapper .navbar-nav .nav-item .nav-link .btn-outline-dark:focus, .navbar.default-layout-navbar.navbar-secondary .navbar-menu-wrapper .navbar-nav .nav-item .nav-link .btn-outline-dark:focus, .navbar.default-layout-navbar.navbar-success .navbar-menu-wrapper .navbar-nav .nav-item .nav-link .btn-outline-dark:focus, .navbar.default-layout-navbar.navbar-info .navbar-menu-wrapper .navbar-nav .nav-item .nav-link .btn-outline-dark:focus, .navbar.default-layout-navbar.navbar-warning .navbar-menu-wrapper .navbar-nav .nav-item .nav-link .btn-outline-dark:focus, .navbar.default-layout-navbar.navbar-danger .navbar-menu-wrapper .navbar-nav .nav-item .nav-link .btn-outline-dark:focus, .navbar.default-layout-navbar.navbar-light .navbar-menu-wrapper .navbar-nav .nav-item .nav-link .btn-outline-dark:focus, .navbar.default-layout-navbar.navbar-dark .navbar-menu-wrapper .navbar-nav .nav-item .nav-link .btn-outline-dark:focus, .btn-outline-light.focus, .navbar.default-layout-navbar.navbar-primary .navbar-menu-wrapper .navbar-nav .nav-item .nav-link .focus.btn-outline-dark, .navbar.default-layout-navbar.navbar-secondary .navbar-menu-wrapper .navbar-nav .nav-item .nav-link .focus.btn-outline-dark, .navbar.default-layout-navbar.navbar-success .navbar-menu-wrapper .navbar-nav .nav-item .nav-link .focus.btn-outline-dark, .navbar.default-layout-navbar.navbar-info .navbar-menu-wrapper .navbar-nav .nav-item .nav-link .focus.btn-outline-dark, .navbar.default-layout-navbar.navbar-warning .navbar-menu-wrapper .navbar-nav .nav-item .nav-link .focus.btn-outline-dark, .navbar.default-layout-navbar.navbar-danger .navbar-menu-wrapper .navbar-nav .nav-item .nav-link .focus.btn-outline-dark, .navbar.default-layout-navbar.navbar-light .navbar-menu-wrapper .navbar-nav .nav-item .nav-link .focus.btn-outline-dark, .navbar.default-layout-navbar.navbar-dark .navbar-menu-wrapper .navbar-nav .nav-item .nav-link .focus.btn-outline-dark {
+    box-shadow: 0 0 0 0.2rem rgba(233, 232, 239, 0.5);
+  }
+  
+  .btn-outline-light.disabled, .navbar.default-layout-navbar.navbar-primary .navbar-menu-wrapper .navbar-nav .nav-item .nav-link .disabled.btn-outline-dark, .navbar.default-layout-navbar.navbar-secondary .navbar-menu-wrapper .navbar-nav .nav-item .nav-link .disabled.btn-outline-dark, .navbar.default-layout-navbar.navbar-success .navbar-menu-wrapper .navbar-nav .nav-item .nav-link .disabled.btn-outline-dark, .navbar.default-layout-navbar.navbar-info .navbar-menu-wrapper .navbar-nav .nav-item .nav-link .disabled.btn-outline-dark, .navbar.default-layout-navbar.navbar-warning .navbar-menu-wrapper .navbar-nav .nav-item .nav-link .disabled.btn-outline-dark, .navbar.default-layout-navbar.navbar-danger .navbar-menu-wrapper .navbar-nav .nav-item .nav-link .disabled.btn-outline-dark, .navbar.default-layout-navbar.navbar-light .navbar-menu-wrapper .navbar-nav .nav-item .nav-link .disabled.btn-outline-dark, .navbar.default-layout-navbar.navbar-dark .navbar-menu-wrapper .navbar-nav .nav-item .nav-link .disabled.btn-outline-dark, .btn-outline-light:disabled, .navbar.default-layout-navbar.navbar-primary .navbar-menu-wrapper .navbar-nav .nav-item .nav-link .btn-outline-dark:disabled, .navbar.default-layout-navbar.navbar-secondary .navbar-menu-wrapper .navbar-nav .nav-item .nav-link .btn-outline-dark:disabled, .navbar.default-layout-navbar.navbar-success .navbar-menu-wrapper .navbar-nav .nav-item .nav-link .btn-outline-dark:disabled, .navbar.default-layout-navbar.navbar-info .navbar-menu-wrapper .navbar-nav .nav-item .nav-link .btn-outline-dark:disabled, .navbar.default-layout-navbar.navbar-warning .navbar-menu-wrapper .navbar-nav .nav-item .nav-link .btn-outline-dark:disabled, .navbar.default-layout-navbar.navbar-danger .navbar-menu-wrapper .navbar-nav .nav-item .nav-link .btn-outline-dark:disabled, .navbar.default-layout-navbar.navbar-light .navbar-menu-wrapper .navbar-nav .nav-item .nav-link .btn-outline-dark:disabled, .navbar.default-layout-navbar.navbar-dark .navbar-menu-wrapper .navbar-nav .nav-item .nav-link .btn-outline-dark:disabled {
+    color: #E9E8EF;
+    background-color: transparent;
+  }
+  
+  .btn-outline-light:not(:disabled):not(.disabled):active, .navbar.default-layout-navbar.navbar-primary .navbar-menu-wrapper .navbar-nav .nav-item .nav-link .btn-outline-dark:not(:disabled):not(.disabled):active, .navbar.default-layout-navbar.navbar-secondary .navbar-menu-wrapper .navbar-nav .nav-item .nav-link .btn-outline-dark:not(:disabled):not(.disabled):active, .navbar.default-layout-navbar.navbar-success .navbar-menu-wrapper .navbar-nav .nav-item .nav-link .btn-outline-dark:not(:disabled):not(.disabled):active, .navbar.default-layout-navbar.navbar-info .navbar-menu-wrapper .navbar-nav .nav-item .nav-link .btn-outline-dark:not(:disabled):not(.disabled):active, .navbar.default-layout-navbar.navbar-warning .navbar-menu-wrapper .navbar-nav .nav-item .nav-link .btn-outline-dark:not(:disabled):not(.disabled):active, .navbar.default-layout-navbar.navbar-danger .navbar-menu-wrapper .navbar-nav .nav-item .nav-link .btn-outline-dark:not(:disabled):not(.disabled):active, .navbar.default-layout-navbar.navbar-light .navbar-menu-wrapper .navbar-nav .nav-item .nav-link .btn-outline-dark:not(:disabled):not(.disabled):active, .navbar.default-layout-navbar.navbar-dark .navbar-menu-wrapper .navbar-nav .nav-item .nav-link .btn-outline-dark:not(:disabled):not(.disabled):active, .btn-outline-light:not(:disabled):not(.disabled).active, .navbar.default-layout-navbar.navbar-primary .navbar-menu-wrapper .navbar-nav .nav-item .nav-link .btn-outline-dark:not(:disabled):not(.disabled).active, .navbar.default-layout-navbar.navbar-secondary .navbar-menu-wrapper .navbar-nav .nav-item .nav-link .btn-outline-dark:not(:disabled):not(.disabled).active, .navbar.default-layout-navbar.navbar-success .navbar-menu-wrapper .navbar-nav .nav-item .nav-link .btn-outline-dark:not(:disabled):not(.disabled).active, .navbar.default-layout-navbar.navbar-info .navbar-menu-wrapper .navbar-nav .nav-item .nav-link .btn-outline-dark:not(:disabled):not(.disabled).active, .navbar.default-layout-navbar.navbar-warning .navbar-menu-wrapper .navbar-nav .nav-item .nav-link .btn-outline-dark:not(:disabled):not(.disabled).active, .navbar.default-layout-navbar.navbar-danger .navbar-menu-wrapper .navbar-nav .nav-item .nav-link .btn-outline-dark:not(:disabled):not(.disabled).active, .navbar.default-layout-navbar.navbar-light .navbar-menu-wrapper .navbar-nav .nav-item .nav-link .btn-outline-dark:not(:disabled):not(.disabled).active, .navbar.default-layout-navbar.navbar-dark .navbar-menu-wrapper .navbar-nav .nav-item .nav-link .btn-outline-dark:not(:disabled):not(.disabled).active,
+  .show > .btn-outline-light.dropdown-toggle, .navbar.default-layout-navbar.navbar-primary .navbar-menu-wrapper .navbar-nav .nav-item .nav-link
+  .show > .dropdown-toggle.btn-outline-dark, .navbar.default-layout-navbar.navbar-secondary .navbar-menu-wrapper .navbar-nav .nav-item .nav-link
+  .show > .dropdown-toggle.btn-outline-dark, .navbar.default-layout-navbar.navbar-success .navbar-menu-wrapper .navbar-nav .nav-item .nav-link
+  .show > .dropdown-toggle.btn-outline-dark, .navbar.default-layout-navbar.navbar-info .navbar-menu-wrapper .navbar-nav .nav-item .nav-link
+  .show > .dropdown-toggle.btn-outline-dark, .navbar.default-layout-navbar.navbar-warning .navbar-menu-wrapper .navbar-nav .nav-item .nav-link
+  .show > .dropdown-toggle.btn-outline-dark, .navbar.default-layout-navbar.navbar-danger .navbar-menu-wrapper .navbar-nav .nav-item .nav-link
+  .show > .dropdown-toggle.btn-outline-dark, .navbar.default-layout-navbar.navbar-light .navbar-menu-wrapper .navbar-nav .nav-item .nav-link
+  .show > .dropdown-toggle.btn-outline-dark, .navbar.default-layout-navbar.navbar-dark .navbar-menu-wrapper .navbar-nav .nav-item .nav-link
+  .show > .dropdown-toggle.btn-outline-dark {
+    color: #212529;
+    background-color: #E9E8EF;
+    border-color: #E9E8EF;
+  }
+  
+  .btn-outline-light:not(:disabled):not(.disabled):active:focus, .navbar.default-layout-navbar.navbar-primary .navbar-menu-wrapper .navbar-nav .nav-item .nav-link .btn-outline-dark:not(:disabled):not(.disabled):active:focus, .navbar.default-layout-navbar.navbar-secondary .navbar-menu-wrapper .navbar-nav .nav-item .nav-link .btn-outline-dark:not(:disabled):not(.disabled):active:focus, .navbar.default-layout-navbar.navbar-success .navbar-menu-wrapper .navbar-nav .nav-item .nav-link .btn-outline-dark:not(:disabled):not(.disabled):active:focus, .navbar.default-layout-navbar.navbar-info .navbar-menu-wrapper .navbar-nav .nav-item .nav-link .btn-outline-dark:not(:disabled):not(.disabled):active:focus, .navbar.default-layout-navbar.navbar-warning .navbar-menu-wrapper .navbar-nav .nav-item .nav-link .btn-outline-dark:not(:disabled):not(.disabled):active:focus, .navbar.default-layout-navbar.navbar-danger .navbar-menu-wrapper .navbar-nav .nav-item .nav-link .btn-outline-dark:not(:disabled):not(.disabled):active:focus, .navbar.default-layout-navbar.navbar-light .navbar-menu-wrapper .navbar-nav .nav-item .nav-link .btn-outline-dark:not(:disabled):not(.disabled):active:focus, .navbar.default-layout-navbar.navbar-dark .navbar-menu-wrapper .navbar-nav .nav-item .nav-link .btn-outline-dark:not(:disabled):not(.disabled):active:focus, .btn-outline-light:not(:disabled):not(.disabled).active:focus, .navbar.default-layout-navbar.navbar-primary .navbar-menu-wrapper .navbar-nav .nav-item .nav-link .btn-outline-dark:not(:disabled):not(.disabled).active:focus, .navbar.default-layout-navbar.navbar-secondary .navbar-menu-wrapper .navbar-nav .nav-item .nav-link .btn-outline-dark:not(:disabled):not(.disabled).active:focus, .navbar.default-layout-navbar.navbar-success .navbar-menu-wrapper .navbar-nav .nav-item .nav-link .btn-outline-dark:not(:disabled):not(.disabled).active:focus, .navbar.default-layout-navbar.navbar-info .navbar-menu-wrapper .navbar-nav .nav-item .nav-link .btn-outline-dark:not(:disabled):not(.disabled).active:focus, .navbar.default-layout-navbar.navbar-warning .navbar-menu-wrapper .navbar-nav .nav-item .nav-link .btn-outline-dark:not(:disabled):not(.disabled).active:focus, .navbar.default-layout-navbar.navbar-danger .navbar-menu-wrapper .navbar-nav .nav-item .nav-link .btn-outline-dark:not(:disabled):not(.disabled).active:focus, .navbar.default-layout-navbar.navbar-light .navbar-menu-wrapper .navbar-nav .nav-item .nav-link .btn-outline-dark:not(:disabled):not(.disabled).active:focus, .navbar.default-layout-navbar.navbar-dark .navbar-menu-wrapper .navbar-nav .nav-item .nav-link .btn-outline-dark:not(:disabled):not(.disabled).active:focus,
+  .show > .btn-outline-light.dropdown-toggle:focus, .navbar.default-layout-navbar.navbar-primary .navbar-menu-wrapper .navbar-nav .nav-item .nav-link
+  .show > .dropdown-toggle.btn-outline-dark:focus, .navbar.default-layout-navbar.navbar-secondary .navbar-menu-wrapper .navbar-nav .nav-item .nav-link
+  .show > .dropdown-toggle.btn-outline-dark:focus, .navbar.default-layout-navbar.navbar-success .navbar-menu-wrapper .navbar-nav .nav-item .nav-link
+  .show > .dropdown-toggle.btn-outline-dark:focus, .navbar.default-layout-navbar.navbar-info .navbar-menu-wrapper .navbar-nav .nav-item .nav-link
+  .show > .dropdown-toggle.btn-outline-dark:focus, .navbar.default-layout-navbar.navbar-warning .navbar-menu-wrapper .navbar-nav .nav-item .nav-link
+  .show > .dropdown-toggle.btn-outline-dark:focus, .navbar.default-layout-navbar.navbar-danger .navbar-menu-wrapper .navbar-nav .nav-item .nav-link
+  .show > .dropdown-toggle.btn-outline-dark:focus, .navbar.default-layout-navbar.navbar-light .navbar-menu-wrapper .navbar-nav .nav-item .nav-link
+  .show > .dropdown-toggle.btn-outline-dark:focus, .navbar.default-layout-navbar.navbar-dark .navbar-menu-wrapper .navbar-nav .nav-item .nav-link
+  .show > .dropdown-toggle.btn-outline-dark:focus {
+    box-shadow: 0 0 0 0.2rem rgba(233, 232, 239, 0.5);
+  }
+  
+  .btn-outline-dark {
+    color: #3a3f51;
+    background-color: transparent;
+    background-image: none;
+    border-color: #3a3f51;
+  }
+  
+  .btn-outline-dark:hover {
+    color: #fff;
+    background-color: #3a3f51;
+    border-color: #3a3f51;
+  }
+  
+  .btn-outline-dark:focus, .btn-outline-dark.focus {
+    box-shadow: 0 0 0 0.2rem rgba(58, 63, 81, 0.5);
+  }
+  
+  .btn-outline-dark.disabled, .btn-outline-dark:disabled {
+    color: #3a3f51;
+    background-color: transparent;
+  }
+  
+  .btn-outline-dark:not(:disabled):not(.disabled):active, .btn-outline-dark:not(:disabled):not(.disabled).active,
+  .show > .btn-outline-dark.dropdown-toggle {
+    color: #fff;
+    background-color: #3a3f51;
+    border-color: #3a3f51;
+  }
+  
+  .btn-outline-dark:not(:disabled):not(.disabled):active:focus, .btn-outline-dark:not(:disabled):not(.disabled).active:focus,
+  .show > .btn-outline-dark.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba(58, 63, 81, 0.5);
+  }
+  
+  .btn-link {
+    font-weight: 400;
+    color: #007bff;
+    background-color: transparent;
+  }
+  
+  .btn-link:hover {
+    color: #0056b3;
+    text-decoration: underline;
+    background-color: transparent;
+    border-color: transparent;
+  }
+  
+  .btn-link:focus, .btn-link.focus {
+    text-decoration: underline;
+    border-color: transparent;
+    box-shadow: none;
+  }
+  
+  .btn-link:disabled, .btn-link.disabled {
+    color: #6c757d;
+    pointer-events: none;
+  }
+  
+  .btn-lg, .btn-group-lg > .btn, .fc .btn-group-lg > button, .ajax-upload-dragdrop .btn-group-lg > .ajax-file-upload, .swal2-modal .swal2-buttonswrapper .btn-group-lg > .swal2-styled, .wizard > .actions .btn-group-lg > a {
+    padding: 0.875rem 2rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    border-radius: 0.1875rem;
+  }
+  
+  .btn-sm, .btn-group-sm > .btn, .fc .btn-group-sm > button, .ajax-upload-dragdrop .btn-group-sm > .ajax-file-upload, .swal2-modal .swal2-buttonswrapper .btn-group-sm > .swal2-styled, .wizard > .actions .btn-group-sm > a, .fc button {
+    padding: 0.5rem 0.81rem;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    border-radius: 0.1875rem;
+  }
+  
+  .btn-block {
+    display: block;
+    width: 100%;
+  }
+  
+  .btn-block + .btn-block {
+    margin-top: 0.5rem;
+  }
+  
+  input[type="submit"].btn-block,
+  input[type="reset"].btn-block,
+  input[type="button"].btn-block {
+    width: 100%;
+  }
+  
+  .fade {
+    transition: opacity 0.15s linear;
+  }
+  
+  @media screen and (prefers-reduced-motion: reduce) {
+    .fade {
+      transition: none;
+    }
+  }
+  
+  .fade:not(.show) {
+    opacity: 0;
+  }
+  
+  .collapse:not(.show) {
+    display: none;
+  }
+  
+  .collapsing {
+    position: relative;
+    height: 0;
+    overflow: hidden;
+    transition: height 0.35s ease;
+  }
+  
+  @media screen and (prefers-reduced-motion: reduce) {
+    .collapsing {
+      transition: none;
+    }
+  }
+  
+  .dropup,
+  .dropright,
+  .dropdown,
+  .dropleft {
+    position: relative;
+  }
+  
+  .dropdown-toggle::after {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 0.255em;
+    vertical-align: 0.255em;
+    content: "";
+    border-top: 0.3em solid;
+    border-right: 0.3em solid transparent;
+    border-bottom: 0;
+    border-left: 0.3em solid transparent;
+  }
+  
+  .dropdown-toggle:empty::after {
+    margin-left: 0;
+  }
+  
+  .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 10rem;
+    padding: 0.5rem 0;
+    margin: 0.125rem 0 0;
+    font-size: 1rem;
+    color: #000000;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #e0e0ef;
+    border-radius: 0.25rem;
+  }
+  
+  .dropdown-menu-right {
+    right: 0;
+    left: auto;
+  }
+  
+  .dropup .dropdown-menu {
+    top: auto;
+    bottom: 100%;
+    margin-top: 0;
+    margin-bottom: 0.125rem;
+  }
+  
+  .dropup .dropdown-toggle::after {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 0.255em;
+    vertical-align: 0.255em;
+    content: "";
+    border-top: 0;
+    border-right: 0.3em solid transparent;
+    border-bottom: 0.3em solid;
+    border-left: 0.3em solid transparent;
+  }
+  
+  .dropup .dropdown-toggle:empty::after {
+    margin-left: 0;
+  }
+  
+  .dropright .dropdown-menu {
+    top: 0;
+    right: auto;
+    left: 100%;
+    margin-top: 0;
+    margin-left: 0.125rem;
+  }
+  
+  .dropright .dropdown-toggle::after {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 0.255em;
+    vertical-align: 0.255em;
+    content: "";
+    border-top: 0.3em solid transparent;
+    border-right: 0;
+    border-bottom: 0.3em solid transparent;
+    border-left: 0.3em solid;
+  }
+  
+  .dropright .dropdown-toggle:empty::after {
+    margin-left: 0;
+  }
+  
+  .dropright .dropdown-toggle::after {
+    vertical-align: 0;
+  }
+  
+  .dropleft .dropdown-menu {
+    top: 0;
+    right: 100%;
+    left: auto;
+    margin-top: 0;
+    margin-right: 0.125rem;
+  }
+  
+  .dropleft .dropdown-toggle::after {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 0.255em;
+    vertical-align: 0.255em;
+    content: "";
+  }
+  
+  .dropleft .dropdown-toggle::after {
+    display: none;
+  }
+  
+  .dropleft .dropdown-toggle::before {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-right: 0.255em;
+    vertical-align: 0.255em;
+    content: "";
+    border-top: 0.3em solid transparent;
+    border-right: 0.3em solid;
+    border-bottom: 0.3em solid transparent;
+  }
+  
+  .dropleft .dropdown-toggle:empty::after {
+    margin-left: 0;
+  }
+  
+  .dropleft .dropdown-toggle::before {
+    vertical-align: 0;
+  }
+  
+  .dropdown-menu[x-placement^="top"], .dropdown-menu[x-placement^="right"], .dropdown-menu[x-placement^="bottom"], .dropdown-menu[x-placement^="left"] {
+    right: auto;
+    bottom: auto;
+  }
+  
+  .dropdown-divider {
+    height: 0;
+    margin: 0.5rem 0;
+    overflow: hidden;
+    border-top: 1px solid #e0e0ef;
+  }
+  
+  .dropdown-item {
+    display: block;
+    width: 100%;
+    padding: 0.25rem 1.5rem;
+    clear: both;
+    font-weight: 400;
+    color: #000000;
+    text-align: inherit;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+  }
+  
+  .dropdown-item:hover, .dropdown-item:focus {
+    color: #16181b;
+    text-decoration: none;
+    background-color: #f8f9fa;
+  }
+  
+  .dropdown-item.active, .dropdown-item:active {
+    color: #fff;
+    text-decoration: none;
+    background-color: #007bff;
+  }
+  
+  .dropdown-item.disabled, .dropdown-item:disabled {
+    color: #6c757d;
+    background-color: transparent;
+  }
+  
+  .dropdown-menu.show {
+    display: block;
+  }
+  
+  .dropdown-header {
+    display: block;
+    padding: 0.5rem 1.5rem;
+    margin-bottom: 0;
+    font-size: 0.875rem;
+    color: #000000;
+    white-space: nowrap;
+  }
+  
+  .dropdown-item-text {
+    display: block;
+    padding: 0.25rem 1.5rem;
+    color: #000000;
+  }
+  
+  .btn-group, .fc .fc-button-group,
+  .btn-group-vertical {
+    position: relative;
+    display: inline-flex;
+    vertical-align: middle;
+  }
+  
+  .btn-group > .btn, .fc .fc-button-group > .btn, .fc .btn-group > button, .fc .fc-button-group > button, .ajax-upload-dragdrop .btn-group > .ajax-file-upload, .fc .ajax-upload-dragdrop .fc-button-group > .ajax-file-upload, .ajax-upload-dragdrop .fc .fc-button-group > .ajax-file-upload, .swal2-modal .swal2-buttonswrapper .btn-group > .swal2-styled, .fc .swal2-modal .swal2-buttonswrapper .fc-button-group > .swal2-styled, .swal2-modal .swal2-buttonswrapper .fc .fc-button-group > .swal2-styled, .wizard > .actions .btn-group > a, .fc .wizard > .actions .fc-button-group > a, .wizard > .actions .fc .fc-button-group > a,
+  .btn-group-vertical > .btn, .fc
+  .btn-group-vertical > button, .ajax-upload-dragdrop
+  .btn-group-vertical > .ajax-file-upload, .swal2-modal .swal2-buttonswrapper
+  .btn-group-vertical > .swal2-styled, .wizard > .actions
+  .btn-group-vertical > a {
+    position: relative;
+    flex: 0 1 auto;
+  }
+  
+  .btn-group > .btn:hover, .fc .fc-button-group > .btn:hover, .fc .btn-group > button:hover, .fc .fc-button-group > button:hover, .ajax-upload-dragdrop .btn-group > .ajax-file-upload:hover, .fc .ajax-upload-dragdrop .fc-button-group > .ajax-file-upload:hover, .ajax-upload-dragdrop .fc .fc-button-group > .ajax-file-upload:hover, .swal2-modal .swal2-buttonswrapper .btn-group > .swal2-styled:hover, .fc .swal2-modal .swal2-buttonswrapper .fc-button-group > .swal2-styled:hover, .swal2-modal .swal2-buttonswrapper .fc .fc-button-group > .swal2-styled:hover, .wizard > .actions .btn-group > a:hover, .fc .wizard > .actions .fc-button-group > a:hover, .wizard > .actions .fc .fc-button-group > a:hover,
+  .btn-group-vertical > .btn:hover, .fc
+  .btn-group-vertical > button:hover, .ajax-upload-dragdrop
+  .btn-group-vertical > .ajax-file-upload:hover, .swal2-modal .swal2-buttonswrapper
+  .btn-group-vertical > .swal2-styled:hover, .wizard > .actions
+  .btn-group-vertical > a:hover {
+    z-index: 1;
+  }
+  
+  .btn-group > .btn:focus, .fc .fc-button-group > .btn:focus, .fc .btn-group > button:focus, .fc .fc-button-group > button:focus, .ajax-upload-dragdrop .btn-group > .ajax-file-upload:focus, .fc .ajax-upload-dragdrop .fc-button-group > .ajax-file-upload:focus, .ajax-upload-dragdrop .fc .fc-button-group > .ajax-file-upload:focus, .swal2-modal .swal2-buttonswrapper .btn-group > .swal2-styled:focus, .fc .swal2-modal .swal2-buttonswrapper .fc-button-group > .swal2-styled:focus, .swal2-modal .swal2-buttonswrapper .fc .fc-button-group > .swal2-styled:focus, .wizard > .actions .btn-group > a:focus, .fc .wizard > .actions .fc-button-group > a:focus, .wizard > .actions .fc .fc-button-group > a:focus, .btn-group > .btn:active, .fc .fc-button-group > .btn:active, .fc .btn-group > button:active, .fc .fc-button-group > button:active, .ajax-upload-dragdrop .btn-group > .ajax-file-upload:active, .fc .ajax-upload-dragdrop .fc-button-group > .ajax-file-upload:active, .ajax-upload-dragdrop .fc .fc-button-group > .ajax-file-upload:active, .swal2-modal .swal2-buttonswrapper .btn-group > .swal2-styled:active, .fc .swal2-modal .swal2-buttonswrapper .fc-button-group > .swal2-styled:active, .swal2-modal .swal2-buttonswrapper .fc .fc-button-group > .swal2-styled:active, .wizard > .actions .btn-group > a:active, .fc .wizard > .actions .fc-button-group > a:active, .wizard > .actions .fc .fc-button-group > a:active, .btn-group > .btn.active, .fc .fc-button-group > .btn.active, .fc .btn-group > button.active, .fc .fc-button-group > button.active, .ajax-upload-dragdrop .btn-group > .active.ajax-file-upload, .fc .ajax-upload-dragdrop .fc-button-group > .active.ajax-file-upload, .ajax-upload-dragdrop .fc .fc-button-group > .active.ajax-file-upload, .swal2-modal .swal2-buttonswrapper .btn-group > .active.swal2-styled, .fc .swal2-modal .swal2-buttonswrapper .fc-button-group > .active.swal2-styled, .swal2-modal .swal2-buttonswrapper .fc .fc-button-group > .active.swal2-styled, .wizard > .actions .btn-group > a.active, .fc .wizard > .actions .fc-button-group > a.active, .wizard > .actions .fc .fc-button-group > a.active,
+  .btn-group-vertical > .btn:focus, .fc
+  .btn-group-vertical > button:focus, .ajax-upload-dragdrop
+  .btn-group-vertical > .ajax-file-upload:focus, .swal2-modal .swal2-buttonswrapper
+  .btn-group-vertical > .swal2-styled:focus, .wizard > .actions
+  .btn-group-vertical > a:focus,
+  .btn-group-vertical > .btn:active, .fc
+  .btn-group-vertical > button:active, .ajax-upload-dragdrop
+  .btn-group-vertical > .ajax-file-upload:active, .swal2-modal .swal2-buttonswrapper
+  .btn-group-vertical > .swal2-styled:active, .wizard > .actions
+  .btn-group-vertical > a:active,
+  .btn-group-vertical > .btn.active, .fc
+  .btn-group-vertical > button.active, .ajax-upload-dragdrop
+  .btn-group-vertical > .active.ajax-file-upload, .swal2-modal .swal2-buttonswrapper
+  .btn-group-vertical > .active.swal2-styled, .wizard > .actions
+  .btn-group-vertical > a.active {
+    z-index: 1;
+  }
+  
+  .btn-group .btn + .btn, .fc .fc-button-group .btn + .btn, .btn-group .fc button + .btn, .fc .btn-group button + .btn, .fc .fc-button-group button + .btn, .btn-group .ajax-upload-dragdrop .ajax-file-upload + .btn, .ajax-upload-dragdrop .btn-group .ajax-file-upload + .btn, .fc .fc-button-group .ajax-upload-dragdrop .ajax-file-upload + .btn, .ajax-upload-dragdrop .fc .fc-button-group .ajax-file-upload + .btn, .btn-group .swal2-modal .swal2-buttonswrapper .swal2-styled + .btn, .swal2-modal .swal2-buttonswrapper .btn-group .swal2-styled + .btn, .fc .fc-button-group .swal2-modal .swal2-buttonswrapper .swal2-styled + .btn, .swal2-modal .swal2-buttonswrapper .fc .fc-button-group .swal2-styled + .btn, .btn-group .wizard > .actions a + .btn, .wizard > .actions .btn-group a + .btn, .fc .fc-button-group .wizard > .actions a + .btn, .wizard > .actions .fc .fc-button-group a + .btn, .btn-group .fc .btn + button, .fc .btn-group .btn + button, .fc .fc-button-group .btn + button, .btn-group .fc button + button, .fc .btn-group button + button, .fc .fc-button-group button + button, .btn-group .ajax-upload-dragdrop .fc .ajax-file-upload + button, .fc .btn-group .ajax-upload-dragdrop .ajax-file-upload + button, .ajax-upload-dragdrop .btn-group .fc .ajax-file-upload + button, .fc .ajax-upload-dragdrop .btn-group .ajax-file-upload + button, .fc .fc-button-group .ajax-upload-dragdrop .ajax-file-upload + button, .ajax-upload-dragdrop .fc .fc-button-group .ajax-file-upload + button, .btn-group .swal2-modal .swal2-buttonswrapper .fc .swal2-styled + button, .fc .btn-group .swal2-modal .swal2-buttonswrapper .swal2-styled + button, .swal2-modal .swal2-buttonswrapper .btn-group .fc .swal2-styled + button, .fc .swal2-modal .swal2-buttonswrapper .btn-group .swal2-styled + button, .fc .fc-button-group .swal2-modal .swal2-buttonswrapper .swal2-styled + button, .swal2-modal .swal2-buttonswrapper .fc .fc-button-group .swal2-styled + button, .btn-group .wizard > .actions .fc a + button, .fc .btn-group .wizard > .actions a + button, .wizard > .actions .btn-group .fc a + button, .fc .wizard > .actions .btn-group a + button, .fc .fc-button-group .wizard > .actions a + button, .wizard > .actions .fc .fc-button-group a + button, .btn-group .ajax-upload-dragdrop .btn + .ajax-file-upload, .ajax-upload-dragdrop .btn-group .btn + .ajax-file-upload, .fc .fc-button-group .ajax-upload-dragdrop .btn + .ajax-file-upload, .ajax-upload-dragdrop .fc .fc-button-group .btn + .ajax-file-upload, .btn-group .fc .ajax-upload-dragdrop button + .ajax-file-upload, .ajax-upload-dragdrop .btn-group .fc button + .ajax-file-upload, .fc .btn-group .ajax-upload-dragdrop button + .ajax-file-upload, .ajax-upload-dragdrop .fc .btn-group button + .ajax-file-upload, .fc .fc-button-group .ajax-upload-dragdrop button + .ajax-file-upload, .ajax-upload-dragdrop .fc .fc-button-group button + .ajax-file-upload, .btn-group .ajax-upload-dragdrop .ajax-file-upload + .ajax-file-upload, .ajax-upload-dragdrop .btn-group .ajax-file-upload + .ajax-file-upload, .fc .fc-button-group .ajax-upload-dragdrop .ajax-file-upload + .ajax-file-upload, .ajax-upload-dragdrop .fc .fc-button-group .ajax-file-upload + .ajax-file-upload, .btn-group .swal2-modal .swal2-buttonswrapper .ajax-upload-dragdrop .swal2-styled + .ajax-file-upload, .ajax-upload-dragdrop .btn-group .swal2-modal .swal2-buttonswrapper .swal2-styled + .ajax-file-upload, .swal2-modal .swal2-buttonswrapper .btn-group .ajax-upload-dragdrop .swal2-styled + .ajax-file-upload, .ajax-upload-dragdrop .swal2-modal .swal2-buttonswrapper .btn-group .swal2-styled + .ajax-file-upload, .fc .fc-button-group .swal2-modal .swal2-buttonswrapper .ajax-upload-dragdrop .swal2-styled + .ajax-file-upload, .ajax-upload-dragdrop .fc .fc-button-group .swal2-modal .swal2-buttonswrapper .swal2-styled + .ajax-file-upload, .swal2-modal .swal2-buttonswrapper .fc .fc-button-group .ajax-upload-dragdrop .swal2-styled + .ajax-file-upload, .ajax-upload-dragdrop .swal2-modal .swal2-buttonswrapper .fc .fc-button-group .swal2-styled + .ajax-file-upload, .btn-group .wizard > .actions .ajax-upload-dragdrop a + .ajax-file-upload, .ajax-upload-dragdrop .btn-group .wizard > .actions a + .ajax-file-upload, .wizard > .actions .btn-group .ajax-upload-dragdrop a + .ajax-file-upload, .ajax-upload-dragdrop .wizard > .actions .btn-group a + .ajax-file-upload, .fc .fc-button-group .wizard > .actions .ajax-upload-dragdrop a + .ajax-file-upload, .ajax-upload-dragdrop .fc .fc-button-group .wizard > .actions a + .ajax-file-upload, .wizard > .actions .fc .fc-button-group .ajax-upload-dragdrop a + .ajax-file-upload, .ajax-upload-dragdrop .wizard > .actions .fc .fc-button-group a + .ajax-file-upload, .btn-group .swal2-modal .swal2-buttonswrapper .btn + .swal2-styled, .swal2-modal .swal2-buttonswrapper .btn-group .btn + .swal2-styled, .fc .fc-button-group .swal2-modal .swal2-buttonswrapper .btn + .swal2-styled, .swal2-modal .swal2-buttonswrapper .fc .fc-button-group .btn + .swal2-styled, .btn-group .fc .swal2-modal .swal2-buttonswrapper button + .swal2-styled, .swal2-modal .swal2-buttonswrapper .btn-group .fc button + .swal2-styled, .fc .btn-group .swal2-modal .swal2-buttonswrapper button + .swal2-styled, .swal2-modal .swal2-buttonswrapper .fc .btn-group button + .swal2-styled, .fc .fc-button-group .swal2-modal .swal2-buttonswrapper button + .swal2-styled, .swal2-modal .swal2-buttonswrapper .fc .fc-button-group button + .swal2-styled, .btn-group .ajax-upload-dragdrop .swal2-modal .swal2-buttonswrapper .ajax-file-upload + .swal2-styled, .swal2-modal .swal2-buttonswrapper .btn-group .ajax-upload-dragdrop .ajax-file-upload + .swal2-styled, .ajax-upload-dragdrop .btn-group .swal2-modal .swal2-buttonswrapper .ajax-file-upload + .swal2-styled, .swal2-modal .swal2-buttonswrapper .ajax-upload-dragdrop .btn-group .ajax-file-upload + .swal2-styled, .fc .fc-button-group .ajax-upload-dragdrop .swal2-modal .swal2-buttonswrapper .ajax-file-upload + .swal2-styled, .swal2-modal .swal2-buttonswrapper .fc .fc-button-group .ajax-upload-dragdrop .ajax-file-upload + .swal2-styled, .ajax-upload-dragdrop .fc .fc-button-group .swal2-modal .swal2-buttonswrapper .ajax-file-upload + .swal2-styled, .swal2-modal .swal2-buttonswrapper .ajax-upload-dragdrop .fc .fc-button-group .ajax-file-upload + .swal2-styled, .btn-group .swal2-modal .swal2-buttonswrapper .swal2-styled + .swal2-styled, .swal2-modal .swal2-buttonswrapper .btn-group .swal2-styled + .swal2-styled, .fc .fc-button-group .swal2-modal .swal2-buttonswrapper .swal2-styled + .swal2-styled, .swal2-modal .swal2-buttonswrapper .fc .fc-button-group .swal2-styled + .swal2-styled, .btn-group .wizard > .actions .swal2-modal .swal2-buttonswrapper a + .swal2-styled, .swal2-modal .swal2-buttonswrapper .btn-group .wizard > .actions a + .swal2-styled, .wizard > .actions .btn-group .swal2-modal .swal2-buttonswrapper a + .swal2-styled, .swal2-modal .swal2-buttonswrapper .wizard > .actions .btn-group a + .swal2-styled, .fc .fc-button-group .wizard > .actions .swal2-modal .swal2-buttonswrapper a + .swal2-styled, .swal2-modal .swal2-buttonswrapper .fc .fc-button-group .wizard > .actions a + .swal2-styled, .wizard > .actions .fc .fc-button-group .swal2-modal .swal2-buttonswrapper a + .swal2-styled, .swal2-modal .swal2-buttonswrapper .wizard > .actions .fc .fc-button-group a + .swal2-styled, .btn-group .wizard > .actions .btn + a, .wizard > .actions .btn-group .btn + a, .fc .fc-button-group .wizard > .actions .btn + a, .wizard > .actions .fc .fc-button-group .btn + a, .btn-group .fc .wizard > .actions button + a, .wizard > .actions .btn-group .fc button + a, .fc .btn-group .wizard > .actions button + a, .wizard > .actions .fc .btn-group button + a, .fc .fc-button-group .wizard > .actions button + a, .wizard > .actions .fc .fc-button-group button + a, .btn-group .ajax-upload-dragdrop .wizard > .actions .ajax-file-upload + a, .wizard > .actions .btn-group .ajax-upload-dragdrop .ajax-file-upload + a, .ajax-upload-dragdrop .btn-group .wizard > .actions .ajax-file-upload + a, .wizard > .actions .ajax-upload-dragdrop .btn-group .ajax-file-upload + a, .fc .fc-button-group .ajax-upload-dragdrop .wizard > .actions .ajax-file-upload + a, .wizard > .actions .fc .fc-button-group .ajax-upload-dragdrop .ajax-file-upload + a, .ajax-upload-dragdrop .fc .fc-button-group .wizard > .actions .ajax-file-upload + a, .wizard > .actions .ajax-upload-dragdrop .fc .fc-button-group .ajax-file-upload + a, .btn-group .swal2-modal .swal2-buttonswrapper .wizard > .actions .swal2-styled + a, .wizard > .actions .btn-group .swal2-modal .swal2-buttonswrapper .swal2-styled + a, .swal2-modal .swal2-buttonswrapper .btn-group .wizard > .actions .swal2-styled + a, .wizard > .actions .swal2-modal .swal2-buttonswrapper .btn-group .swal2-styled + a, .fc .fc-button-group .swal2-modal .swal2-buttonswrapper .wizard > .actions .swal2-styled + a, .wizard > .actions .fc .fc-button-group .swal2-modal .swal2-buttonswrapper .swal2-styled + a, .swal2-modal .swal2-buttonswrapper .fc .fc-button-group .wizard > .actions .swal2-styled + a, .wizard > .actions .swal2-modal .swal2-buttonswrapper .fc .fc-button-group .swal2-styled + a, .btn-group .wizard > .actions a + a, .wizard > .actions .btn-group a + a, .fc .fc-button-group .wizard > .actions a + a, .wizard > .actions .fc .fc-button-group a + a,
+  .btn-group .btn + .btn-group, .fc .fc-button-group .btn + .btn-group,
+  .btn-group .fc button + .btn-group, .fc
+  .btn-group button + .btn-group, .fc .fc-button-group button + .btn-group,
+  .btn-group .ajax-upload-dragdrop .ajax-file-upload + .btn-group, .ajax-upload-dragdrop
+  .btn-group .ajax-file-upload + .btn-group, .fc .fc-button-group .ajax-upload-dragdrop .ajax-file-upload + .btn-group, .ajax-upload-dragdrop .fc .fc-button-group .ajax-file-upload + .btn-group,
+  .btn-group .swal2-modal .swal2-buttonswrapper .swal2-styled + .btn-group, .swal2-modal .swal2-buttonswrapper
+  .btn-group .swal2-styled + .btn-group, .fc .fc-button-group .swal2-modal .swal2-buttonswrapper .swal2-styled + .btn-group, .swal2-modal .swal2-buttonswrapper .fc .fc-button-group .swal2-styled + .btn-group,
+  .btn-group .wizard > .actions a + .btn-group, .wizard > .actions
+  .btn-group a + .btn-group, .fc .fc-button-group .wizard > .actions a + .btn-group, .wizard > .actions .fc .fc-button-group a + .btn-group,
+  .btn-group .fc .btn + .fc-button-group, .fc
+  .btn-group .btn + .fc-button-group, .fc .fc-button-group .btn + .fc-button-group,
+  .btn-group .fc button + .fc-button-group, .fc
+  .btn-group button + .fc-button-group, .fc .fc-button-group button + .fc-button-group,
+  .btn-group .ajax-upload-dragdrop .fc .ajax-file-upload + .fc-button-group, .fc
+  .btn-group .ajax-upload-dragdrop .ajax-file-upload + .fc-button-group, .ajax-upload-dragdrop
+  .btn-group .fc .ajax-file-upload + .fc-button-group, .fc .ajax-upload-dragdrop
+  .btn-group .ajax-file-upload + .fc-button-group, .fc .fc-button-group .ajax-upload-dragdrop .ajax-file-upload + .fc-button-group, .ajax-upload-dragdrop .fc .fc-button-group .ajax-file-upload + .fc-button-group,
+  .btn-group .swal2-modal .swal2-buttonswrapper .fc .swal2-styled + .fc-button-group, .fc
+  .btn-group .swal2-modal .swal2-buttonswrapper .swal2-styled + .fc-button-group, .swal2-modal .swal2-buttonswrapper
+  .btn-group .fc .swal2-styled + .fc-button-group, .fc .swal2-modal .swal2-buttonswrapper
+  .btn-group .swal2-styled + .fc-button-group, .fc .fc-button-group .swal2-modal .swal2-buttonswrapper .swal2-styled + .fc-button-group, .swal2-modal .swal2-buttonswrapper .fc .fc-button-group .swal2-styled + .fc-button-group,
+  .btn-group .wizard > .actions .fc a + .fc-button-group, .fc
+  .btn-group .wizard > .actions a + .fc-button-group, .wizard > .actions
+  .btn-group .fc a + .fc-button-group, .fc .wizard > .actions
+  .btn-group a + .fc-button-group, .fc .fc-button-group .wizard > .actions a + .fc-button-group, .wizard > .actions .fc .fc-button-group a + .fc-button-group,
+  .btn-group .btn-group + .btn, .fc .fc-button-group .btn-group + .btn,
+  .btn-group .fc .fc-button-group + .btn, .fc
+  .btn-group .fc-button-group + .btn, .fc .fc-button-group .fc-button-group + .btn,
+  .btn-group .fc .btn-group + button, .fc
+  .btn-group .btn-group + button, .fc .fc-button-group .btn-group + button,
+  .btn-group .fc .fc-button-group + button, .fc
+  .btn-group .fc-button-group + button, .fc .fc-button-group .fc-button-group + button,
+  .btn-group .ajax-upload-dragdrop .btn-group + .ajax-file-upload, .ajax-upload-dragdrop
+  .btn-group .btn-group + .ajax-file-upload, .fc .fc-button-group .ajax-upload-dragdrop .btn-group + .ajax-file-upload, .ajax-upload-dragdrop .fc .fc-button-group .btn-group + .ajax-file-upload,
+  .btn-group .fc .ajax-upload-dragdrop .fc-button-group + .ajax-file-upload, .ajax-upload-dragdrop
+  .btn-group .fc .fc-button-group + .ajax-file-upload, .fc
+  .btn-group .ajax-upload-dragdrop .fc-button-group + .ajax-file-upload, .ajax-upload-dragdrop .fc
+  .btn-group .fc-button-group + .ajax-file-upload, .fc .fc-button-group .ajax-upload-dragdrop .fc-button-group + .ajax-file-upload, .ajax-upload-dragdrop .fc .fc-button-group .fc-button-group + .ajax-file-upload,
+  .btn-group .swal2-modal .swal2-buttonswrapper .btn-group + .swal2-styled, .swal2-modal .swal2-buttonswrapper
+  .btn-group .btn-group + .swal2-styled, .fc .fc-button-group .swal2-modal .swal2-buttonswrapper .btn-group + .swal2-styled, .swal2-modal .swal2-buttonswrapper .fc .fc-button-group .btn-group + .swal2-styled,
+  .btn-group .fc .swal2-modal .swal2-buttonswrapper .fc-button-group + .swal2-styled, .swal2-modal .swal2-buttonswrapper
+  .btn-group .fc .fc-button-group + .swal2-styled, .fc
+  .btn-group .swal2-modal .swal2-buttonswrapper .fc-button-group + .swal2-styled, .swal2-modal .swal2-buttonswrapper .fc
+  .btn-group .fc-button-group + .swal2-styled, .fc .fc-button-group .swal2-modal .swal2-buttonswrapper .fc-button-group + .swal2-styled, .swal2-modal .swal2-buttonswrapper .fc .fc-button-group .fc-button-group + .swal2-styled,
+  .btn-group .wizard > .actions .btn-group + a, .wizard > .actions
+  .btn-group .btn-group + a, .fc .fc-button-group .wizard > .actions .btn-group + a, .wizard > .actions .fc .fc-button-group .btn-group + a,
+  .btn-group .fc .wizard > .actions .fc-button-group + a, .wizard > .actions
+  .btn-group .fc .fc-button-group + a, .fc
+  .btn-group .wizard > .actions .fc-button-group + a, .wizard > .actions .fc
+  .btn-group .fc-button-group + a, .fc .fc-button-group .wizard > .actions .fc-button-group + a, .wizard > .actions .fc .fc-button-group .fc-button-group + a,
+  .btn-group .btn-group + .btn-group, .fc .fc-button-group .btn-group + .btn-group,
+  .btn-group .fc .fc-button-group + .btn-group, .fc
+  .btn-group .fc-button-group + .btn-group, .fc .fc-button-group .fc-button-group + .btn-group,
+  .btn-group .fc .btn-group + .fc-button-group, .fc
+  .btn-group .btn-group + .fc-button-group, .fc .fc-button-group .btn-group + .fc-button-group,
+  .btn-group .fc .fc-button-group + .fc-button-group, .fc
+  .btn-group .fc-button-group + .fc-button-group, .fc .fc-button-group .fc-button-group + .fc-button-group,
+  .btn-group-vertical .btn + .btn,
+  .btn-group-vertical .fc button + .btn, .fc
+  .btn-group-vertical button + .btn,
+  .btn-group-vertical .ajax-upload-dragdrop .ajax-file-upload + .btn, .ajax-upload-dragdrop
+  .btn-group-vertical .ajax-file-upload + .btn,
+  .btn-group-vertical .swal2-modal .swal2-buttonswrapper .swal2-styled + .btn, .swal2-modal .swal2-buttonswrapper
+  .btn-group-vertical .swal2-styled + .btn,
+  .btn-group-vertical .wizard > .actions a + .btn, .wizard > .actions
+  .btn-group-vertical a + .btn,
+  .btn-group-vertical .fc .btn + button, .fc
+  .btn-group-vertical .btn + button,
+  .btn-group-vertical .fc button + button, .fc
+  .btn-group-vertical button + button,
+  .btn-group-vertical .ajax-upload-dragdrop .fc .ajax-file-upload + button, .fc
+  .btn-group-vertical .ajax-upload-dragdrop .ajax-file-upload + button, .ajax-upload-dragdrop
+  .btn-group-vertical .fc .ajax-file-upload + button, .fc .ajax-upload-dragdrop
+  .btn-group-vertical .ajax-file-upload + button,
+  .btn-group-vertical .swal2-modal .swal2-buttonswrapper .fc .swal2-styled + button, .fc
+  .btn-group-vertical .swal2-modal .swal2-buttonswrapper .swal2-styled + button, .swal2-modal .swal2-buttonswrapper
+  .btn-group-vertical .fc .swal2-styled + button, .fc .swal2-modal .swal2-buttonswrapper
+  .btn-group-vertical .swal2-styled + button,
+  .btn-group-vertical .wizard > .actions .fc a + button, .fc
+  .btn-group-vertical .wizard > .actions a + button, .wizard > .actions
+  .btn-group-vertical .fc a + button, .fc .wizard > .actions
+  .btn-group-vertical a + button,
+  .btn-group-vertical .ajax-upload-dragdrop .btn + .ajax-file-upload, .ajax-upload-dragdrop
+  .btn-group-vertical .btn + .ajax-file-upload,
+  .btn-group-vertical .fc .ajax-upload-dragdrop button + .ajax-file-upload, .ajax-upload-dragdrop
+  .btn-group-vertical .fc button + .ajax-file-upload, .fc
+  .btn-group-vertical .ajax-upload-dragdrop button + .ajax-file-upload, .ajax-upload-dragdrop .fc
+  .btn-group-vertical button + .ajax-file-upload,
+  .btn-group-vertical .ajax-upload-dragdrop .ajax-file-upload + .ajax-file-upload, .ajax-upload-dragdrop
+  .btn-group-vertical .ajax-file-upload + .ajax-file-upload,
+  .btn-group-vertical .swal2-modal .swal2-buttonswrapper .ajax-upload-dragdrop .swal2-styled + .ajax-file-upload, .ajax-upload-dragdrop
+  .btn-group-vertical .swal2-modal .swal2-buttonswrapper .swal2-styled + .ajax-file-upload, .swal2-modal .swal2-buttonswrapper
+  .btn-group-vertical .ajax-upload-dragdrop .swal2-styled + .ajax-file-upload, .ajax-upload-dragdrop .swal2-modal .swal2-buttonswrapper
+  .btn-group-vertical .swal2-styled + .ajax-file-upload,
+  .btn-group-vertical .wizard > .actions .ajax-upload-dragdrop a + .ajax-file-upload, .ajax-upload-dragdrop
+  .btn-group-vertical .wizard > .actions a + .ajax-file-upload, .wizard > .actions
+  .btn-group-vertical .ajax-upload-dragdrop a + .ajax-file-upload, .ajax-upload-dragdrop .wizard > .actions
+  .btn-group-vertical a + .ajax-file-upload,
+  .btn-group-vertical .swal2-modal .swal2-buttonswrapper .btn + .swal2-styled, .swal2-modal .swal2-buttonswrapper
+  .btn-group-vertical .btn + .swal2-styled,
+  .btn-group-vertical .fc .swal2-modal .swal2-buttonswrapper button + .swal2-styled, .swal2-modal .swal2-buttonswrapper
+  .btn-group-vertical .fc button + .swal2-styled, .fc
+  .btn-group-vertical .swal2-modal .swal2-buttonswrapper button + .swal2-styled, .swal2-modal .swal2-buttonswrapper .fc
+  .btn-group-vertical button + .swal2-styled,
+  .btn-group-vertical .ajax-upload-dragdrop .swal2-modal .swal2-buttonswrapper .ajax-file-upload + .swal2-styled, .swal2-modal .swal2-buttonswrapper
+  .btn-group-vertical .ajax-upload-dragdrop .ajax-file-upload + .swal2-styled, .ajax-upload-dragdrop
+  .btn-group-vertical .swal2-modal .swal2-buttonswrapper .ajax-file-upload + .swal2-styled, .swal2-modal .swal2-buttonswrapper .ajax-upload-dragdrop
+  .btn-group-vertical .ajax-file-upload + .swal2-styled,
+  .btn-group-vertical .swal2-modal .swal2-buttonswrapper .swal2-styled + .swal2-styled, .swal2-modal .swal2-buttonswrapper
+  .btn-group-vertical .swal2-styled + .swal2-styled,
+  .btn-group-vertical .wizard > .actions .swal2-modal .swal2-buttonswrapper a + .swal2-styled, .swal2-modal .swal2-buttonswrapper
+  .btn-group-vertical .wizard > .actions a + .swal2-styled, .wizard > .actions
+  .btn-group-vertical .swal2-modal .swal2-buttonswrapper a + .swal2-styled, .swal2-modal .swal2-buttonswrapper .wizard > .actions
+  .btn-group-vertical a + .swal2-styled,
+  .btn-group-vertical .wizard > .actions .btn + a, .wizard > .actions
+  .btn-group-vertical .btn + a,
+  .btn-group-vertical .fc .wizard > .actions button + a, .wizard > .actions
+  .btn-group-vertical .fc button + a, .fc
+  .btn-group-vertical .wizard > .actions button + a, .wizard > .actions .fc
+  .btn-group-vertical button + a,
+  .btn-group-vertical .ajax-upload-dragdrop .wizard > .actions .ajax-file-upload + a, .wizard > .actions
+  .btn-group-vertical .ajax-upload-dragdrop .ajax-file-upload + a, .ajax-upload-dragdrop
+  .btn-group-vertical .wizard > .actions .ajax-file-upload + a, .wizard > .actions .ajax-upload-dragdrop
+  .btn-group-vertical .ajax-file-upload + a,
+  .btn-group-vertical .swal2-modal .swal2-buttonswrapper .wizard > .actions .swal2-styled + a, .wizard > .actions
+  .btn-group-vertical .swal2-modal .swal2-buttonswrapper .swal2-styled + a, .swal2-modal .swal2-buttonswrapper
+  .btn-group-vertical .wizard > .actions .swal2-styled + a, .wizard > .actions .swal2-modal .swal2-buttonswrapper
+  .btn-group-vertical .swal2-styled + a,
+  .btn-group-vertical .wizard > .actions a + a, .wizard > .actions
+  .btn-group-vertical a + a,
+  .btn-group-vertical .btn + .btn-group,
+  .btn-group-vertical .fc button + .btn-group, .fc
+  .btn-group-vertical button + .btn-group,
+  .btn-group-vertical .ajax-upload-dragdrop .ajax-file-upload + .btn-group, .ajax-upload-dragdrop
+  .btn-group-vertical .ajax-file-upload + .btn-group,
+  .btn-group-vertical .swal2-modal .swal2-buttonswrapper .swal2-styled + .btn-group, .swal2-modal .swal2-buttonswrapper
+  .btn-group-vertical .swal2-styled + .btn-group,
+  .btn-group-vertical .wizard > .actions a + .btn-group, .wizard > .actions
+  .btn-group-vertical a + .btn-group,
+  .btn-group-vertical .fc .btn + .fc-button-group, .fc
+  .btn-group-vertical .btn + .fc-button-group,
+  .btn-group-vertical .fc button + .fc-button-group, .fc
+  .btn-group-vertical button + .fc-button-group,
+  .btn-group-vertical .ajax-upload-dragdrop .fc .ajax-file-upload + .fc-button-group, .fc
+  .btn-group-vertical .ajax-upload-dragdrop .ajax-file-upload + .fc-button-group, .ajax-upload-dragdrop
+  .btn-group-vertical .fc .ajax-file-upload + .fc-button-group, .fc .ajax-upload-dragdrop
+  .btn-group-vertical .ajax-file-upload + .fc-button-group,
+  .btn-group-vertical .swal2-modal .swal2-buttonswrapper .fc .swal2-styled + .fc-button-group, .fc
+  .btn-group-vertical .swal2-modal .swal2-buttonswrapper .swal2-styled + .fc-button-group, .swal2-modal .swal2-buttonswrapper
+  .btn-group-vertical .fc .swal2-styled + .fc-button-group, .fc .swal2-modal .swal2-buttonswrapper
+  .btn-group-vertical .swal2-styled + .fc-button-group,
+  .btn-group-vertical .wizard > .actions .fc a + .fc-button-group, .fc
+  .btn-group-vertical .wizard > .actions a + .fc-button-group, .wizard > .actions
+  .btn-group-vertical .fc a + .fc-button-group, .fc .wizard > .actions
+  .btn-group-vertical a + .fc-button-group,
+  .btn-group-vertical .btn-group + .btn,
+  .btn-group-vertical .fc .fc-button-group + .btn, .fc
+  .btn-group-vertical .fc-button-group + .btn,
+  .btn-group-vertical .fc .btn-group + button, .fc
+  .btn-group-vertical .btn-group + button,
+  .btn-group-vertical .fc .fc-button-group + button, .fc
+  .btn-group-vertical .fc-button-group + button,
+  .btn-group-vertical .ajax-upload-dragdrop .btn-group + .ajax-file-upload, .ajax-upload-dragdrop
+  .btn-group-vertical .btn-group + .ajax-file-upload,
+  .btn-group-vertical .fc .ajax-upload-dragdrop .fc-button-group + .ajax-file-upload, .ajax-upload-dragdrop
+  .btn-group-vertical .fc .fc-button-group + .ajax-file-upload, .fc
+  .btn-group-vertical .ajax-upload-dragdrop .fc-button-group + .ajax-file-upload, .ajax-upload-dragdrop .fc
+  .btn-group-vertical .fc-button-group + .ajax-file-upload,
+  .btn-group-vertical .swal2-modal .swal2-buttonswrapper .btn-group + .swal2-styled, .swal2-modal .swal2-buttonswrapper
+  .btn-group-vertical .btn-group + .swal2-styled,
+  .btn-group-vertical .fc .swal2-modal .swal2-buttonswrapper .fc-button-group + .swal2-styled, .swal2-modal .swal2-buttonswrapper
+  .btn-group-vertical .fc .fc-button-group + .swal2-styled, .fc
+  .btn-group-vertical .swal2-modal .swal2-buttonswrapper .fc-button-group + .swal2-styled, .swal2-modal .swal2-buttonswrapper .fc
+  .btn-group-vertical .fc-button-group + .swal2-styled,
+  .btn-group-vertical .wizard > .actions .btn-group + a, .wizard > .actions
+  .btn-group-vertical .btn-group + a,
+  .btn-group-vertical .fc .wizard > .actions .fc-button-group + a, .wizard > .actions
+  .btn-group-vertical .fc .fc-button-group + a, .fc
+  .btn-group-vertical .wizard > .actions .fc-button-group + a, .wizard > .actions .fc
+  .btn-group-vertical .fc-button-group + a,
+  .btn-group-vertical .btn-group + .btn-group,
+  .btn-group-vertical .fc .fc-button-group + .btn-group, .fc
+  .btn-group-vertical .fc-button-group + .btn-group,
+  .btn-group-vertical .fc .btn-group + .fc-button-group, .fc
+  .btn-group-vertical .btn-group + .fc-button-group,
+  .btn-group-vertical .fc .fc-button-group + .fc-button-group, .fc
+  .btn-group-vertical .fc-button-group + .fc-button-group {
+    margin-left: -1px;
+  }
+  
+  .btn-toolbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+  
+  .btn-toolbar .input-group, .btn-toolbar .asColorPicker-wrap {
+    width: auto;
+  }
+  
+  .btn-group > .btn:first-child, .fc .fc-button-group > .btn:first-child, .fc .btn-group > button:first-child, .fc .fc-button-group > button:first-child, .ajax-upload-dragdrop .btn-group > .ajax-file-upload:first-child, .fc .ajax-upload-dragdrop .fc-button-group > .ajax-file-upload:first-child, .ajax-upload-dragdrop .fc .fc-button-group > .ajax-file-upload:first-child, .swal2-modal .swal2-buttonswrapper .btn-group > .swal2-styled:first-child, .fc .swal2-modal .swal2-buttonswrapper .fc-button-group > .swal2-styled:first-child, .swal2-modal .swal2-buttonswrapper .fc .fc-button-group > .swal2-styled:first-child, .wizard > .actions .btn-group > a:first-child, .fc .wizard > .actions .fc-button-group > a:first-child, .wizard > .actions .fc .fc-button-group > a:first-child {
+    margin-left: 0;
+  }
+  
+  .btn-group > .btn:not(:last-child):not(.dropdown-toggle), .fc .fc-button-group > .btn:not(:last-child):not(.dropdown-toggle), .fc .btn-group > button:not(:last-child):not(.dropdown-toggle), .fc .fc-button-group > button:not(:last-child):not(.dropdown-toggle), .ajax-upload-dragdrop .btn-group > .ajax-file-upload:not(:last-child):not(.dropdown-toggle), .fc .ajax-upload-dragdrop .fc-button-group > .ajax-file-upload:not(:last-child):not(.dropdown-toggle), .ajax-upload-dragdrop .fc .fc-button-group > .ajax-file-upload:not(:last-child):not(.dropdown-toggle), .swal2-modal .swal2-buttonswrapper .btn-group > .swal2-styled:not(:last-child):not(.dropdown-toggle), .fc .swal2-modal .swal2-buttonswrapper .fc-button-group > .swal2-styled:not(:last-child):not(.dropdown-toggle), .swal2-modal .swal2-buttonswrapper .fc .fc-button-group > .swal2-styled:not(:last-child):not(.dropdown-toggle), .wizard > .actions .btn-group > a:not(:last-child):not(.dropdown-toggle), .fc .wizard > .actions .fc-button-group > a:not(:last-child):not(.dropdown-toggle), .wizard > .actions .fc .fc-button-group > a:not(:last-child):not(.dropdown-toggle),
+  .btn-group > .btn-group:not(:last-child) > .btn, .fc .fc-button-group > .btn-group:not(:last-child) > .btn, .fc
+  .btn-group > .fc-button-group:not(:last-child) > .btn, .fc .fc-button-group > .fc-button-group:not(:last-child) > .btn, .fc
+  .btn-group > .btn-group:not(:last-child) > button, .fc .fc-button-group > .btn-group:not(:last-child) > button, .fc
+  .btn-group > .fc-button-group:not(:last-child) > button, .fc .fc-button-group > .fc-button-group:not(:last-child) > button, .ajax-upload-dragdrop
+  .btn-group > .btn-group:not(:last-child) > .ajax-file-upload, .fc .ajax-upload-dragdrop .fc-button-group > .btn-group:not(:last-child) > .ajax-file-upload, .ajax-upload-dragdrop .fc .fc-button-group > .btn-group:not(:last-child) > .ajax-file-upload, .fc .ajax-upload-dragdrop
+  .btn-group > .fc-button-group:not(:last-child) > .ajax-file-upload, .ajax-upload-dragdrop .fc
+  .btn-group > .fc-button-group:not(:last-child) > .ajax-file-upload, .fc .ajax-upload-dragdrop .fc-button-group > .fc-button-group:not(:last-child) > .ajax-file-upload, .ajax-upload-dragdrop .fc .fc-button-group > .fc-button-group:not(:last-child) > .ajax-file-upload, .swal2-modal .swal2-buttonswrapper
+  .btn-group > .btn-group:not(:last-child) > .swal2-styled, .fc .swal2-modal .swal2-buttonswrapper .fc-button-group > .btn-group:not(:last-child) > .swal2-styled, .swal2-modal .swal2-buttonswrapper .fc .fc-button-group > .btn-group:not(:last-child) > .swal2-styled, .fc .swal2-modal .swal2-buttonswrapper
+  .btn-group > .fc-button-group:not(:last-child) > .swal2-styled, .swal2-modal .swal2-buttonswrapper .fc
+  .btn-group > .fc-button-group:not(:last-child) > .swal2-styled, .fc .swal2-modal .swal2-buttonswrapper .fc-button-group > .fc-button-group:not(:last-child) > .swal2-styled, .swal2-modal .swal2-buttonswrapper .fc .fc-button-group > .fc-button-group:not(:last-child) > .swal2-styled, .wizard > .actions
+  .btn-group > .btn-group:not(:last-child) > a, .fc .wizard > .actions .fc-button-group > .btn-group:not(:last-child) > a, .wizard > .actions .fc .fc-button-group > .btn-group:not(:last-child) > a, .fc .wizard > .actions
+  .btn-group > .fc-button-group:not(:last-child) > a, .wizard > .actions .fc
+  .btn-group > .fc-button-group:not(:last-child) > a, .fc .wizard > .actions .fc-button-group > .fc-button-group:not(:last-child) > a, .wizard > .actions .fc .fc-button-group > .fc-button-group:not(:last-child) > a {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+  
+  .btn-group > .btn:not(:first-child), .fc .fc-button-group > .btn:not(:first-child), .fc .btn-group > button:not(:first-child), .fc .fc-button-group > button:not(:first-child), .ajax-upload-dragdrop .btn-group > .ajax-file-upload:not(:first-child), .fc .ajax-upload-dragdrop .fc-button-group > .ajax-file-upload:not(:first-child), .ajax-upload-dragdrop .fc .fc-button-group > .ajax-file-upload:not(:first-child), .swal2-modal .swal2-buttonswrapper .btn-group > .swal2-styled:not(:first-child), .fc .swal2-modal .swal2-buttonswrapper .fc-button-group > .swal2-styled:not(:first-child), .swal2-modal .swal2-buttonswrapper .fc .fc-button-group > .swal2-styled:not(:first-child), .wizard > .actions .btn-group > a:not(:first-child), .fc .wizard > .actions .fc-button-group > a:not(:first-child), .wizard > .actions .fc .fc-button-group > a:not(:first-child),
+  .btn-group > .btn-group:not(:first-child) > .btn, .fc .fc-button-group > .btn-group:not(:first-child) > .btn, .fc
+  .btn-group > .fc-button-group:not(:first-child) > .btn, .fc .fc-button-group > .fc-button-group:not(:first-child) > .btn, .fc
+  .btn-group > .btn-group:not(:first-child) > button, .fc .fc-button-group > .btn-group:not(:first-child) > button, .fc
+  .btn-group > .fc-button-group:not(:first-child) > button, .fc .fc-button-group > .fc-button-group:not(:first-child) > button, .ajax-upload-dragdrop
+  .btn-group > .btn-group:not(:first-child) > .ajax-file-upload, .fc .ajax-upload-dragdrop .fc-button-group > .btn-group:not(:first-child) > .ajax-file-upload, .ajax-upload-dragdrop .fc .fc-button-group > .btn-group:not(:first-child) > .ajax-file-upload, .fc .ajax-upload-dragdrop
+  .btn-group > .fc-button-group:not(:first-child) > .ajax-file-upload, .ajax-upload-dragdrop .fc
+  .btn-group > .fc-button-group:not(:first-child) > .ajax-file-upload, .fc .ajax-upload-dragdrop .fc-button-group > .fc-button-group:not(:first-child) > .ajax-file-upload, .ajax-upload-dragdrop .fc .fc-button-group > .fc-button-group:not(:first-child) > .ajax-file-upload, .swal2-modal .swal2-buttonswrapper
+  .btn-group > .btn-group:not(:first-child) > .swal2-styled, .fc .swal2-modal .swal2-buttonswrapper .fc-button-group > .btn-group:not(:first-child) > .swal2-styled, .swal2-modal .swal2-buttonswrapper .fc .fc-button-group > .btn-group:not(:first-child) > .swal2-styled, .fc .swal2-modal .swal2-buttonswrapper
+  .btn-group > .fc-button-group:not(:first-child) > .swal2-styled, .swal2-modal .swal2-buttonswrapper .fc
+  .btn-group > .fc-button-group:not(:first-child) > .swal2-styled, .fc .swal2-modal .swal2-buttonswrapper .fc-button-group > .fc-button-group:not(:first-child) > .swal2-styled, .swal2-modal .swal2-buttonswrapper .fc .fc-button-group > .fc-button-group:not(:first-child) > .swal2-styled, .wizard > .actions
+  .btn-group > .btn-group:not(:first-child) > a, .fc .wizard > .actions .fc-button-group > .btn-group:not(:first-child) > a, .wizard > .actions .fc .fc-button-group > .btn-group:not(:first-child) > a, .fc .wizard > .actions
+  .btn-group > .fc-button-group:not(:first-child) > a, .wizard > .actions .fc
+  .btn-group > .fc-button-group:not(:first-child) > a, .fc .wizard > .actions .fc-button-group > .fc-button-group:not(:first-child) > a, .wizard > .actions .fc .fc-button-group > .fc-button-group:not(:first-child) > a {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  
+  .dropdown-toggle-split {
+    padding-right: 0.75rem;
+    padding-left: 0.75rem;
+  }
+  
+  .dropdown-toggle-split::after,
+  .dropup .dropdown-toggle-split::after,
+  .dropright .dropdown-toggle-split::after {
+    margin-left: 0;
+  }
+  
+  .dropleft .dropdown-toggle-split::before {
+    margin-right: 0;
+  }
+  
+  .btn-sm + .dropdown-toggle-split, .btn-group-sm > .btn + .dropdown-toggle-split, .fc .btn-group-sm > button + .dropdown-toggle-split, .ajax-upload-dragdrop .btn-group-sm > .ajax-file-upload + .dropdown-toggle-split, .swal2-modal .swal2-buttonswrapper .btn-group-sm > .swal2-styled + .dropdown-toggle-split, .wizard > .actions .btn-group-sm > a + .dropdown-toggle-split, .fc button + .dropdown-toggle-split {
+    padding-right: 0.6075rem;
+    padding-left: 0.6075rem;
+  }
+  
+  .btn-lg + .dropdown-toggle-split, .btn-group-lg > .btn + .dropdown-toggle-split, .fc .btn-group-lg > button + .dropdown-toggle-split, .ajax-upload-dragdrop .btn-group-lg > .ajax-file-upload + .dropdown-toggle-split, .swal2-modal .swal2-buttonswrapper .btn-group-lg > .swal2-styled + .dropdown-toggle-split, .wizard > .actions .btn-group-lg > a + .dropdown-toggle-split {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+  }
+  
+  .btn-group-vertical {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  
+  .btn-group-vertical .btn, .btn-group-vertical .fc button, .fc .btn-group-vertical button, .btn-group-vertical .ajax-upload-dragdrop .ajax-file-upload, .ajax-upload-dragdrop .btn-group-vertical .ajax-file-upload, .btn-group-vertical .swal2-modal .swal2-buttonswrapper .swal2-styled, .swal2-modal .swal2-buttonswrapper .btn-group-vertical .swal2-styled, .btn-group-vertical .wizard > .actions a, .wizard > .actions .btn-group-vertical a,
+  .btn-group-vertical .btn-group,
+  .btn-group-vertical .fc .fc-button-group, .fc
+  .btn-group-vertical .fc-button-group {
+    width: 100%;
+  }
+  
+  .btn-group-vertical > .btn + .btn, .fc .btn-group-vertical > button + .btn, .ajax-upload-dragdrop .btn-group-vertical > .ajax-file-upload + .btn, .swal2-modal .swal2-buttonswrapper .btn-group-vertical > .swal2-styled + .btn, .wizard > .actions .btn-group-vertical > a + .btn, .fc .btn-group-vertical > .btn + button, .fc .btn-group-vertical > button + button, .ajax-upload-dragdrop .fc .btn-group-vertical > .ajax-file-upload + button, .fc .ajax-upload-dragdrop .btn-group-vertical > .ajax-file-upload + button, .swal2-modal .swal2-buttonswrapper .fc .btn-group-vertical > .swal2-styled + button, .fc .swal2-modal .swal2-buttonswrapper .btn-group-vertical > .swal2-styled + button, .wizard > .actions .fc .btn-group-vertical > a + button, .fc .wizard > .actions .btn-group-vertical > a + button, .ajax-upload-dragdrop .btn-group-vertical > .btn + .ajax-file-upload, .fc .ajax-upload-dragdrop .btn-group-vertical > button + .ajax-file-upload, .ajax-upload-dragdrop .fc .btn-group-vertical > button + .ajax-file-upload, .ajax-upload-dragdrop .btn-group-vertical > .ajax-file-upload + .ajax-file-upload, .swal2-modal .swal2-buttonswrapper .ajax-upload-dragdrop .btn-group-vertical > .swal2-styled + .ajax-file-upload, .ajax-upload-dragdrop .swal2-modal .swal2-buttonswrapper .btn-group-vertical > .swal2-styled + .ajax-file-upload, .wizard > .actions .ajax-upload-dragdrop .btn-group-vertical > a + .ajax-file-upload, .ajax-upload-dragdrop .wizard > .actions .btn-group-vertical > a + .ajax-file-upload, .swal2-modal .swal2-buttonswrapper .btn-group-vertical > .btn + .swal2-styled, .fc .swal2-modal .swal2-buttonswrapper .btn-group-vertical > button + .swal2-styled, .swal2-modal .swal2-buttonswrapper .fc .btn-group-vertical > button + .swal2-styled, .ajax-upload-dragdrop .swal2-modal .swal2-buttonswrapper .btn-group-vertical > .ajax-file-upload + .swal2-styled, .swal2-modal .swal2-buttonswrapper .ajax-upload-dragdrop .btn-group-vertical > .ajax-file-upload + .swal2-styled, .swal2-modal .swal2-buttonswrapper .btn-group-vertical > .swal2-styled + .swal2-styled, .wizard > .actions .swal2-modal .swal2-buttonswrapper .btn-group-vertical > a + .swal2-styled, .swal2-modal .swal2-buttonswrapper .wizard > .actions .btn-group-vertical > a + .swal2-styled, .wizard > .actions .btn-group-vertical > .btn + a, .fc .wizard > .actions .btn-group-vertical > button + a, .wizard > .actions .fc .btn-group-vertical > button + a, .ajax-upload-dragdrop .wizard > .actions .btn-group-vertical > .ajax-file-upload + a, .wizard > .actions .ajax-upload-dragdrop .btn-group-vertical > .ajax-file-upload + a, .swal2-modal .swal2-buttonswrapper .wizard > .actions .btn-group-vertical > .swal2-styled + a, .wizard > .actions .swal2-modal .swal2-buttonswrapper .btn-group-vertical > .swal2-styled + a, .wizard > .actions .btn-group-vertical > a + a,
+  .btn-group-vertical > .btn + .btn-group, .fc
+  .btn-group-vertical > button + .btn-group, .ajax-upload-dragdrop
+  .btn-group-vertical > .ajax-file-upload + .btn-group, .swal2-modal .swal2-buttonswrapper
+  .btn-group-vertical > .swal2-styled + .btn-group, .wizard > .actions
+  .btn-group-vertical > a + .btn-group, .fc
+  .btn-group-vertical > .btn + .fc-button-group, .fc
+  .btn-group-vertical > button + .fc-button-group, .ajax-upload-dragdrop .fc
+  .btn-group-vertical > .ajax-file-upload + .fc-button-group, .fc .ajax-upload-dragdrop
+  .btn-group-vertical > .ajax-file-upload + .fc-button-group, .swal2-modal .swal2-buttonswrapper .fc
+  .btn-group-vertical > .swal2-styled + .fc-button-group, .fc .swal2-modal .swal2-buttonswrapper
+  .btn-group-vertical > .swal2-styled + .fc-button-group, .wizard > .actions .fc
+  .btn-group-vertical > a + .fc-button-group, .fc .wizard > .actions
+  .btn-group-vertical > a + .fc-button-group,
+  .btn-group-vertical > .btn-group + .btn, .fc
+  .btn-group-vertical > .fc-button-group + .btn, .fc
+  .btn-group-vertical > .btn-group + button, .fc
+  .btn-group-vertical > .fc-button-group + button, .ajax-upload-dragdrop
+  .btn-group-vertical > .btn-group + .ajax-file-upload, .fc .ajax-upload-dragdrop
+  .btn-group-vertical > .fc-button-group + .ajax-file-upload, .ajax-upload-dragdrop .fc
+  .btn-group-vertical > .fc-button-group + .ajax-file-upload, .swal2-modal .swal2-buttonswrapper
+  .btn-group-vertical > .btn-group + .swal2-styled, .fc .swal2-modal .swal2-buttonswrapper
+  .btn-group-vertical > .fc-button-group + .swal2-styled, .swal2-modal .swal2-buttonswrapper .fc
+  .btn-group-vertical > .fc-button-group + .swal2-styled, .wizard > .actions
+  .btn-group-vertical > .btn-group + a, .fc .wizard > .actions
+  .btn-group-vertical > .fc-button-group + a, .wizard > .actions .fc
+  .btn-group-vertical > .fc-button-group + a,
+  .btn-group-vertical > .btn-group + .btn-group, .fc
+  .btn-group-vertical > .fc-button-group + .btn-group, .fc
+  .btn-group-vertical > .btn-group + .fc-button-group, .fc
+  .btn-group-vertical > .fc-button-group + .fc-button-group {
+    margin-top: -1px;
+    margin-left: 0;
+  }
+  
+  .btn-group-vertical > .btn:not(:last-child):not(.dropdown-toggle), .fc .btn-group-vertical > button:not(:last-child):not(.dropdown-toggle), .ajax-upload-dragdrop .btn-group-vertical > .ajax-file-upload:not(:last-child):not(.dropdown-toggle), .swal2-modal .swal2-buttonswrapper .btn-group-vertical > .swal2-styled:not(:last-child):not(.dropdown-toggle), .wizard > .actions .btn-group-vertical > a:not(:last-child):not(.dropdown-toggle),
+  .btn-group-vertical > .btn-group:not(:last-child) > .btn, .fc
+  .btn-group-vertical > .fc-button-group:not(:last-child) > .btn, .fc
+  .btn-group-vertical > .btn-group:not(:last-child) > button, .fc
+  .btn-group-vertical > .fc-button-group:not(:last-child) > button, .ajax-upload-dragdrop
+  .btn-group-vertical > .btn-group:not(:last-child) > .ajax-file-upload, .fc .ajax-upload-dragdrop
+  .btn-group-vertical > .fc-button-group:not(:last-child) > .ajax-file-upload, .ajax-upload-dragdrop .fc
+  .btn-group-vertical > .fc-button-group:not(:last-child) > .ajax-file-upload, .swal2-modal .swal2-buttonswrapper
+  .btn-group-vertical > .btn-group:not(:last-child) > .swal2-styled, .fc .swal2-modal .swal2-buttonswrapper
+  .btn-group-vertical > .fc-button-group:not(:last-child) > .swal2-styled, .swal2-modal .swal2-buttonswrapper .fc
+  .btn-group-vertical > .fc-button-group:not(:last-child) > .swal2-styled, .wizard > .actions
+  .btn-group-vertical > .btn-group:not(:last-child) > a, .fc .wizard > .actions
+  .btn-group-vertical > .fc-button-group:not(:last-child) > a, .wizard > .actions .fc
+  .btn-group-vertical > .fc-button-group:not(:last-child) > a {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  
+  .btn-group-vertical > .btn:not(:first-child), .fc .btn-group-vertical > button:not(:first-child), .ajax-upload-dragdrop .btn-group-vertical > .ajax-file-upload:not(:first-child), .swal2-modal .swal2-buttonswrapper .btn-group-vertical > .swal2-styled:not(:first-child), .wizard > .actions .btn-group-vertical > a:not(:first-child),
+  .btn-group-vertical > .btn-group:not(:first-child) > .btn, .fc
+  .btn-group-vertical > .fc-button-group:not(:first-child) > .btn, .fc
+  .btn-group-vertical > .btn-group:not(:first-child) > button, .fc
+  .btn-group-vertical > .fc-button-group:not(:first-child) > button, .ajax-upload-dragdrop
+  .btn-group-vertical > .btn-group:not(:first-child) > .ajax-file-upload, .fc .ajax-upload-dragdrop
+  .btn-group-vertical > .fc-button-group:not(:first-child) > .ajax-file-upload, .ajax-upload-dragdrop .fc
+  .btn-group-vertical > .fc-button-group:not(:first-child) > .ajax-file-upload, .swal2-modal .swal2-buttonswrapper
+  .btn-group-vertical > .btn-group:not(:first-child) > .swal2-styled, .fc .swal2-modal .swal2-buttonswrapper
+  .btn-group-vertical > .fc-button-group:not(:first-child) > .swal2-styled, .swal2-modal .swal2-buttonswrapper .fc
+  .btn-group-vertical > .fc-button-group:not(:first-child) > .swal2-styled, .wizard > .actions
+  .btn-group-vertical > .btn-group:not(:first-child) > a, .fc .wizard > .actions
+  .btn-group-vertical > .fc-button-group:not(:first-child) > a, .wizard > .actions .fc
+  .btn-group-vertical > .fc-button-group:not(:first-child) > a {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+  
+  .btn-group-toggle > .btn, .fc .btn-group-toggle > button, .ajax-upload-dragdrop .btn-group-toggle > .ajax-file-upload, .swal2-modal .swal2-buttonswrapper .btn-group-toggle > .swal2-styled, .wizard > .actions .btn-group-toggle > a,
+  .btn-group-toggle > .btn-group > .btn, .fc
+  .btn-group-toggle > .fc-button-group > .btn, .fc
+  .btn-group-toggle > .btn-group > button, .fc
+  .btn-group-toggle > .fc-button-group > button, .ajax-upload-dragdrop
+  .btn-group-toggle > .btn-group > .ajax-file-upload, .fc .ajax-upload-dragdrop
+  .btn-group-toggle > .fc-button-group > .ajax-file-upload, .ajax-upload-dragdrop .fc
+  .btn-group-toggle > .fc-button-group > .ajax-file-upload, .swal2-modal .swal2-buttonswrapper
+  .btn-group-toggle > .btn-group > .swal2-styled, .fc .swal2-modal .swal2-buttonswrapper
+  .btn-group-toggle > .fc-button-group > .swal2-styled, .swal2-modal .swal2-buttonswrapper .fc
+  .btn-group-toggle > .fc-button-group > .swal2-styled, .wizard > .actions
+  .btn-group-toggle > .btn-group > a, .fc .wizard > .actions
+  .btn-group-toggle > .fc-button-group > a, .wizard > .actions .fc
+  .btn-group-toggle > .fc-button-group > a {
+    margin-bottom: 0;
+  }
+  
+  .btn-group-toggle > .btn input[type="radio"], .fc .btn-group-toggle > button input[type="radio"], .ajax-upload-dragdrop .btn-group-toggle > .ajax-file-upload input[type="radio"], .swal2-modal .swal2-buttonswrapper .btn-group-toggle > .swal2-styled input[type="radio"], .wizard > .actions .btn-group-toggle > a input[type="radio"],
+  .btn-group-toggle > .btn input[type="checkbox"], .fc
+  .btn-group-toggle > button input[type="checkbox"], .ajax-upload-dragdrop
+  .btn-group-toggle > .ajax-file-upload input[type="checkbox"], .swal2-modal .swal2-buttonswrapper
+  .btn-group-toggle > .swal2-styled input[type="checkbox"], .wizard > .actions
+  .btn-group-toggle > a input[type="checkbox"],
+  .btn-group-toggle > .btn-group > .btn input[type="radio"], .fc
+  .btn-group-toggle > .fc-button-group > .btn input[type="radio"], .fc
+  .btn-group-toggle > .btn-group > button input[type="radio"], .fc
+  .btn-group-toggle > .fc-button-group > button input[type="radio"], .ajax-upload-dragdrop
+  .btn-group-toggle > .btn-group > .ajax-file-upload input[type="radio"], .fc .ajax-upload-dragdrop
+  .btn-group-toggle > .fc-button-group > .ajax-file-upload input[type="radio"], .ajax-upload-dragdrop .fc
+  .btn-group-toggle > .fc-button-group > .ajax-file-upload input[type="radio"], .swal2-modal .swal2-buttonswrapper
+  .btn-group-toggle > .btn-group > .swal2-styled input[type="radio"], .fc .swal2-modal .swal2-buttonswrapper
+  .btn-group-toggle > .fc-button-group > .swal2-styled input[type="radio"], .swal2-modal .swal2-buttonswrapper .fc
+  .btn-group-toggle > .fc-button-group > .swal2-styled input[type="radio"], .wizard > .actions
+  .btn-group-toggle > .btn-group > a input[type="radio"], .fc .wizard > .actions
+  .btn-group-toggle > .fc-button-group > a input[type="radio"], .wizard > .actions .fc
+  .btn-group-toggle > .fc-button-group > a input[type="radio"],
+  .btn-group-toggle > .btn-group > .btn input[type="checkbox"], .fc
+  .btn-group-toggle > .fc-button-group > .btn input[type="checkbox"], .fc
+  .btn-group-toggle > .btn-group > button input[type="checkbox"], .fc
+  .btn-group-toggle > .fc-button-group > button input[type="checkbox"], .ajax-upload-dragdrop
+  .btn-group-toggle > .btn-group > .ajax-file-upload input[type="checkbox"], .fc .ajax-upload-dragdrop
+  .btn-group-toggle > .fc-button-group > .ajax-file-upload input[type="checkbox"], .ajax-upload-dragdrop .fc
+  .btn-group-toggle > .fc-button-group > .ajax-file-upload input[type="checkbox"], .swal2-modal .swal2-buttonswrapper
+  .btn-group-toggle > .btn-group > .swal2-styled input[type="checkbox"], .fc .swal2-modal .swal2-buttonswrapper
+  .btn-group-toggle > .fc-button-group > .swal2-styled input[type="checkbox"], .swal2-modal .swal2-buttonswrapper .fc
+  .btn-group-toggle > .fc-button-group > .swal2-styled input[type="checkbox"], .wizard > .actions
+  .btn-group-toggle > .btn-group > a input[type="checkbox"], .fc .wizard > .actions
+  .btn-group-toggle > .fc-button-group > a input[type="checkbox"], .wizard > .actions .fc
+  .btn-group-toggle > .fc-button-group > a input[type="checkbox"] {
+    position: absolute;
+    clip: rect(0, 0, 0, 0);
+    pointer-events: none;
+  }
+  
+  .input-group, .asColorPicker-wrap {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    width: 100%;
+  }
+  
+  .input-group > .form-control, .asColorPicker-wrap > .form-control, .input-group > .asColorPicker-input, .asColorPicker-wrap > .asColorPicker-input, .dataTables_wrapper .input-group > select, .dataTables_wrapper .asColorPicker-wrap > select, .jsgrid .jsgrid-table .jsgrid-filter-row .input-group > input[type=text], .jsgrid .jsgrid-table .jsgrid-filter-row .asColorPicker-wrap > input[type=text],
+  .jsgrid .jsgrid-table .jsgrid-filter-row .input-group > select,
+  .jsgrid .jsgrid-table .jsgrid-filter-row .asColorPicker-wrap > select, .jsgrid .jsgrid-table .jsgrid-filter-row .input-group > input[type=number], .jsgrid .jsgrid-table .jsgrid-filter-row .asColorPicker-wrap > input[type=number], .select2-container--default .input-group > .select2-selection--single, .select2-container--default .asColorPicker-wrap > .select2-selection--single, .select2-container--default .select2-selection--single .input-group > .select2-search__field, .select2-container--default .select2-selection--single .asColorPicker-wrap > .select2-search__field, .input-group > .typeahead, .asColorPicker-wrap > .typeahead, .input-group >
+  .tt-query, .asColorPicker-wrap >
+  .tt-query, .input-group >
+  .tt-hint, .asColorPicker-wrap >
+  .tt-hint,
+  .input-group > .custom-select, .asColorPicker-wrap > .custom-select,
+  .input-group > .custom-file, .asColorPicker-wrap > .custom-file {
+    position: relative;
+    flex: 1 1 auto;
+    width: 1%;
+    margin-bottom: 0;
+  }
+  
+  .input-group > .form-control:focus, .asColorPicker-wrap > .form-control:focus, .input-group > .asColorPicker-input:focus, .asColorPicker-wrap > .asColorPicker-input:focus, .dataTables_wrapper .input-group > select:focus, .dataTables_wrapper .asColorPicker-wrap > select:focus, .jsgrid .jsgrid-table .jsgrid-filter-row .input-group > input[type=text]:focus, .jsgrid .jsgrid-table .jsgrid-filter-row .asColorPicker-wrap > input[type=text]:focus,
+  .jsgrid .jsgrid-table .jsgrid-filter-row .input-group > select:focus,
+  .jsgrid .jsgrid-table .jsgrid-filter-row .asColorPicker-wrap > select:focus, .jsgrid .jsgrid-table .jsgrid-filter-row .input-group > input[type=number]:focus, .jsgrid .jsgrid-table .jsgrid-filter-row .asColorPicker-wrap > input[type=number]:focus, .select2-container--default .input-group > .select2-selection--single:focus, .select2-container--default .asColorPicker-wrap > .select2-selection--single:focus, .select2-container--default .select2-selection--single .input-group > .select2-search__field:focus, .select2-container--default .select2-selection--single .asColorPicker-wrap > .select2-search__field:focus, .input-group > .typeahead:focus, .asColorPicker-wrap > .typeahead:focus, .input-group >
+  .tt-query:focus, .asColorPicker-wrap >
+  .tt-query:focus, .input-group >
+  .tt-hint:focus, .asColorPicker-wrap >
+  .tt-hint:focus,
+  .input-group > .custom-select:focus, .asColorPicker-wrap > .custom-select:focus,
+  .input-group > .custom-file:focus, .asColorPicker-wrap > .custom-file:focus {
+    z-index: 3;
+  }
+  
+  .input-group > .form-control + .form-control, .asColorPicker-wrap > .form-control + .form-control, .input-group > .asColorPicker-input + .form-control, .asColorPicker-wrap > .asColorPicker-input + .form-control, .dataTables_wrapper .input-group > select + .form-control, .dataTables_wrapper .asColorPicker-wrap > select + .form-control, .jsgrid .jsgrid-table .jsgrid-filter-row .input-group > input[type=text] + .form-control, .jsgrid .jsgrid-table .jsgrid-filter-row .asColorPicker-wrap > input[type=text] + .form-control,
+  .jsgrid .jsgrid-table .jsgrid-filter-row .input-group > select + .form-control,
+  .jsgrid .jsgrid-table .jsgrid-filter-row .asColorPicker-wrap > select + .form-control, .jsgrid .jsgrid-table .jsgrid-filter-row .input-group > input[type=number] + .form-control, .jsgrid .jsgrid-table .jsgrid-filter-row .asColorPicker-wrap > input[type=number] + .form-control, .select2-container--default .input-group > .select2-selection--single + .form-control, .select2-container--default .asColorPicker-wrap > .select2-selection--single + .form-control, .select2-container--default .select2-selection--single .input-group > .select2-search__field + .form-control, .select2-container--default .select2-selection--single .asColorPicker-wrap > .select2-search__field + .form-control, .input-group > .typeahead + .form-control, .asColorPicker-wrap > .typeahead + .form-control, .input-group >
+  .tt-query + .form-control, .asColorPicker-wrap >
+  .tt-query + .form-control, .input-group >
+  .tt-hint + .form-control, .asColorPicker-wrap >
+  .tt-hint + .form-control, .input-group > .form-control + .asColorPicker-input, .asColorPicker-wrap > .form-control + .asColorPicker-input, .input-group > .asColorPicker-input + .asColorPicker-input, .asColorPicker-wrap > .asColorPicker-input + .asColorPicker-input, .dataTables_wrapper .input-group > select + .asColorPicker-input, .dataTables_wrapper .asColorPicker-wrap > select + .asColorPicker-input, .jsgrid .jsgrid-table .jsgrid-filter-row .input-group > input[type=text] + .asColorPicker-input, .jsgrid .jsgrid-table .jsgrid-filter-row .asColorPicker-wrap > input[type=text] + .asColorPicker-input,
+  .jsgrid .jsgrid-table .jsgrid-filter-row .input-group > select + .asColorPicker-input,
+  .jsgrid .jsgrid-table .jsgrid-filter-row .asColorPicker-wrap > select + .asColorPicker-input, .jsgrid .jsgrid-table .jsgrid-filter-row .input-group > input[type=number] + .asColorPicker-input, .jsgrid .jsgrid-table .jsgrid-filter-row .asColorPicker-wrap > input[type=number] + .asColorPicker-input, .select2-container--default .input-group > .select2-selection--single + .asColorPicker-input, .select2-container--default .asColorPicker-wrap > .select2-selection--single + .asColorPicker-input, .select2-container--default .select2-selection--single .input-group > .select2-search__field + .asColorPicker-input, .select2-container--default .select2-selection--single .asColorPicker-wrap > .select2-search__field + .asColorPicker-input, .input-group > .typeahead + .asColorPicker-input, .asColorPicker-wrap > .typeahead + .asColorPicker-input, .input-group >
+  .tt-query + .asColorPicker-input, .asColorPicker-wrap >
+  .tt-query + .asColorPicker-input, .input-group >
+  .tt-hint + .asColorPicker-input, .asColorPicker-wrap >
+  .tt-hint + .asColorPicker-input, .dataTables_wrapper .input-group > .form-control + select, .dataTables_wrapper .asColorPicker-wrap > .form-control + select, .dataTables_wrapper .input-group > .asColorPicker-input + select, .dataTables_wrapper .asColorPicker-wrap > .asColorPicker-input + select, .dataTables_wrapper .input-group > select + select, .dataTables_wrapper .asColorPicker-wrap > select + select, .jsgrid .jsgrid-table .jsgrid-filter-row .dataTables_wrapper .input-group > input[type=text] + select, .dataTables_wrapper .jsgrid .jsgrid-table .jsgrid-filter-row .input-group > input[type=text] + select, .jsgrid .jsgrid-table .jsgrid-filter-row .dataTables_wrapper .asColorPicker-wrap > input[type=text] + select, .dataTables_wrapper .jsgrid .jsgrid-table .jsgrid-filter-row .asColorPicker-wrap > input[type=text] + select,
+  .jsgrid .jsgrid-table .jsgrid-filter-row .dataTables_wrapper .input-group > select + select, .dataTables_wrapper
+  .jsgrid .jsgrid-table .jsgrid-filter-row .input-group > select + select,
+  .jsgrid .jsgrid-table .jsgrid-filter-row .dataTables_wrapper .asColorPicker-wrap > select + select, .dataTables_wrapper
+  .jsgrid .jsgrid-table .jsgrid-filter-row .asColorPicker-wrap > select + select, .jsgrid .jsgrid-table .jsgrid-filter-row .dataTables_wrapper .input-group > input[type=number] + select, .dataTables_wrapper .jsgrid .jsgrid-table .jsgrid-filter-row .input-group > input[type=number] + select, .jsgrid .jsgrid-table .jsgrid-filter-row .dataTables_wrapper .asColorPicker-wrap > input[type=number] + select, .dataTables_wrapper .jsgrid .jsgrid-table .jsgrid-filter-row .asColorPicker-wrap > input[type=number] + select, .select2-container--default .dataTables_wrapper .input-group > .select2-selection--single + select, .dataTables_wrapper .select2-container--default .input-group > .select2-selection--single + select, .select2-container--default .dataTables_wrapper .asColorPicker-wrap > .select2-selection--single + select, .dataTables_wrapper .select2-container--default .asColorPicker-wrap > .select2-selection--single + select, .select2-container--default .select2-selection--single .dataTables_wrapper .input-group > .select2-search__field + select, .dataTables_wrapper .select2-container--default .select2-selection--single .input-group > .select2-search__field + select, .select2-container--default .select2-selection--single .dataTables_wrapper .asColorPicker-wrap > .select2-search__field + select, .dataTables_wrapper .select2-container--default .select2-selection--single .asColorPicker-wrap > .select2-search__field + select, .dataTables_wrapper .input-group > .typeahead + select, .dataTables_wrapper .asColorPicker-wrap > .typeahead + select, .dataTables_wrapper .input-group >
+  .tt-query + select, .dataTables_wrapper .asColorPicker-wrap >
+  .tt-query + select, .dataTables_wrapper .input-group >
+  .tt-hint + select, .dataTables_wrapper .asColorPicker-wrap >
+  .tt-hint + select, .jsgrid .jsgrid-table .jsgrid-filter-row .input-group > .form-control + input[type=text], .jsgrid .jsgrid-table .jsgrid-filter-row .asColorPicker-wrap > .form-control + input[type=text], .jsgrid .jsgrid-table .jsgrid-filter-row .input-group > .asColorPicker-input + input[type=text], .jsgrid .jsgrid-table .jsgrid-filter-row .asColorPicker-wrap > .asColorPicker-input + input[type=text], .dataTables_wrapper .jsgrid .jsgrid-table .jsgrid-filter-row .input-group > select + input[type=text], .jsgrid .jsgrid-table .jsgrid-filter-row .dataTables_wrapper .input-group > select + input[type=text], .dataTables_wrapper .jsgrid .jsgrid-table .jsgrid-filter-row .asColorPicker-wrap > select + input[type=text], .jsgrid .jsgrid-table .jsgrid-filter-row .dataTables_wrapper .asColorPicker-wrap > select + input[type=text], .jsgrid .jsgrid-table .jsgrid-filter-row .input-group > input[type=text] + input[type=text], .jsgrid .jsgrid-table .jsgrid-filter-row .asColorPicker-wrap > input[type=text] + input[type=text], .jsgrid .jsgrid-table .jsgrid-filter-row .input-group > select + input[type=text], .jsgrid .jsgrid-table .jsgrid-filter-row .asColorPicker-wrap > select + input[type=text], .jsgrid .jsgrid-table .jsgrid-filter-row .input-group > input[type=number] + input[type=text], .jsgrid .jsgrid-table .jsgrid-filter-row .asColorPicker-wrap > input[type=number] + input[type=text], .select2-container--default .jsgrid .jsgrid-table .jsgrid-filter-row .input-group > .select2-selection--single + input[type=text], .jsgrid .jsgrid-table .jsgrid-filter-row .select2-container--default .input-group > .select2-selection--single + input[type=text], .select2-container--default .jsgrid .jsgrid-table .jsgrid-filter-row .asColorPicker-wrap > .select2-selection--single + input[type=text], .jsgrid .jsgrid-table .jsgrid-filter-row .select2-container--default .asColorPicker-wrap > .select2-selection--single + input[type=text], .select2-container--default .select2-selection--single .jsgrid .jsgrid-table .jsgrid-filter-row .input-group > .select2-search__field + input[type=text], .jsgrid .jsgrid-table .jsgrid-filter-row .select2-container--default .select2-selection--single .input-group > .select2-search__field + input[type=text], .select2-container--default .select2-selection--single .jsgrid .jsgrid-table .jsgrid-filter-row .asColorPicker-wrap > .select2-search__field + input[type=text], .jsgrid .jsgrid-table .jsgrid-filter-row .select2-container--default .select2-selection--single .asColorPicker-wrap > .select2-search__field + input[type=text], .jsgrid .jsgrid-table .jsgrid-filter-row .input-group > .typeahead + input[type=text], .jsgrid .jsgrid-table .jsgrid-filter-row .asColorPicker-wrap > .typeahead + input[type=text], .jsgrid .jsgrid-table .jsgrid-filter-row .input-group >
+  .tt-query + input[type=text], .jsgrid .jsgrid-table .jsgrid-filter-row .asColorPicker-wrap >
+  .tt-query + input[type=text], .jsgrid .jsgrid-table .jsgrid-filter-row .input-group >
+  .tt-hint + input[type=text], .jsgrid .jsgrid-table .jsgrid-filter-row .asColorPicker-wrap >
+  .tt-hint + input[type=text],
+  .jsgrid .jsgrid-table .jsgrid-filter-row .input-group > .form-control + select,
+  .jsgrid .jsgrid-table .jsgrid-filter-row .asColorPicker-wrap > .form-control + select,
+  .jsgrid .jsgrid-table .jsgrid-filter-row .input-group > .asColorPicker-input + select,
+  .jsgrid .jsgrid-table .jsgrid-filter-row .asColorPicker-wrap > .asColorPicker-input + select, .dataTables_wrapper
+  .jsgrid .jsgrid-table .jsgrid-filter-row .input-group > select + select,
+  .jsgrid .jsgrid-table .jsgrid-filter-row .dataTables_wrapper .input-group > select + select, .dataTables_wrapper
+  .jsgrid .jsgrid-table .jsgrid-filter-row .asColorPicker-wrap > select + select,
+  .jsgrid .jsgrid-table .jsgrid-filter-row .dataTables_wrapper .asColorPicker-wrap > select + select, .jsgrid .jsgrid-table .jsgrid-filter-row .input-group > input[type=text] + select, .jsgrid .jsgrid-table .jsgrid-filter-row .asColorPicker-wrap > input[type=text] + select, .jsgrid .jsgrid-table .jsgrid-filter-row .input-group > select + select, .jsgrid .jsgrid-table .jsgrid-filter-row .asColorPicker-wrap > select + select, .jsgrid .jsgrid-table .jsgrid-filter-row .input-group > input[type=number] + select, .jsgrid .jsgrid-table .jsgrid-filter-row .asColorPicker-wrap > input[type=number] + select, .select2-container--default
+  .jsgrid .jsgrid-table .jsgrid-filter-row .input-group > .select2-selection--single + select,
+  .jsgrid .jsgrid-table .jsgrid-filter-row .select2-container--default .input-group > .select2-selection--single + select, .select2-container--default
+  .jsgrid .jsgrid-table .jsgrid-filter-row .asColorPicker-wrap > .select2-selection--single + select,
+  .jsgrid .jsgrid-table .jsgrid-filter-row .select2-container--default .asColorPicker-wrap > .select2-selection--single + select, .select2-container--default .select2-selection--single
+  .jsgrid .jsgrid-table .jsgrid-filter-row .input-group > .select2-search__field + select,
+  .jsgrid .jsgrid-table .jsgrid-filter-row .select2-container--default .select2-selection--single .input-group > .select2-search__field + select, .select2-container--default .select2-selection--single
+  .jsgrid .jsgrid-table .jsgrid-filter-row .asColorPicker-wrap > .select2-search__field + select,
+  .jsgrid .jsgrid-table .jsgrid-filter-row .select2-container--default .select2-selection--single .asColorPicker-wrap > .select2-search__field + select,
+  .jsgrid .jsgrid-table .jsgrid-filter-row .input-group > .typeahead + select,
+  .jsgrid .jsgrid-table .jsgrid-filter-row .asColorPicker-wrap > .typeahead + select,
+  .jsgrid .jsgrid-table .jsgrid-filter-row .input-group >
+  .tt-query + select,
+  .jsgrid .jsgrid-table .jsgrid-filter-row .asColorPicker-wrap >
+  .tt-query + select,
+  .jsgrid .jsgrid-table .jsgrid-filter-row .input-group >
+  .tt-hint + select,
+  .jsgrid .jsgrid-table .jsgrid-filter-row .asColorPicker-wrap >
+  .tt-hint + select, .jsgrid .jsgrid-table .jsgrid-filter-row .input-group > .form-control + input[type=number], .jsgrid .jsgrid-table .jsgrid-filter-row .asColorPicker-wrap > .form-control + input[type=number], .jsgrid .jsgrid-table .jsgrid-filter-row .input-group > .asColorPicker-input + input[type=number], .jsgrid .jsgrid-table .jsgrid-filter-row .asColorPicker-wrap > .asColorPicker-input + input[type=number], .dataTables_wrapper .jsgrid .jsgrid-table .jsgrid-filter-row .input-group > select + input[type=number], .jsgrid .jsgrid-table .jsgrid-filter-row .dataTables_wrapper .input-group > select + input[type=number], .dataTables_wrapper .jsgrid .jsgrid-table .jsgrid-filter-row .asColorPicker-wrap > select + input[type=number], .jsgrid .jsgrid-table .jsgrid-filter-row .dataTables_wrapper .asColorPicker-wrap > select + input[type=number], .jsgrid .jsgrid-table .jsgrid-filter-row .input-group > input[type=text] + input[type=number], .jsgrid .jsgrid-table .jsgrid-filter-row .asColorPicker-wrap > input[type=text] + input[type=number], .jsgrid .jsgrid-table .jsgrid-filter-row .input-group > select + input[type=number], .jsgrid .jsgrid-table .jsgrid-filter-row .asColorPicker-wrap > select + input[type=number], .jsgrid .jsgrid-table .jsgrid-filter-row .input-group > input[type=number] + input[type=number], .jsgrid .jsgrid-table .jsgrid-filter-row .asColorPicker-wrap > input[type=number] + input[type=number], .select2-container--default .jsgrid .jsgrid-table .jsgrid-filter-row .input-group > .select2-selection--single + input[type=number], .jsgrid .jsgrid-table .jsgrid-filter-row .select2-container--default .input-group > .select2-selection--single + input[type=number], .select2-container--default .jsgrid .jsgrid-table .jsgrid-filter-row .asColorPicker-wrap > .select2-selection--single + input[type=number], .jsgrid .jsgrid-table .jsgrid-filter-row .select2-container--default .asColorPicker-wrap > .select2-selection--single + input[type=number], .select2-container--default .select2-selection--single .jsgrid .jsgrid-table .jsgrid-filter-row .input-group > .select2-search__field + input[type=number], .jsgrid .jsgrid-table .jsgrid-filter-row .select2-container--default .select2-selection--single .input-group > .select2-search__field + input[type=number], .select2-container--default .select2-selection--single .jsgrid .jsgrid-table .jsgrid-filter-row .asColorPicker-wrap > .select2-search__field + input[type=number], .jsgrid .jsgrid-table .jsgrid-filter-row .select2-container--default .select2-selection--single .asColorPicker-wrap > .select2-search__field + input[type=number], .jsgrid .jsgrid-table .jsgrid-filter-row .input-group > .typeahead + input[type=number], .jsgrid .jsgrid-table .jsgrid-filter-row .asColorPicker-wrap > .typeahead + input[type=number], .jsgrid .jsgrid-table .jsgrid-filter-row .input-group >
+  .tt-query + input[type=number], .jsgrid .jsgrid-table .jsgrid-filter-row .asColorPicker-wrap >
+  .tt-query + input[type=number], .jsgrid .jsgrid-table .jsgrid-filter-row .input-group >
+  .tt-hint + input[type=number], .jsgrid .jsgrid-table .jsgrid-filter-row .asColorPicker-wrap >
+  .tt-hint + input[type=number], .select2-container--default .input-group > .form-control + .select2-selection--single, .select2-container--default .asColorPicker-wrap > .form-control + .select2-selection--single, .select2-container--default .input-group > .asColorPicker-input + .select2-selection--single, .select2-container--default .asColorPicker-wrap > .asColorPicker-input + .select2-selection--single, .dataTables_wrapper .select2-container--default .input-group > select + .select2-selection--single, .select2-container--default .dataTables_wrapper .input-group > select + .select2-selection--single, .dataTables_wrapper .select2-container--default .asColorPicker-wrap > select + .select2-selection--single, .select2-container--default .dataTables_wrapper .asColorPicker-wrap > select + .select2-selection--single, .jsgrid .jsgrid-table .jsgrid-filter-row .select2-container--default .input-group > input[type=text] + .select2-selection--single, .select2-container--default .jsgrid .jsgrid-table .jsgrid-filter-row .input-group > input[type=text] + .select2-selection--single, .jsgrid .jsgrid-table .jsgrid-filter-row .select2-container--default .asColorPicker-wrap > input[type=text] + .select2-selection--single, .select2-container--default .jsgrid .jsgrid-table .jsgrid-filter-row .asColorPicker-wrap > input[type=text] + .select2-selection--single,
+  .jsgrid .jsgrid-table .jsgrid-filter-row .select2-container--default .input-group > select + .select2-selection--single, .select2-container--default
+  .jsgrid .jsgrid-table .jsgrid-filter-row .input-group > select + .select2-selection--single,
+  .jsgrid .jsgrid-table .jsgrid-filter-row .select2-container--default .asColorPicker-wrap > select + .select2-selection--single, .select2-container--default
+  .jsgrid .jsgrid-table .jsgrid-filter-row .asColorPicker-wrap > select + .select2-selection--single, .jsgrid .jsgrid-table .jsgrid-filter-row .select2-container--default .input-group > input[type=number] + .select2-selection--single, .select2-container--default .jsgrid .jsgrid-table .jsgrid-filter-row .input-group > input[type=number] + .select2-selection--single, .jsgrid .jsgrid-table .jsgrid-filter-row .select2-container--default .asColorPicker-wrap > input[type=number] + .select2-selection--single, .select2-container--default .jsgrid .jsgrid-table .jsgrid-filter-row .asColorPicker-wrap > input[type=number] + .select2-selection--single, .select2-container--default .input-group > .select2-selection--single + .select2-selection--single, .select2-container--default .asColorPicker-wrap > .select2-selection--single + .select2-selection--single, .select2-container--default .select2-selection--single .input-group > .select2-search__field + .select2-selection--single, .select2-container--default .select2-selection--single .asColorPicker-wrap > .select2-search__field + .select2-selection--single, .select2-container--default .input-group > .typeahead + .select2-selection--single, .select2-container--default .asColorPicker-wrap > .typeahead + .select2-selection--single, .select2-container--default .input-group >
+  .tt-query + .select2-selection--single, .select2-container--default .asColorPicker-wrap >
+  .tt-query + .select2-selection--single, .select2-container--default .input-group >
+  .tt-hint + .select2-selection--single, .select2-container--default .asColorPicker-wrap >
+  .tt-hint + .select2-selection--single, .select2-container--default .select2-selection--single .input-group > .form-control + .select2-search__field, .select2-container--default .select2-selection--single .asColorPicker-wrap > .form-control + .select2-search__field, .select2-container--default .select2-selection--single .input-group > .asColorPicker-input + .select2-search__field, .select2-container--default .select2-selection--single .asColorPicker-wrap > .asColorPicker-input + .select2-search__field, .dataTables_wrapper .select2-container--default .select2-selection--single .input-group > select + .select2-search__field, .select2-container--default .select2-selection--single .dataTables_wrapper .input-group > select + .select2-search__field, .dataTables_wrapper .select2-container--default .select2-selection--single .asColorPicker-wrap > select + .select2-search__field, .select2-container--default .select2-selection--single .dataTables_wrapper .asColorPicker-wrap > select + .select2-search__field, .jsgrid .jsgrid-table .jsgrid-filter-row .select2-container--default .select2-selection--single .input-group > input[type=text] + .select2-search__field, .select2-container--default .select2-selection--single .jsgrid .jsgrid-table .jsgrid-filter-row .input-group > input[type=text] + .select2-search__field, .jsgrid .jsgrid-table .jsgrid-filter-row .select2-container--default .select2-selection--single .asColorPicker-wrap > input[type=text] + .select2-search__field, .select2-container--default .select2-selection--single .jsgrid .jsgrid-table .jsgrid-filter-row .asColorPicker-wrap > input[type=text] + .select2-search__field,
+  .jsgrid .jsgrid-table .jsgrid-filter-row .select2-container--default .select2-selection--single .input-group > select + .select2-search__field, .select2-container--default .select2-selection--single
+  .jsgrid .jsgrid-table .jsgrid-filter-row .input-group > select + .select2-search__field,
+  .jsgrid .jsgrid-table .jsgrid-filter-row .select2-container--default .select2-selection--single .asColorPicker-wrap > select + .select2-search__field, .select2-container--default .select2-selection--single
+  .jsgrid .jsgrid-table .jsgrid-filter-row .asColorPicker-wrap > select + .select2-search__field, .jsgrid .jsgrid-table .jsgrid-filter-row .select2-container--default .select2-selection--single .input-group > input[type=number] + .select2-search__field, .select2-container--default .select2-selection--single .jsgrid .jsgrid-table .jsgrid-filter-row .input-group > input[type=number] + .select2-search__field, .jsgrid .jsgrid-table .jsgrid-filter-row .select2-container--default .select2-selection--single .asColorPicker-wrap > input[type=number] + .select2-search__field, .select2-container--default .select2-selection--single .jsgrid .jsgrid-table .jsgrid-filter-row .asColorPicker-wrap > input[type=number] + .select2-search__field, .select2-container--default .select2-selection--single .input-group > .select2-selection--single + .select2-search__field, .select2-container--default .select2-selection--single .asColorPicker-wrap > .select2-selection--single + .select2-search__field, .select2-container--default .select2-selection--single .input-group > .select2-search__field + .select2-search__field, .select2-container--default .select2-selection--single .asColorPicker-wrap > .select2-search__field + .select2-search__field, .select2-container--default .select2-selection--single .input-group > .typeahead + .select2-search__field, .select2-container--default .select2-selection--single .asColorPicker-wrap > .typeahead + .select2-search__field, .select2-container--default .select2-selection--single .input-group >
+  .tt-query + .select2-search__field, .select2-container--default .select2-selection--single .asColorPicker-wrap >
+  .tt-query + .select2-search__field, .select2-container--default .select2-selection--single .input-group >
+  .tt-hint + .select2-search__field, .select2-container--default .select2-selection--single .asColorPicker-wrap >
+  .tt-hint + .select2-search__field, .input-group > .form-control + .typeahead, .asColorPicker-wrap > .form-control + .typeahead, .input-group > .asColorPicker-input + .typeahead, .asColorPicker-wrap > .asColorPicker-input + .typeahead, .dataTables_wrapper .input-group > select + .typeahead, .dataTables_wrapper .asColorPicker-wrap > select + .typeahead, .jsgrid .jsgrid-table .jsgrid-filter-row .input-group > input[type=text] + .typeahead, .jsgrid .jsgrid-table .jsgrid-filter-row .asColorPicker-wrap > input[type=text] + .typeahead,
+  .jsgrid .jsgrid-table .jsgrid-filter-row .input-group > select + .typeahead,
+  .jsgrid .jsgrid-table .jsgrid-filter-row .asColorPicker-wrap > select + .typeahead, .jsgrid .jsgrid-table .jsgrid-filter-row .input-group > input[type=number] + .typeahead, .jsgrid .jsgrid-table .jsgrid-filter-row .asColorPicker-wrap > input[type=number] + .typeahead, .select2-container--default .input-group > .select2-selection--single + .typeahead, .select2-container--default .asColorPicker-wrap > .select2-selection--single + .typeahead, .select2-container--default .select2-selection--single .input-group > .select2-search__field + .typeahead, .select2-container--default .select2-selection--single .asColorPicker-wrap > .select2-search__field + .typeahead, .input-group > .typeahead + .typeahead, .asColorPicker-wrap > .typeahead + .typeahead, .input-group >
+  .tt-query + .typeahead, .asColorPicker-wrap >
+  .tt-query + .typeahead, .input-group >
+  .tt-hint + .typeahead, .asColorPicker-wrap >
+  .tt-hint + .typeahead, .input-group > .form-control +
+  .tt-query, .asColorPicker-wrap > .form-control +
+  .tt-query, .input-group > .asColorPicker-input +
+  .tt-query, .asColorPicker-wrap > .asColorPicker-input +
+  .tt-query, .dataTables_wrapper .input-group > select +
+  .tt-query, .dataTables_wrapper .asColorPicker-wrap > select +
+  .tt-query, .jsgrid .jsgrid-table .jsgrid-filter-row .input-group > input[type=text] +
+  .tt-query, .jsgrid .jsgrid-table .jsgrid-filter-row .asColorPicker-wrap > input[type=text] +
+  .tt-query,
+  .jsgrid .jsgrid-table .jsgrid-filter-row .input-group > select +
+  .tt-query,
+  .jsgrid .jsgrid-table .jsgrid-filter-row .asColorPicker-wrap > select +
+  .tt-query, .jsgrid .jsgrid-table .jsgrid-filter-row .input-group > input[type=number] +
+  .tt-query, .jsgrid .jsgrid-table .jsgrid-filter-row .asColorPicker-wrap > input[type=number] +
+  .tt-query, .select2-container--default .input-group > .select2-selection--single +
+  .tt-query, .select2-container--default .asColorPicker-wrap > .select2-selection--single +
+  .tt-query, .select2-container--default .select2-selection--single .input-group > .select2-search__field +
+  .tt-query, .select2-container--default .select2-selection--single .asColorPicker-wrap > .select2-search__field +
+  .tt-query, .input-group > .typeahead +
+  .tt-query, .asColorPicker-wrap > .typeahead +
+  .tt-query, .input-group >
+  .tt-query +
+  .tt-query, .asColorPicker-wrap >
+  .tt-query +
+  .tt-query, .input-group >
+  .tt-hint +
+  .tt-query, .asColorPicker-wrap >
+  .tt-hint +
+  .tt-query, .input-group > .form-control +
+  .tt-hint, .asColorPicker-wrap > .form-control +
+  .tt-hint, .input-group > .asColorPicker-input +
+  .tt-hint, .asColorPicker-wrap > .asColorPicker-input +
+  .tt-hint, .dataTables_wrapper .input-group > select +
+  .tt-hint, .dataTables_wrapper .asColorPicker-wrap > select +
+  .tt-hint, .jsgrid .jsgrid-table .jsgrid-filter-row .input-group > input[type=text] +
+  .tt-hint, .jsgrid .jsgrid-table .jsgrid-filter-row .asColorPicker-wrap > input[type=text] +
+  .tt-hint,
+  .jsgrid .jsgrid-table .jsgrid-filter-row .input-group > select +
+  .tt-hint,
+  .jsgrid .jsgrid-table .jsgrid-filter-row .asColorPicker-wrap > select +
+  .tt-hint, .jsgrid .jsgrid-table .jsgrid-filter-row .input-group > input[type=number] +
+  .tt-hint, .jsgrid .jsgrid-table .jsgrid-filter-row .asColorPicker-wrap > input[type=number] +
+  .tt-hint, .select2-container--default .input-group > .select2-selection--single +
+  .tt-hint, .select2-container--default .asColorPicker-wrap > .select2-selection--single +
+  .tt-hint, .select2-container--default .select2-selection--single .input-group > .select2-search__field +
+  .tt-hint, .select2-container--default .select2-selection--single .asColorPicker-wrap > .select2-search__field +
+  .tt-hint, .input-group > .typeahead +
+  .tt-hint, .asColorPicker-wrap > .typeahead +
+  .tt-hint, .input-group >
+  .tt-query +
+  .tt-hint, .asColorPicker-wrap >
+  .tt-query +
+  .tt-hint, .input-group >
+  .tt-hint +
+  .tt-hint, .asColorPicker-wrap >
+  .tt-hint +
+  .tt-hint,
+  .input-group > .form-control + .custom-select, .asColorPicker-wrap > .form-control + .custom-select,
+  .input-group > .asColorPicker-input + .custom-select, .asColorPicker-wrap > .asColorPicker-input + .custom-select, .dataTables_wrapper
+  .input-group > select + .custom-select, .dataTables_wrapper .asColorPicker-wrap > select + .custom-select, .jsgrid .jsgrid-table .jsgrid-filter-row
+  .input-group > input[type=text] + .custom-select, .jsgrid .jsgrid-table .jsgrid-filter-row .asColorPicker-wrap > input[type=text] + .custom-select,
+  .jsgrid .jsgrid-table .jsgrid-filter-row
+  .input-group > select + .custom-select,
+  .jsgrid .jsgrid-table .jsgrid-filter-row .asColorPicker-wrap > select + .custom-select, .jsgrid .jsgrid-table .jsgrid-filter-row
+  .input-group > input[type=number] + .custom-select, .jsgrid .jsgrid-table .jsgrid-filter-row .asColorPicker-wrap > input[type=number] + .custom-select, .select2-container--default
+  .input-group > .select2-selection--single + .custom-select, .select2-container--default .asColorPicker-wrap > .select2-selection--single + .custom-select, .select2-container--default .select2-selection--single
+  .input-group > .select2-search__field + .custom-select, .select2-container--default .select2-selection--single .asColorPicker-wrap > .select2-search__field + .custom-select,
+  .input-group > .typeahead + .custom-select, .asColorPicker-wrap > .typeahead + .custom-select,
+  .input-group >
+  .tt-query + .custom-select, .asColorPicker-wrap >
+  .tt-query + .custom-select,
+  .input-group >
+  .tt-hint + .custom-select, .asColorPicker-wrap >
+  .tt-hint + .custom-select,
+  .input-group > .form-control + .custom-file, .asColorPicker-wrap > .form-control + .custom-file,
+  .input-group > .asColorPicker-input + .custom-file, .asColorPicker-wrap > .asColorPicker-input + .custom-file, .dataTables_wrapper
+  .input-group > select + .custom-file, .dataTables_wrapper .asColorPicker-wrap > select + .custom-file, .jsgrid .jsgrid-table .jsgrid-filter-row
+  .input-group > input[type=text] + .custom-file, .jsgrid .jsgrid-table .jsgrid-filter-row .asColorPicker-wrap > input[type=text] + .custom-file,
+  .jsgrid .jsgrid-table .jsgrid-filter-row
+  .input-group > select + .custom-file,
+  .jsgrid .jsgrid-table .jsgrid-filter-row .asColorPicker-wrap > select + .custom-file, .jsgrid .jsgrid-table .jsgrid-filter-row
+  .input-group > input[type=number] + .custom-file, .jsgrid .jsgrid-table .jsgrid-filter-row .asColorPicker-wrap > input[type=number] + .custom-file, .select2-container--default
+  .input-group > .select2-selection--single + .custom-file, .select2-container--default .asColorPicker-wrap > .select2-selection--single + .custom-file, .select2-container--default .select2-selection--single
+  .input-group > .select2-search__field + .custom-file, .select2-container--default .select2-selection--single .asColorPicker-wrap > .select2-search__field + .custom-file,
+  .input-group > .typeahead + .custom-file, .asColorPicker-wrap > .typeahead + .custom-file,
+  .input-group >
+  .tt-query + .custom-file, .asColorPicker-wrap >
+  .tt-query + .custom-file,
+  .input-group >
+  .tt-hint + .custom-file, .asColorPicker-wrap >
+  .tt-hint + .custom-file,
+  .input-group > .custom-select + .form-control, .asColorPicker-wrap > .custom-select + .form-control,
+  .input-group > .custom-select + .asColorPicker-input, .asColorPicker-wrap > .custom-select + .asColorPicker-input, .dataTables_wrapper
+  .input-group > .custom-select + select, .dataTables_wrapper .asColorPicker-wrap > .custom-select + select, .jsgrid .jsgrid-table .jsgrid-filter-row
+  .input-group > .custom-select + input[type=text], .jsgrid .jsgrid-table .jsgrid-filter-row .asColorPicker-wrap > .custom-select + input[type=text],
+  .jsgrid .jsgrid-table .jsgrid-filter-row
+  .input-group > .custom-select + select,
+  .jsgrid .jsgrid-table .jsgrid-filter-row .asColorPicker-wrap > .custom-select + select, .jsgrid .jsgrid-table .jsgrid-filter-row
+  .input-group > .custom-select + input[type=number], .jsgrid .jsgrid-table .jsgrid-filter-row .asColorPicker-wrap > .custom-select + input[type=number], .select2-container--default
+  .input-group > .custom-select + .select2-selection--single, .select2-container--default .asColorPicker-wrap > .custom-select + .select2-selection--single, .select2-container--default .select2-selection--single
+  .input-group > .custom-select + .select2-search__field, .select2-container--default .select2-selection--single .asColorPicker-wrap > .custom-select + .select2-search__field,
+  .input-group > .custom-select + .typeahead, .asColorPicker-wrap > .custom-select + .typeahead,
+  .input-group > .custom-select +
+  .tt-query, .asColorPicker-wrap > .custom-select +
+  .tt-query,
+  .input-group > .custom-select +
+  .tt-hint, .asColorPicker-wrap > .custom-select +
+  .tt-hint,
+  .input-group > .custom-select + .custom-select, .asColorPicker-wrap > .custom-select + .custom-select,
+  .input-group > .custom-select + .custom-file, .asColorPicker-wrap > .custom-select + .custom-file,
+  .input-group > .custom-file + .form-control, .asColorPicker-wrap > .custom-file + .form-control,
+  .input-group > .custom-file + .asColorPicker-input, .asColorPicker-wrap > .custom-file + .asColorPicker-input, .dataTables_wrapper
+  .input-group > .custom-file + select, .dataTables_wrapper .asColorPicker-wrap > .custom-file + select, .jsgrid .jsgrid-table .jsgrid-filter-row
+  .input-group > .custom-file + input[type=text], .jsgrid .jsgrid-table .jsgrid-filter-row .asColorPicker-wrap > .custom-file + input[type=text],
+  .jsgrid .jsgrid-table .jsgrid-filter-row
+  .input-group > .custom-file + select,
+  .jsgrid .jsgrid-table .jsgrid-filter-row .asColorPicker-wrap > .custom-file + select, .jsgrid .jsgrid-table .jsgrid-filter-row
+  .input-group > .custom-file + input[type=number], .jsgrid .jsgrid-table .jsgrid-filter-row .asColorPicker-wrap > .custom-file + input[type=number], .select2-container--default
+  .input-group > .custom-file + .select2-selection--single, .select2-container--default .asColorPicker-wrap > .custom-file + .select2-selection--single, .select2-container--default .select2-selection--single
+  .input-group > .custom-file + .select2-search__field, .select2-container--default .select2-selection--single .asColorPicker-wrap > .custom-file + .select2-search__field,
+  .input-group > .custom-file + .typeahead, .asColorPicker-wrap > .custom-file + .typeahead,
+  .input-group > .custom-file +
+  .tt-query, .asColorPicker-wrap > .custom-file +
+  .tt-query,
+  .input-group > .custom-file +
+  .tt-hint, .asColorPicker-wrap > .custom-file +
+  .tt-hint,
+  .input-group > .custom-file + .custom-select, .asColorPicker-wrap > .custom-file + .custom-select,
+  .input-group > .custom-file + .custom-file, .asColorPicker-wrap > .custom-file + .custom-file {
+    margin-left: -1px;
+  }
+  
+  .input-group > .form-control:not(:last-child), .asColorPicker-wrap > .form-control:not(:last-child), .input-group > .asColorPicker-input:not(:last-child), .asColorPicker-wrap > .asColorPicker-input:not(:last-child), .dataTables_wrapper .input-group > select:not(:last-child), .dataTables_wrapper .asColorPicker-wrap > select:not(:last-child), .jsgrid .jsgrid-table .jsgrid-filter-row .input-group > input[type=text]:not(:last-child), .jsgrid .jsgrid-table .jsgrid-filter-row .asColorPicker-wrap > input[type=text]:not(:last-child),
+  .jsgrid .jsgrid-table .jsgrid-filter-row .input-group > select:not(:last-child),
+  .jsgrid .jsgrid-table .jsgrid-filter-row .asColorPicker-wrap > select:not(:last-child), .jsgrid .jsgrid-table .jsgrid-filter-row .input-group > input[type=number]:not(:last-child), .jsgrid .jsgrid-table .jsgrid-filter-row .asColorPicker-wrap > input[type=number]:not(:last-child), .select2-container--default .input-group > .select2-selection--single:not(:last-child), .select2-container--default .asColorPicker-wrap > .select2-selection--single:not(:last-child), .select2-container--default .select2-selection--single .input-group > .select2-search__field:not(:last-child), .select2-container--default .select2-selection--single .asColorPicker-wrap > .select2-search__field:not(:last-child), .input-group > .typeahead:not(:last-child), .asColorPicker-wrap > .typeahead:not(:last-child), .input-group >
+  .tt-query:not(:last-child), .asColorPicker-wrap >
+  .tt-query:not(:last-child), .input-group >
+  .tt-hint:not(:last-child), .asColorPicker-wrap >
+  .tt-hint:not(:last-child),
+  .input-group > .custom-select:not(:last-child), .asColorPicker-wrap > .custom-select:not(:last-child) {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+  
+  .input-group > .form-control:not(:first-child), .asColorPicker-wrap > .form-control:not(:first-child), .input-group > .asColorPicker-input:not(:first-child), .asColorPicker-wrap > .asColorPicker-input:not(:first-child), .dataTables_wrapper .input-group > select:not(:first-child), .dataTables_wrapper .asColorPicker-wrap > select:not(:first-child), .jsgrid .jsgrid-table .jsgrid-filter-row .input-group > input[type=text]:not(:first-child), .jsgrid .jsgrid-table .jsgrid-filter-row .asColorPicker-wrap > input[type=text]:not(:first-child),
+  .jsgrid .jsgrid-table .jsgrid-filter-row .input-group > select:not(:first-child),
+  .jsgrid .jsgrid-table .jsgrid-filter-row .asColorPicker-wrap > select:not(:first-child), .jsgrid .jsgrid-table .jsgrid-filter-row .input-group > input[type=number]:not(:first-child), .jsgrid .jsgrid-table .jsgrid-filter-row .asColorPicker-wrap > input[type=number]:not(:first-child), .select2-container--default .input-group > .select2-selection--single:not(:first-child), .select2-container--default .asColorPicker-wrap > .select2-selection--single:not(:first-child), .select2-container--default .select2-selection--single .input-group > .select2-search__field:not(:first-child), .select2-container--default .select2-selection--single .asColorPicker-wrap > .select2-search__field:not(:first-child), .input-group > .typeahead:not(:first-child), .asColorPicker-wrap > .typeahead:not(:first-child), .input-group >
+  .tt-query:not(:first-child), .asColorPicker-wrap >
+  .tt-query:not(:first-child), .input-group >
+  .tt-hint:not(:first-child), .asColorPicker-wrap >
+  .tt-hint:not(:first-child),
+  .input-group > .custom-select:not(:first-child), .asColorPicker-wrap > .custom-select:not(:first-child) {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  
+  .input-group > .custom-file, .asColorPicker-wrap > .custom-file {
+    display: flex;
+    align-items: center;
+  }
+  
+  .input-group > .custom-file:not(:last-child) .custom-file-label, .asColorPicker-wrap > .custom-file:not(:last-child) .custom-file-label,
+  .input-group > .custom-file:not(:last-child) .custom-file-label::after, .asColorPicker-wrap > .custom-file:not(:last-child) .custom-file-label::after {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+  
+  .input-group > .custom-file:not(:first-child) .custom-file-label, .asColorPicker-wrap > .custom-file:not(:first-child) .custom-file-label {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  
+  .input-group-prepend,
+  .input-group-append {
+    display: flex;
+  }
+  
+  .input-group-prepend .btn, .input-group-prepend .fc button, .fc .input-group-prepend button, .input-group-prepend .ajax-upload-dragdrop .ajax-file-upload, .ajax-upload-dragdrop .input-group-prepend .ajax-file-upload, .input-group-prepend .swal2-modal .swal2-buttonswrapper .swal2-styled, .swal2-modal .swal2-buttonswrapper .input-group-prepend .swal2-styled, .input-group-prepend .wizard > .actions a, .wizard > .actions .input-group-prepend a,
+  .input-group-append .btn,
+  .input-group-append .fc button, .fc
+  .input-group-append button,
+  .input-group-append .ajax-upload-dragdrop .ajax-file-upload, .ajax-upload-dragdrop
+  .input-group-append .ajax-file-upload,
+  .input-group-append .swal2-modal .swal2-buttonswrapper .swal2-styled, .swal2-modal .swal2-buttonswrapper
+  .input-group-append .swal2-styled,
+  .input-group-append .wizard > .actions a, .wizard > .actions
+  .input-group-append a {
+    position: relative;
+    z-index: 2;
+  }
+  
+  .input-group-prepend .btn + .btn, .input-group-prepend .fc button + .btn, .fc .input-group-prepend button + .btn, .input-group-prepend .ajax-upload-dragdrop .ajax-file-upload + .btn, .ajax-upload-dragdrop .input-group-prepend .ajax-file-upload + .btn, .input-group-prepend .swal2-modal .swal2-buttonswrapper .swal2-styled + .btn, .swal2-modal .swal2-buttonswrapper .input-group-prepend .swal2-styled + .btn, .input-group-prepend .wizard > .actions a + .btn, .wizard > .actions .input-group-prepend a + .btn, .input-group-prepend .fc .btn + button, .fc .input-group-prepend .btn + button, .input-group-prepend .fc button + button, .fc .input-group-prepend button + button, .input-group-prepend .ajax-upload-dragdrop .fc .ajax-file-upload + button, .fc .input-group-prepend .ajax-upload-dragdrop .ajax-file-upload + button, .ajax-upload-dragdrop .input-group-prepend .fc .ajax-file-upload + button, .fc .ajax-upload-dragdrop .input-group-prepend .ajax-file-upload + button, .input-group-prepend .swal2-modal .swal2-buttonswrapper .fc .swal2-styled + button, .fc .input-group-prepend .swal2-modal .swal2-buttonswrapper .swal2-styled + button, .swal2-modal .swal2-buttonswrapper .input-group-prepend .fc .swal2-styled + button, .fc .swal2-modal .swal2-buttonswrapper .input-group-prepend .swal2-styled + button, .input-group-prepend .wizard > .actions .fc a + button, .fc .input-group-prepend .wizard > .actions a + button, .wizard > .actions .input-group-prepend .fc a + button, .fc .wizard > .actions .input-group-prepend a + button, .input-group-prepend .ajax-upload-dragdrop .btn + .ajax-file-upload, .ajax-upload-dragdrop .input-group-prepend .btn + .ajax-file-upload, .input-group-prepend .fc .ajax-upload-dragdrop button + .ajax-file-upload, .ajax-upload-dragdrop .input-group-prepend .fc button + .ajax-file-upload, .fc .input-group-prepend .ajax-upload-dragdrop button + .ajax-file-upload, .ajax-upload-dragdrop .fc .input-group-prepend button + .ajax-file-upload, .input-group-prepend .ajax-upload-dragdrop .ajax-file-upload + .ajax-file-upload, .ajax-upload-dragdrop .input-group-prepend .ajax-file-upload + .ajax-file-upload, .input-group-prepend .swal2-modal .swal2-buttonswrapper .ajax-upload-dragdrop .swal2-styled + .ajax-file-upload, .ajax-upload-dragdrop .input-group-prepend .swal2-modal .swal2-buttonswrapper .swal2-styled + .ajax-file-upload, .swal2-modal .swal2-buttonswrapper .input-group-prepend .ajax-upload-dragdrop .swal2-styled + .ajax-file-upload, .ajax-upload-dragdrop .swal2-modal .swal2-buttonswrapper .input-group-prepend .swal2-styled + .ajax-file-upload, .input-group-prepend .wizard > .actions .ajax-upload-dragdrop a + .ajax-file-upload, .ajax-upload-dragdrop .input-group-prepend .wizard > .actions a + .ajax-file-upload, .wizard > .actions .input-group-prepend .ajax-upload-dragdrop a + .ajax-file-upload, .ajax-upload-dragdrop .wizard > .actions .input-group-prepend a + .ajax-file-upload, .input-group-prepend .swal2-modal .swal2-buttonswrapper .btn + .swal2-styled, .swal2-modal .swal2-buttonswrapper .input-group-prepend .btn + .swal2-styled, .input-group-prepend .fc .swal2-modal .swal2-buttonswrapper button + .swal2-styled, .swal2-modal .swal2-buttonswrapper .input-group-prepend .fc button + .swal2-styled, .fc .input-group-prepend .swal2-modal .swal2-buttonswrapper button + .swal2-styled, .swal2-modal .swal2-buttonswrapper .fc .input-group-prepend button + .swal2-styled, .input-group-prepend .ajax-upload-dragdrop .swal2-modal .swal2-buttonswrapper .ajax-file-upload + .swal2-styled, .swal2-modal .swal2-buttonswrapper .input-group-prepend .ajax-upload-dragdrop .ajax-file-upload + .swal2-styled, .ajax-upload-dragdrop .input-group-prepend .swal2-modal .swal2-buttonswrapper .ajax-file-upload + .swal2-styled, .swal2-modal .swal2-buttonswrapper .ajax-upload-dragdrop .input-group-prepend .ajax-file-upload + .swal2-styled, .input-group-prepend .swal2-modal .swal2-buttonswrapper .swal2-styled + .swal2-styled, .swal2-modal .swal2-buttonswrapper .input-group-prepend .swal2-styled + .swal2-styled, .input-group-prepend .wizard > .actions .swal2-modal .swal2-buttonswrapper a + .swal2-styled, .swal2-modal .swal2-buttonswrapper .input-group-prepend .wizard > .actions a + .swal2-styled, .wizard > .actions .input-group-prepend .swal2-modal .swal2-buttonswrapper a + .swal2-styled, .swal2-modal .swal2-buttonswrapper .wizard > .actions .input-group-prepend a + .swal2-styled, .input-group-prepend .wizard > .actions .btn + a, .wizard > .actions .input-group-prepend .btn + a, .input-group-prepend .fc .wizard > .actions button + a, .wizard > .actions .input-group-prepend .fc button + a, .fc .input-group-prepend .wizard > .actions button + a, .wizard > .actions .fc .input-group-prepend button + a, .input-group-prepend .ajax-upload-dragdrop .wizard > .actions .ajax-file-upload + a, .wizard > .actions .input-group-prepend .ajax-upload-dragdrop .ajax-file-upload + a, .ajax-upload-dragdrop .input-group-prepend .wizard > .actions .ajax-file-upload + a, .wizard > .actions .ajax-upload-dragdrop .input-group-prepend .ajax-file-upload + a, .input-group-prepend .swal2-modal .swal2-buttonswrapper .wizard > .actions .swal2-styled + a, .wizard > .actions .input-group-prepend .swal2-modal .swal2-buttonswrapper .swal2-styled + a, .swal2-modal .swal2-buttonswrapper .input-group-prepend .wizard > .actions .swal2-styled + a, .wizard > .actions .swal2-modal .swal2-buttonswrapper .input-group-prepend .swal2-styled + a, .input-group-prepend .wizard > .actions a + a, .wizard > .actions .input-group-prepend a + a,
+  .input-group-prepend .btn + .input-group-text,
+  .input-group-prepend .fc button + .input-group-text, .fc
+  .input-group-prepend button + .input-group-text,
+  .input-group-prepend .ajax-upload-dragdrop .ajax-file-upload + .input-group-text, .ajax-upload-dragdrop
+  .input-group-prepend .ajax-file-upload + .input-group-text,
+  .input-group-prepend .swal2-modal .swal2-buttonswrapper .swal2-styled + .input-group-text, .swal2-modal .swal2-buttonswrapper
+  .input-group-prepend .swal2-styled + .input-group-text,
+  .input-group-prepend .wizard > .actions a + .input-group-text, .wizard > .actions
+  .input-group-prepend a + .input-group-text,
+  .input-group-prepend .input-group-text + .input-group-text,
+  .input-group-prepend .input-group-text + .btn,
+  .input-group-prepend .fc .input-group-text + button, .fc
+  .input-group-prepend .input-group-text + button,
+  .input-group-prepend .ajax-upload-dragdrop .input-group-text + .ajax-file-upload, .ajax-upload-dragdrop
+  .input-group-prepend .input-group-text + .ajax-file-upload,
+  .input-group-prepend .swal2-modal .swal2-buttonswrapper .input-group-text + .swal2-styled, .swal2-modal .swal2-buttonswrapper
+  .input-group-prepend .input-group-text + .swal2-styled,
+  .input-group-prepend .wizard > .actions .input-group-text + a, .wizard > .actions
+  .input-group-prepend .input-group-text + a,
+  .input-group-append .btn + .btn,
+  .input-group-append .fc button + .btn, .fc
+  .input-group-append button + .btn,
+  .input-group-append .ajax-upload-dragdrop .ajax-file-upload + .btn, .ajax-upload-dragdrop
+  .input-group-append .ajax-file-upload + .btn,
+  .input-group-append .swal2-modal .swal2-buttonswrapper .swal2-styled + .btn, .swal2-modal .swal2-buttonswrapper
+  .input-group-append .swal2-styled + .btn,
+  .input-group-append .wizard > .actions a + .btn, .wizard > .actions
+  .input-group-append a + .btn,
+  .input-group-append .fc .btn + button, .fc
+  .input-group-append .btn + button,
+  .input-group-append .fc button + button, .fc
+  .input-group-append button + button,
+  .input-group-append .ajax-upload-dragdrop .fc .ajax-file-upload + button, .fc
+  .input-group-append .ajax-upload-dragdrop .ajax-file-upload + button, .ajax-upload-dragdrop
+  .input-group-append .fc .ajax-file-upload + button, .fc .ajax-upload-dragdrop
+  .input-group-append .ajax-file-upload + button,
+  .input-group-append .swal2-modal .swal2-buttonswrapper .fc .swal2-styled + button, .fc
+  .input-group-append .swal2-modal .swal2-buttonswrapper .swal2-styled + button, .swal2-modal .swal2-buttonswrapper
+  .input-group-append .fc .swal2-styled + button, .fc .swal2-modal .swal2-buttonswrapper
+  .input-group-append .swal2-styled + button,
+  .input-group-append .wizard > .actions .fc a + button, .fc
+  .input-group-append .wizard > .actions a + button, .wizard > .actions
+  .input-group-append .fc a + button, .fc .wizard > .actions
+  .input-group-append a + button,
+  .input-group-append .ajax-upload-dragdrop .btn + .ajax-file-upload, .ajax-upload-dragdrop
+  .input-group-append .btn + .ajax-file-upload,
+  .input-group-append .fc .ajax-upload-dragdrop button + .ajax-file-upload, .ajax-upload-dragdrop
+  .input-group-append .fc button + .ajax-file-upload, .fc
+  .input-group-append .ajax-upload-dragdrop button + .ajax-file-upload, .ajax-upload-dragdrop .fc
+  .input-group-append button + .ajax-file-upload,
+  .input-group-append .ajax-upload-dragdrop .ajax-file-upload + .ajax-file-upload, .ajax-upload-dragdrop
+  .input-group-append .ajax-file-upload + .ajax-file-upload,
+  .input-group-append .swal2-modal .swal2-buttonswrapper .ajax-upload-dragdrop .swal2-styled + .ajax-file-upload, .ajax-upload-dragdrop
+  .input-group-append .swal2-modal .swal2-buttonswrapper .swal2-styled + .ajax-file-upload, .swal2-modal .swal2-buttonswrapper
+  .input-group-append .ajax-upload-dragdrop .swal2-styled + .ajax-file-upload, .ajax-upload-dragdrop .swal2-modal .swal2-buttonswrapper
+  .input-group-append .swal2-styled + .ajax-file-upload,
+  .input-group-append .wizard > .actions .ajax-upload-dragdrop a + .ajax-file-upload, .ajax-upload-dragdrop
+  .input-group-append .wizard > .actions a + .ajax-file-upload, .wizard > .actions
+  .input-group-append .ajax-upload-dragdrop a + .ajax-file-upload, .ajax-upload-dragdrop .wizard > .actions
+  .input-group-append a + .ajax-file-upload,
+  .input-group-append .swal2-modal .swal2-buttonswrapper .btn + .swal2-styled, .swal2-modal .swal2-buttonswrapper
+  .input-group-append .btn + .swal2-styled,
+  .input-group-append .fc .swal2-modal .swal2-buttonswrapper button + .swal2-styled, .swal2-modal .swal2-buttonswrapper
+  .input-group-append .fc button + .swal2-styled, .fc
+  .input-group-append .swal2-modal .swal2-buttonswrapper button + .swal2-styled, .swal2-modal .swal2-buttonswrapper .fc
+  .input-group-append button + .swal2-styled,
+  .input-group-append .ajax-upload-dragdrop .swal2-modal .swal2-buttonswrapper .ajax-file-upload + .swal2-styled, .swal2-modal .swal2-buttonswrapper
+  .input-group-append .ajax-upload-dragdrop .ajax-file-upload + .swal2-styled, .ajax-upload-dragdrop
+  .input-group-append .swal2-modal .swal2-buttonswrapper .ajax-file-upload + .swal2-styled, .swal2-modal .swal2-buttonswrapper .ajax-upload-dragdrop
+  .input-group-append .ajax-file-upload + .swal2-styled,
+  .input-group-append .swal2-modal .swal2-buttonswrapper .swal2-styled + .swal2-styled, .swal2-modal .swal2-buttonswrapper
+  .input-group-append .swal2-styled + .swal2-styled,
+  .input-group-append .wizard > .actions .swal2-modal .swal2-buttonswrapper a + .swal2-styled, .swal2-modal .swal2-buttonswrapper
+  .input-group-append .wizard > .actions a + .swal2-styled, .wizard > .actions
+  .input-group-append .swal2-modal .swal2-buttonswrapper a + .swal2-styled, .swal2-modal .swal2-buttonswrapper .wizard > .actions
+  .input-group-append a + .swal2-styled,
+  .input-group-append .wizard > .actions .btn + a, .wizard > .actions
+  .input-group-append .btn + a,
+  .input-group-append .fc .wizard > .actions button + a, .wizard > .actions
+  .input-group-append .fc button + a, .fc
+  .input-group-append .wizard > .actions button + a, .wizard > .actions .fc
+  .input-group-append button + a,
+  .input-group-append .ajax-upload-dragdrop .wizard > .actions .ajax-file-upload + a, .wizard > .actions
+  .input-group-append .ajax-upload-dragdrop .ajax-file-upload + a, .ajax-upload-dragdrop
+  .input-group-append .wizard > .actions .ajax-file-upload + a, .wizard > .actions .ajax-upload-dragdrop
+  .input-group-append .ajax-file-upload + a,
+  .input-group-append .swal2-modal .swal2-buttonswrapper .wizard > .actions .swal2-styled + a, .wizard > .actions
+  .input-group-append .swal2-modal .swal2-buttonswrapper .swal2-styled + a, .swal2-modal .swal2-buttonswrapper
+  .input-group-append .wizard > .actions .swal2-styled + a, .wizard > .actions .swal2-modal .swal2-buttonswrapper
+  .input-group-append .swal2-styled + a,
+  .input-group-append .wizard > .actions a + a, .wizard > .actions
+  .input-group-append a + a,
+  .input-group-append .btn + .input-group-text,
+  .input-group-append .fc button + .input-group-text, .fc
+  .input-group-append button + .input-group-text,
+  .input-group-append .ajax-upload-dragdrop .ajax-file-upload + .input-group-text, .ajax-upload-dragdrop
+  .input-group-append .ajax-file-upload + .input-group-text,
+  .input-group-append .swal2-modal .swal2-buttonswrapper .swal2-styled + .input-group-text, .swal2-modal .swal2-buttonswrapper
+  .input-group-append .swal2-styled + .input-group-text,
+  .input-group-append .wizard > .actions a + .input-group-text, .wizard > .actions
+  .input-group-append a + .input-group-text,
+  .input-group-append .input-group-text + .input-group-text,
+  .input-group-append .input-group-text + .btn,
+  .input-group-append .fc .input-group-text + button, .fc
+  .input-group-append .input-group-text + button,
+  .input-group-append .ajax-upload-dragdrop .input-group-text + .ajax-file-upload, .ajax-upload-dragdrop
+  .input-group-append .input-group-text + .ajax-file-upload,
+  .input-group-append .swal2-modal .swal2-buttonswrapper .input-group-text + .swal2-styled, .swal2-modal .swal2-buttonswrapper
+  .input-group-append .input-group-text + .swal2-styled,
+  .input-group-append .wizard > .actions .input-group-text + a, .wizard > .actions
+  .input-group-append .input-group-text + a {
+    margin-left: -1px;
+  }
+  
+  .input-group-prepend {
+    margin-right: -1px;
+  }
+  
+  .input-group-append {
+    margin-left: -1px;
+  }
+  

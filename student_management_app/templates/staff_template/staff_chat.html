@@ -1,0 +1,651 @@
+
+{% load static %}
+
+
+
+
+  <!-- container-scroller -->
+
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    {% comment %} <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet"> {% endcomment %}
+
+     <link rel="stylesheet" href="{% static 'chat/fonts/icomoon/style.css' %}">
+
+    <link rel="stylesheet" href="{% static 'chat/css/owl.carousel.min.css' %}">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="{% static 'chat/css/bootstrap.min.css' %}"> 
+    
+    <!-- Style -->
+ <link rel="stylesheet" href="{% static 'chat/css/style.css' %}"> 
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!------ Include the above in your HEAD tag ---------->
+    
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <!------ Include the above in your HEAD tag ---------->
+    
+    <script src="https://use.fontawesome.com/45e03a14ce.js"></script>
+    
+    
+    <style>
+         #custom-search-input {
+      background: #e8e6e7 none repeat scroll 0 0;
+      margin: 0;
+      padding: 10px;
+    }
+       #custom-search-input .search-query {
+       background: #fff none repeat scroll 0 0 !important;
+       border-radius: 4px;
+       height: 33px;
+       margin-bottom: 0;
+       padding-left: 7px;
+       padding-right: 7px;
+       }
+       #custom-search-input button {
+       background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+       border: 0 none;
+       border-radius: 3px;
+       color: #666666;
+       left: auto;
+       margin-bottom: 0;
+       margin-top: 7px;
+       padding: 2px 5px;
+       position: absolute;
+       right: 0;
+       z-index: 9999;
+       }
+       .search-query:focus + button {
+       z-index: 3;   
+       }
+       .all_conversation button {
+       background: #f5f3f3 none repeat scroll 0 0;
+       border: 1px solid #dddddd;
+       height: 38px;
+       text-align: left;
+       width: 100%;
+       }
+       .all_conversation i {
+       background: #e9e7e8 none repeat scroll 0 0;
+       border-radius: 100px;
+       color: #636363;
+       font-size: 17px;
+       height: 30px;
+       line-height: 30px;
+       text-align: center;
+       width: 30px;
+       }
+       .all_conversation .caret {
+       bottom: 0;
+       margin: auto;
+       position: absolute;
+       right: 15px;
+       top: 0;
+       }
+       .all_conversation .dropdown-menu {
+       background: #f5f3f3 none repeat scroll 0 0;
+       border-radius: 0;
+       margin-top: 0;
+       padding: 0;
+       width: 100%;
+       }
+       .all_conversation ul li {
+       border-bottom: 1px solid #dddddd;
+       line-height: normal;
+       width: 100%;
+       }
+       .all_conversation ul li a:hover {
+       background: #dddddd none repeat scroll 0 0;
+       color:#333;
+       }
+       .all_conversation ul li a {
+      color: #333;
+      line-height: 30px;
+      padding: 3px 20px;
+    }
+       .member_list .chat-body {
+       margin-left: 47px;
+       margin-top: 0;
+       }
+       .top_nav {
+       overflow: visible;
+       }
+       .member_list .contact_sec {
+       margin-top: 3px;
+       }
+       .member_list li {
+       padding: 6px;
+       }
+       .member_list ul {
+       border: 1px solid #dddddd;
+       }
+       .chat-img img {
+       height: 34px;
+       width: 34px;
+       }
+       .member_list li {
+       border-bottom: 1px solid #dddddd;
+       padding: 6px;
+       }
+       .member_list li:last-child {
+       border-bottom:none;
+       }
+       .member_list {
+       height: 380px;
+       overflow-x: hidden;
+       overflow-y: auto;
+       }
+       .sub_menu_ {
+      background: #e8e6e7 none repeat scroll 0 0;
+      left: 100%;
+      max-width: 233px;
+      position: absolute;
+      width: 100%;
+    }
+    .sub_menu_ {
+      background: #f5f3f3 none repeat scroll 0 0;
+      border: 1px solid rgba(0, 0, 0, 0.15);
+      display: none;
+      left: 100%;
+      margin-left: 0;
+      max-width: 233px;
+      position: absolute;
+      top: 0;
+      width: 100%;
+    }
+    .all_conversation ul li:hover .sub_menu_ {
+      display: block;
+    }
+    .new_message_head button {
+      background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+      border: medium none;
+    }
+    .new_message_head {
+      background: #f5f3f3 none repeat scroll 0 0;
+      float: left;
+      font-size: 13px;
+      font-weight: 600;
+      padding: 18px 10px;
+      width: 100%;
+    }
+    .message_section {
+      border: 1px solid #dddddd;
+    }
+    .chat_area {
+      float: left;
+      height: 300px;
+      overflow-x: hidden;
+      overflow-y: auto;
+      width: 100%;
+    }
+    .chat_area li {
+      padding: 14px 14px 0;
+    }
+    .chat_area li .chat-img1 img {
+      height: 40px;
+      width: 40px;
+    }
+    .chat_area .chat-body1 {
+      margin-left: 50px;
+    }
+    .chat-body1 p {
+      background: #fbf9fa none repeat scroll 0 0;
+      padding: 10px;
+    }
+    .chat_area .admin_chat .chat-body1 {
+      margin-left: 0;
+      margin-right: 50px;
+    }
+    .chat_area li:last-child {
+      padding-bottom: 10px;
+    }
+    .message_write {
+      background: #f5f3f3 none repeat scroll 0 0;
+      float: left;
+      padding: 15px;
+      width: 100%;
+    }
+    
+    .message_write textarea.form-control {
+      height: 70px;
+      padding: 10px;
+    }
+    .chat_bottom {
+      float: left;
+      margin-top: 13px;
+      width: 100%;
+    }
+    .upload_btn {
+      color: #777777;
+    }
+    .sub_menu_ > li a, .sub_menu_ > li {
+      float: left;
+      width:100%;
+    }
+    .member_list li:hover {
+      background: #428bca none repeat scroll 0 0;
+      color: #fff;
+      cursor:pointer;
+    }
+    </style>
+    <title>chat</title>
+  </head>
+  <body>
+
+
+ 
+
+    <div class="site-mobile-menu site-navbar-target">
+      <div class="site-mobile-menu-header">
+        <div class="site-mobile-menu-close mt-3">
+          <span class="icon-close2 js-menu-toggle"></span>
+        </div>
+      </div>
+    </div>
+
+      <header class="site-navbar site-navbar-target py-4" role="banner">
+
+        <div class="container">
+          <div class="row align-items-center position-relative">
+
+            <div class="col-3 ml-auto text-right order-2">
+              <div class="site-logo">
+                <a href="{%url 'mystaff_home' %}" class="font-weight-bold text-white">Home</a>
+              </div>
+            </div>
+
+            <div class="col-9 order-1 text-left mr-auto">
+              
+
+              <span class="d-inline-block d-lg-block"><a href="#" class="text-black site-menu-toggle js-menu-toggle py-5"><span class="icon-menu h3 text-white"></span></a></span>
+
+              
+
+              <nav class="site-navigation text-right ml-auto d-none d-lg-none" role="navigation">
+                <ul class="site-menu main-menu js-clone-nav ml-auto ">
+                  <li class="active"><a href="{%url 'mystaff_home' %}" class="nav-link">Home</a></li>
+                  {% comment %} <li><a href="about.html" class="nav-link">About</a></li>
+                  <li><a href="services.html" class="nav-link">Services</a></li>
+                  <li><a href="blog.html" class="nav-link">Blog</a></li>
+                  <li><a href="contact.html" class="nav-link">Contact</a></li> {% endcomment %}
+                </ul>
+              </nav>
+            </div>
+
+            
+          </div>
+        </div>
+
+      </header>
+
+
+
+    <div class="hero" >
+
+  <div class="container-scroller">
+    <!-- partial:partials/_navbar.html -->
+
+    <!-- partial -->
+    <div class="container-fluid page-body-wrapper">
+      <!-- partial:partials/_settings-panel.html -->
+ 
+
+      <!-- partial -->
+      <!-- partial:partials/_sidebar.html -->
+
+      <!-- partial -->
+      <div  class="main-panel">
+        <div class="content-wrapper">
+
+          <div   class="row grid-margin">
+            <div class="col-12">
+              <div  class="card card-statistics">
+                <div style="background: linear-gradient(-45deg,rgba(147,26,222,0.83) 0%,rgba(28,206,234,0.82) 100%);" class="card-body">
+                  <div class="d-flex flex-column flex-md-row align-items-center justify-content-between">
+                      <div  class="statistics-item">
+                        <p>
+                          <i class="icon-sm fa fa-user mr-2"></i>
+                        </p>
+                        <h2>{{all_student_under_Teacher}}</h2>
+                        <label for=""></label><br>
+                        {% for user_Subjects_sin in user_Subjects %}
+                         
+                          <span><label class="badge badge-outline-success badge-pill">  {{user_Subjects_sin}}</label></span>
+                        {% endfor %}
+                      </div>
+                      <div class="statistics-item">
+                        <p>
+                         
+                           
+                        </p>
+                        <h2></h2>
+                        {% for the_cources in cources_under_Teacher %}
+                         
+
+                          <span><label class="badge badge-outline-success badge-pill"> <a style="color: white;" href="{% url 'show_student_by_course_id' the_cources.id %}"></a> </label></span>
+                        {% endfor %}
+                      </div>
+                      <div class="statistics-item">
+                        <p>
+                          <i class="icon-sm fas fa-check-circle mr-2"></i>
+                           
+                        </p>
+                        <h2></h2>
+                        {% for Subjects_sin in subjects %}
+                         
+
+                          <span><label class="badge badge-outline-success badge-pill"> <a style="color: white;" href="{% url 'Take_student_Attendance' Subjects_sin.id %}"></a> </label></span>
+                        {% endfor %}  
+                         </div>
+                         <div class="statistics-item">
+                          <p>
+                            <i class="icon-sm fas fa-check-circle mr-2"></i>
+                            
+                          </p>
+                          <h2></h2>
+                          {% for Subjects_sin in subjects %}
+                           
+  
+                            <span><label class="badge badge-outline-success badge-pill"> <a style="color: white;" href="{% url 'Take_Review' Subjects_sin.id %}"></a> </label></span>
+                          {% endfor %}  
+                           </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div  style="margin-top:70px" class="main_section">
+            <div class="container">
+               <div class="chat_container">
+                  <div class="col-sm-3 chat_sidebar">
+                <div class="row">
+                     <div id="custom-search-input">
+                        <div class="input-group col-md-12">
+                           <input style="width:270px;" type="text" class="  search-query form-control" placeholder="Conversation" />
+                           <button class="btn btn-danger" type="button">
+                           <span class=" glyphicon glyphicon-search"></span>
+                           </button>
+                        </div>
+                     </div>
+         
+                     <div class="member_list">
+                        <ul class="list-unstyled">
+         
+                         {% for single_staff in student  %}
+                           <a href="{% url 'staff_feedback_chat' single_staff.id %}">
+                           <li class="left clearfix" style="width:270px;">
+                              <span class="chat-img pull-left">
+                               <img src="https://img.icons8.com/fluency/48/000000/user-male-circle.png"/>
+                              </span>
+                              <div class="chat-body clearfix">
+                                 <div class="header_sec">
+                                    <strong class="primary-font">  {{single_staff.admin}} </strong> <strong class="pull-right">
+                                    09:45AM</strong>
+                                 </div>
+                                 <div class="contact_sec">
+                                    <strong class="primary-font">{{single_staff.course_id}}</strong> <span class="badge pull-right">3</span>
+                                 </div>
+                              </div>
+                           </li>
+                         </a>
+                           {% endfor %}
+         
+                        </ul>
+                     </div></div>
+                  </div>
+                  <!--chat_sidebar-->
+              
+              
+                  <div class="col-sm-9 message_section">
+              <div class="row">
+              <div class="new_message_head">
+              <div class="pull-left"><button><i class="fa fa-plus-square-o" aria-hidden="true"></i> New Message</button></div><div class="pull-right"><div class="dropdown">
+           <button class="dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+             <i class="fa fa-cogs" aria-hidden="true"></i>  Setting
+             <span class="caret"></span>
+           </button>
+           <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenu1">
+             <li><a href="#">Action</a></li>
+             <li><a href="#">Profile</a></li>
+             <li><a href="#">Logout</a></li>
+           </ul>
+         </div></div>
+              </div><!--new_message_head-->
+              
+              <div class="chat_area">
+              <ul class="list-unstyled">
+         
+               {% for single_massg in messages_chat %}
+                 {% if single_massg.feedback != "" %}
+                 <li class="left clearfix">
+                  <span class="chat-img1 pull-left">
+                    <img src="https://img.icons8.com/fluency/48/000000/user-male-circle.png"/>
+                  </span>
+                  <div class="chat-body1 clearfix">
+                    <p>{{single_massg.feedback}}
+                    </p>
+                    <div class="chat_time pull-right">{{single_massg.created_at}}</div>
+                  </div>
+                </li>
+             
+               {% endif %}
+         
+                 {% if single_massg.feedback_reply != ""  %}
+                 <li class="right clearfix admin_chat">
+                  <span class="chat-img1 pull-right">
+                    <img src="https://img.icons8.com/external-sbts2018-flat-sbts2018/58/000000/external-administrator-basic-ui-elements-2.4-sbts2018-flat-sbts2018.png"/>            </span>
+                  <div class="chat-body1 clearfix">
+                     <p>{{single_massg.feedback_reply}}</p>
+                    </div>
+               </li>
+
+                 {% endif %}
+                 {% endfor %}
+         
+         
+              
+         
+              </ul>
+              </div><!--chat_area-->
+                   <div class="message_write">
+                <textarea id="textarea_massg" class="form-control" placeholder="type a message"></textarea>
+              <div class="clearfix"></div>
+              <div class="chat_bottom"><a href="#" class="pull-left upload_btn"><i class="fa fa-cloud-upload" aria-hidden="true"></i>
+          Add Files</a>
+          <a onclick="send_to_student()
+          " href="#" class="pull-right btn btn-success">
+          Send</a></div>
+              </div>
+              </div>
+                  </div> <!--message_section-->
+               </div>
+            </div>
+         </div>
+
+
+        </div>
+        <!-- content-wrapper ends -->
+        <!-- partial:partials/_footer.html -->
+        <footer class="footer">
+         
+        </footer>
+        <!-- partial -->
+      </div>
+      <!-- main-panel ends -->
+    </div>
+    <!-- page-body-wrapper ends -->
+  </div>
+    </div>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- container-scroller -->
+<script>
+    const reple = document.querySelectorAll('#reple')
+    for (let j = 0; j < reple.length; j++) {
+      reple[j].addEventListener('click',function get_Ate_value2(){
+
+        let messag_reple 
+
+    let person = prompt("Please enter your name", "");
+    if (person != null) {
+      console.log('::::::::::::::::::');
+
+    // document.getElementById("demo").innerHTML =
+    // "Hello " + person + "! How are you today?";
+    messag_reple = person;
+    console.log(messag_reple);
+    let li = `<span class="chat-img1 pull-left">
+        <img src="https://lh6.googleusercontent.com/-y-MY2satK-E/AAAAAAAAAAI/AAAAAAAAAJU/ER_hFddBheQ/photo.jpg" alt="User Avatar" class="img-circle">
+        </span>
+        <div class="chat-body1 clearfix">
+          <p>{{single_massg.feedback}}
+          </p>
+          <div class="chat_time pull-right">{{single_massg.created_at}}</div>
+        </div>`
+      
+
+    }else{
+      messag_reple = "1";
+
+
+    }
+
+   
+ 
+
+    const textarea_massg = document.getElementById('textarea_massg')
+    const list_staff_messa = [ reple[j].name , textarea_massg.value, '{{staff_id}}', '{{student_id}}']
+    console.log(list_staff_messa);
+    let = list = [reple[j].name ,messag_reple, '{{staff_id}}', '{{student_id}}']
+
+    console.log('::::::::::::::::::');
+    console.log(list);
+    var list_data = {};
+    console.log(textarea_massg.value, '{{staff_id}}', '{{student_id}}')
+    console.log(list);
+    let url_ = ""
+    list_data['list_student_reple'] = JSON.stringify(list),
+    list_data['list_staff_messa'] = JSON.stringify(list_staff_messa),
+
+    
+  $.ajax({
+
+      url : url_,
+      type: "POST",
+      data : list_data,
+      
+      success: function(data){
+        console.log('ist done ');
+        list_staff_messa = []
+        list = []
+        textarea_massg.value = ""
+         location.reload(); 
+         //textarea_massg.value = ""
+
+          // console.log('it is done');
+          // alert('the  Attendance is Take it scuss')
+          // list_data = {}
+
+          // window.location.href = "{% url 'mystaff_home'  %}";
+
+            // window.location.replace('/succes/')
+
+      }
+  })
+
+
+      } )
+        
+    }
+
+
+
+    
+</script>
+
+<script>
+
+function send_to_student(){
+
+const reple = document.querySelectorAll('#reple')
+const textarea_massg = document.getElementById('textarea_massg')
+
+var list_data = {};
+
+const list_staff_messa = [ 1, textarea_massg.value, '{{staff_id}}', '{{student_id}}']
+    console.log(list_staff_messa);
+
+    let url_ = ""
+     list_data['list_student_reple'] = JSON.stringify(["","","",""]),
+    list_data['list_staff_messa'] = JSON.stringify(list_staff_messa),
+
+    
+  $.ajax({
+
+      url : url_,
+      type: "POST",
+      data : list_data,
+      
+      success: function(data){
+        console.log('ist done ');
+         location.reload(); 
+          // console.log('it is done');
+          // alert('the  Attendance is Take it scuss')
+          // list_data = {}
+
+          // window.location.href = "{% url 'mystaff_home'  %}";
+
+            // window.location.replace('/succes/')
+
+      }
+  })
+
+    
+
+
+
+    }
+    
+
+
+    
+
+</script>
+
+
+
+    <script src="{% static 'chat/js/jquery-3.3.1.min.js' %}"></script>
+    <script src="{% static 'chat/js/popper.min.js' %}"></script>
+    <script src="{% static 'chat/js/bootstrap.min.js' %}"></script>
+    <script src="{% static 'chat/js/jquery.sticky.js' %}"></script>
+    <script src="{% static 'chat/js/main.js' %}"></script>
+  </body>
+
+
+</html>
+
+
+

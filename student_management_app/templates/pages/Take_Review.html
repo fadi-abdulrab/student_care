@@ -1,0 +1,321 @@
+{% extends 'base1.html' %}
+
+{% load static %}
+{% block contener %}
+
+
+
+  <div class="container-scroller">
+    <!-- partial:partials/_navbar.html -->
+    <nav class="navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row default-layout-navbar">
+      <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-center">
+        <a class="navbar-brand brand-logo" href="{% url 'mystaff_home' %}"><img style="height: 80px; width: 80px; border-radius: 50%;" src="{% static 'images/logo1.png' %}" alt="logo"/></a>
+        <a class="navbar-brand brand-logo-mini" href="{% url 'mystaff_home' %}"><img src="{% static 'images/logo2.png' %}" alt="logo"/></a>
+      </div>
+      <div class="navbar-menu-wrapper d-flex align-items-stretch">
+        <button class="navbar-toggler navbar-toggler align-self-center" type="button" data-toggle="minimize">
+          <span class="fas fa-bars"></span>
+        </button>
+        
+        <ul class="navbar-nav navbar-nav-right">
+          
+          <li class="nav-item dropdown d-none d-lg-flex">
+            <div class="nav-link">
+              <a href="{%url 'mystaff_home' %}" >Home</a>
+
+            </div>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link count-indicator dropdown-toggle"  href="{%url 'staff_feedback_chat' 1%}">
+              <i class="fas fa-envelope mx-0"></i>
+            </a>
+
+          </li>
+          <li class="nav-item nav-profile dropdown">
+            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="profileDropdown">
+              Profile
+            </a>
+            <div class="dropdown-menu dropdown-menu-right navbar-dropdown" aria-labelledby="profileDropdown">
+              <a class="dropdown-item">
+                <i class="fas fa-cog text-primary"></i>
+                Settings
+              </a>
+              <div class="dropdown-divider"></div>
+              <a href="{% url 'logout_user' %}" class="dropdown-item">
+                <i class="fas fa-power-off text-primary"></i>
+                Logout
+              </a>
+            </div>
+          </li>
+        
+        </ul>
+        <button class="navbar-toggler navbar-toggler-right d-lg-none align-self-center" type="button" data-toggle="offcanvas">
+          <span class="fas fa-bars"></span>
+        </button>
+      </div>
+    </nav>
+    <!-- partial -->
+    <div class="container-fluid page-body-wrapper">
+      <!-- partial:partials/_settings-panel.html -->
+ 
+
+      <!-- partial -->
+      <!-- partial:partials/_sidebar.html -->
+
+      <!-- partial -->
+      <div class="main-panel">
+        <div class="content-wrapper">
+          <div class="page-header">
+            <h3 class="page-title">
+              welcome {{user}}
+            </h3>
+          </div>
+          <div class="row grid-margin">
+            <div class="col-12">
+              <div class="card card-statistics">
+                <div style="background: linear-gradient(-45deg,rgba(147,26,222,0.83) 0%,rgba(28,206,234,0.82) 100%);" class="card-body">
+                  <div class="d-flex flex-column flex-md-row align-items-center justify-content-between">
+                      <div class="statistics-item">
+                        <p>
+                          <i class="icon-sm fa fa-user mr-2"></i>
+                        
+                        </p>
+                        <h2></h2>
+                        <label for=""></label><br>
+                        {% for user_Subjects_sin in user_Subjects %}
+                         
+                          <span><label class="badge badge-outline-success badge-pill">  </label></span>
+                        {% endfor %}
+                      </div>
+                      <div class="statistics-item">
+                        <p>
+                          <i class="icon-sm fas fa-hourglass-half mr-2"></i>
+                          
+                        </p>
+                        <h2></h2>
+                        {% for user_Subjects_sin in user_Subjects %}
+                         
+
+                          <span><label class="badge badge-outline-success badge-pill"> <a href="{%url 'index:show_all_student' user_Subjects_sin.id %}"></a> </label></span>
+                        {% endfor %}
+                      </div>
+                      <div class="statistics-item">
+                        <p>
+                            <i class="icon-sm fas fa-check-circle mr-2"></i>
+                          
+                        </p>
+                        <h2>
+
+                        </h2>
+                        <label class="badge badge-outline-success badge-pill"></label>
+                      </div>
+                      <div class="statistics-item">
+                        <p>
+                          <i class="icon-sm fas fa-check-circle mr-2"></i>
+                          
+                        </p>
+                        <h2></h2>
+                        <label class="badge badge-outline-success badge-pill"></label>
+                      </div>
+                      <div class="statistics-item">
+                        <p>
+                          <i class="icon-sm fas fa-chart-line mr-2"></i>
+                          
+                        </p>
+                        <h2></h2>
+                        <label class="badge badge-outline-success badge-pill"></label>
+                      </div>
+                      <div class="statistics-item">
+                        <p>
+                          <i class="icon-sm fas fa-circle-notch mr-2"></i>
+                         
+                        </p>
+                        <h2></h2>
+                        <label class="badge badge-outline-danger badge-pill"></label>
+                      </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+
+
+
+            <div class="col-md-8 grid-margin stretch-card">
+              <div class="card">
+                  <form action="">
+
+                 
+                <div class="card-body">
+
+                  <h4 class="card-title">
+                    <i class="fas fa-table"></i>
+                    Students Data
+                  </h4>
+                  <div class="table-responsive" style="overflow-x:auto; height: 500px;">
+
+                    <table class="table">
+                        <thead>
+                          <tr>
+                            <th> ID</th>
+                            <th> name</th>
+                            <th> Course</th>
+                            <th>Gender</th>
+                            
+                            <th>Attendance</th>
+                            <th>The Review </th>
+  
+                          </tr>
+                        </thead>
+                        <tbody>
+                          {% for All_Students, sum , Reviw_degree in all_abute %}
+                          <tr>
+                                                      
+                            <td class="font-weight-bold">
+                             <h6 id="student_id"> {{All_Students.id}} </h6>
+                            </td>
+  
+                          
+                        
+                          </td>
+                          <td class="text-muted">
+                            {{All_Students.admin.first_name}} {{All_Students.admin.first_name}}
+                          </td>
+                          <td>
+                            {{All_Students.course_id}}
+
+                          </td>
+                          <td>
+                            {{All_Students.gender}}
+
+
+                          </td>
+                            <td>
+                            {{sum}}
+  
+                            </td>
+                            <td>
+                              <label class="control control--checkbox">
+                                <input style="width: 50px;" id="Degree" value="{{Reviw_degree.Degree}}" />
+                                <div class="control__indicator"></div>
+                              </label> 
+  
+                            </td>
+  
+  
+                            
+                           
+                          
+                          {% endfor %}
+                        </tbody>
+                      </table>
+               
+
+                  </div>
+                  <div style="float: right;margin-left: 20px; margin-bottom: 50px;" class="template-demo">
+                    
+         
+                  </div>
+
+                </form>
+           
+                </div>
+                <button  onclick="get_Ate_value()" class="btn btn-primary btn-fw">save</button>
+
+
+                 
+              </div>
+            </div>
+            <div class="col-md-4 grid-margin stretch-card">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title">
+                    <i class="fas fa-calendar-alt"></i>
+                    Calendar
+                  </h4>
+                  <div id="inline-datepicker-example" class="datepicker"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <!-- content-wrapper ends -->
+        <!-- partial:partials/_footer.html -->
+        <footer class="footer">
+          
+        </footer>
+        <!-- partial -->
+      </div>
+      <!-- main-panel ends -->
+  </div>
+    <!-- page-body-wrapper ends -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <!-- container-scroller -->
+<script>
+  
+  function get_Ate_value(){
+     
+    let = list = []
+ 
+    var stu_id = document.querySelectorAll("#student_id");
+   var Degree = document.querySelectorAll('#Degree')
+
+    for (let i = 0; i < Degree.length; i++) {
+      console.log('x====>',Degree[i].value);
+      if (Degree[i].value=='') {
+        list.push(['{{subject_id}}', stu_id[i].innerHTML, 0])
+
+      }
+      else{
+        list.push(['{{subject_id}}', stu_id[i].innerHTML, Degree[i].value])
+
+      }
+
+      
+   
+
+   
+      
+      
+    }
+    console.log('::::::::::::::::::');
+    console.log(list);
+    var list_data = {};
+
+    let url_ =  '/acount/save_Take_Review/'
+    list_data['list_s'] = JSON.stringify(list),
+    
+  $.ajax({
+
+      url : url_,
+      type: "POST",
+      data : list_data,
+      
+      success: function(data){
+        console.log(list_data['list_s']);
+          console.log('it is done');
+          alert('The Rating is recorded successfully!')
+          list_data = []
+          window.location.replace("{%url 'mystaff_home'%}")
+
+      }
+  });
+
+  }
+
+   
+
+
+
+      
+</script>
+
+
+
+
+
+  {% endblock contener %}

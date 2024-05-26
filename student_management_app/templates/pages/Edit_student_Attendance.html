@@ -1,0 +1,367 @@
+
+{% extends 'base1.html' %}
+
+{% load static %}
+{% block contener %}
+
+
+
+  <div class="container-scroller">
+    <!-- partial:partials/_navbar.html -->
+    <nav class="navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row default-layout-navbar">
+      <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-center">
+        <a class="navbar-brand brand-logo" href="{% url 'mystaff_home' %}"><img style="height: 80px; width: 80px; border-radius: 50%;" src="{% static 'images/logo1.png' %}" alt="logo"/></a>
+        <a class="navbar-brand brand-logo-mini" href="{% url 'mystaff_home' %}"><img src="{% static 'images/logo2.png' %}" alt="logo"/></a>
+      </div>
+      <div class="navbar-menu-wrapper d-flex align-items-stretch">
+        <button class="navbar-toggler navbar-toggler align-self-center" type="button" data-toggle="minimize">
+          <span class="fas fa-bars"></span>
+        </button>
+        
+        <ul class="navbar-nav navbar-nav-right">
+          
+          <li class="nav-item dropdown d-none d-lg-flex">
+            <div class="nav-link">
+              <a href="{%url 'mystaff_home' %}" >Home</a>
+
+            </div>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link count-indicator dropdown-toggle"  href="{%url 'staff_feedback_chat' 1%}">
+              <i class="fas fa-envelope mx-0"></i>
+            </a>
+
+          </li>
+          <li class="nav-item nav-profile dropdown">
+            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="profileDropdown">
+              Profile
+            </a>
+            <div class="dropdown-menu dropdown-menu-right navbar-dropdown" aria-labelledby="profileDropdown">
+              <a class="dropdown-item">
+                <i class="fas fa-cog text-primary"></i>
+                Settings
+              </a>
+              <div class="dropdown-divider"></div>
+              <a href="{% url 'logout_user' %}" class="dropdown-item">
+                <i class="fas fa-power-off text-primary"></i>
+                Logout
+              </a>
+            </div>
+          </li>
+        
+        </ul>
+        <button class="navbar-toggler navbar-toggler-right d-lg-none align-self-center" type="button" data-toggle="offcanvas">
+          <span class="fas fa-bars"></span>
+        </button>
+      </div>
+    </nav>
+    <!-- partial -->
+    <div class="container-fluid page-body-wrapper">
+      <!-- partial:partials/_settings-panel.html -->
+
+
+      <!-- partial -->
+      <!-- partial:partials/_sidebar.html -->
+ 
+      <!-- partial -->
+      <div class="main-panel">
+        <div class="content-wrapper">
+          <div class="page-header">
+            <h3 class="page-title">
+              welcome {{user}}
+            </h3>
+          </div>
+         
+          <div class="row">
+
+
+
+            <div class="col-md-8 grid-margin stretch-card">
+              <div class="card">
+                  <form action="">
+
+                 
+                <div class="card-body">
+
+                  <h4 class="card-title">
+                    <i class="fas fa-table"></i>
+                    Students Data
+                  </h4>
+                  <div class="table-responsive" style="overflow-x:auto; height: 500px;">
+
+                    <table class="table">
+                        <thead>
+                          <tr>
+                            <th> ID</th>
+                            <th> name</th>
+                            <th> Date</th>
+
+
+                            <th>Stute</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          {% for All_Students in edit_student_Attenedance %}
+                          <tr>
+                                                      
+                            <td class="font-weight-bold">
+                             <h6 id="student_id"> {{All_Students.subject_id.id}} </h6>
+                            </td>
+  
+                          
+                            <td class="font-weight-bold">
+                              {{All_Students.student_id.first_name}} 
+                            </td>
+
+                            <td class="font-weight-bold">
+                              {{All_Students.created_at}} 
+                            </td>
+       
+       
+ 
+
+  
+                              <td>
+                              <label class="control control--checkbox">
+                                  <input  id="checkbox" value="{{All_Students.status}}" type="checkbox"/>
+                                  <div class="control__indicator"></div>
+                              </label>   
+                              </td>
+                          </tr>
+  
+                            
+                           
+                          
+                          {% endfor %}
+                        </tbody>
+                      </table>
+               
+
+                  </div>
+                  <div style="float: right;margin-left: 20px; margin-bottom: 50px;" class="template-demo">
+
+         
+                  </div>
+
+                </form>
+           
+                </div>
+                <button  onclick=" get_Ate_value()" class="btn btn-primary btn-fw">save</button>
+
+
+                 
+              </div>
+            </div>
+            <div class="col-md-4 grid-margin stretch-card">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title">
+                    <i class="fas fa-calendar-alt"></i>
+                    Calendar
+                  </h4>
+                  <div id="inline-datepicker-example" class="datepicker"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+        <!-- content-wrapper ends -->
+        <!-- partial:partials/_footer.html -->
+        <footer class="footer">
+         
+        </footer>
+        <!-- partial -->
+      </div>
+      <!-- main-panel ends -->
+  </div>
+    <!-- page-body-wrapper ends -->
+
+  <!-- container-scroller -->
+
+
+  <!-- <script>
+    
+
+    function get_Ate_value(e){
+     
+
+      cont = list = []
+   
+      var stu_id = document.querySelectorAll("#student_id");
+      var x = document.querySelectorAll("#checkbox");
+      var Degree = document.querySelectorAll('#Degree')
+
+      for (let i = 0; i < x.length; i++) {
+        if (x[i].checked == true ) {
+        console.log('x====>',x[i].value);
+
+        list.push(['{{subject_id}}', stu_id[i].innerHTML, x[i].value], Degree[i].value)
+        
+      }else{
+        console.log('x====>', 0);
+        list.push('{{subject_id}}',stu_id[i].innerHTML, 0, Degree[i].value)
+        
+
+      }
+
+     
+        
+        
+      }
+
+      console.log(list);
+      var list_data = {};
+
+      let url_ = ""
+      list_data['list_s'] = JSON.stringify(list),
+      
+      $.ajax({
+
+        url : url_,
+        type: "POST",
+        data : list_data,
+        
+        success: function(data){
+          console.log(list_data['list_s']);
+            console.log('it is done');
+            alert('the  Attendance is Take it scuss')
+            history('/')
+            
+
+              // window.location.replace('/succes/')
+
+
+
+
+        }
+    })
+     
+      
+    }
+
+   
+
+
+
+
+  </script>
+
+
+
+
+ -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+
+function check() {
+  var checks = document.querySelectorAll("#checkbox");
+    //
+    for (let i = 0; i < checks.length; i++) {
+        console.log(checks[i].value);
+        if (checks[i].value == 1) {
+            checks[i].checked = true;
+            
+            
+
+            
+        }else{
+
+            checks[i].checked = false;
+
+        }
+
+        
+    }
+    console.log('test2'), checks;
+
+
+
+
+ 
+
+
+
+    
+}
+
+function get_Ate_value(){
+     
+
+      cont = list = []
+  
+     
+      var x = document.querySelectorAll("#checkbox");
+
+
+
+     for (let i = 0; i < x.length; i++) {
+        if (x[i].checked == true ) {
+          console.log('x====>',x[i].value);
+
+          list.push(1)
+       
+        }
+        else{
+          console.log('x====>', 0);
+          list.push( 0)
+       
+
+        }
+      }
+      console.log(list);
+
+
+    var list_data = {};
+
+    let url_ = ""
+    list_data['list_s'] = JSON.stringify(list)
+
+    $.ajax({
+
+      url : url_,
+      type: "POST",
+      data : list_data,
+
+      success: function(data){
+        console.log(list_data['list_s']);
+          console.log('it is done');
+          list = []
+          alert('the  Attendance is Take it scuss')
+         // history('/')
+         {% comment %} window.location.href = "{% url 'Take_student_Attendance' student_id %}"; {% endcomment %}
+    
+
+       window.location.replace('/acount/mystaff_home/')
+
+
+
+
+}
+})
+    
+}
+
+check()
+
+</script>
+
+{% endblock contener %}

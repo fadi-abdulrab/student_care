@@ -1,0 +1,64 @@
+{% extends 'webside_base.html' %}
+{% load static %}
+
+	<!-- Page Preloder -->
+
+
+	<!-- Header section -->
+    {% block header %}
+
+	<!-- Header section end 
+	<!-- Header section end -->
+
+
+	<!-- Page info -->
+	<div class="page-info-section set-bg"data-setbg="{% static './webside/img/bg.jpg' %}">
+		<div class="container">
+			<div class="site-breadcrumb">
+				<a href="#">Home</a>
+				<span>Blog</span>
+			</div>
+		</div>
+	</div>
+	<!-- Page info end -->
+
+
+	<!-- Page  -->
+	<section class="blog-page spad pb-0">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-9">
+					<!-- blog post -->
+					{% for single_blog in all_blog %}					
+					<div class="blog-post">
+						<img src="{{single_blog.image}}" alt="">
+						<h3>{{single_blog.title}}?</h3>
+						<div class="blog-metas">
+							<div class="blog-meta author">
+								<div class="post-author set-bg" data-setbg="img/authors/3.jpg"></div>
+							
+							</div>
+							<div class="blog-meta">
+								
+							</div>
+							<div class="blog-meta">
+								<a href="#">{{sing_blog.data}}</a>
+							</div>
+	
+						</div>
+						<p>{{single_blog.desc}}</p>
+				
+					</div>
+					{% endfor %}
+				</div>
+				
+			</div>
+		</div>
+	</section>
+	<!-- Page end -->
+
+
+	
+
+
+    {% endblock header %}
